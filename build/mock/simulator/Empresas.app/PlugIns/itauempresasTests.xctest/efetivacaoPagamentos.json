@@ -1,0 +1,16 @@
+{
+        "dados_complementares_pagamento_codigo_barra":
+        {
+            "codigo_barra": "23793504049350908040999001025503168210000041769",
+            "tipo_codigo_barra": "2",
+            "banco": "237",
+            "cedente": "",
+            "nome_cliente": "",
+            "data_pagamento": "2016-05-24",
+            "data_vencimento": "",
+            "valor_documento": 417.69,
+            "valor_total": 417.69,
+            "moeda": "BRL"
+        }
+}
+

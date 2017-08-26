@@ -1,0 +1,11 @@
+{
+    "descricao_produto": "Lis Aval Inic",
+    "taxa_contrato": 2.2,
+    "taxa_cet_mensal": 3.08,
+    "taxa_cet_anual": 44.64,
+    "limite_contratado": 25000,
+    "limite_disponivel": 1000,
+    "limite_utilizado": 19000,
+    "limite_concedido": 20000,
+    "porcentagem_garantias": 80
+}

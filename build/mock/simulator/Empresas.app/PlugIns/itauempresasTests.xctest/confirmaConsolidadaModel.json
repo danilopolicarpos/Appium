@@ -1,0 +1,16 @@
+{
+    "codigo_operador": "170762001A",
+    "numero_carrinho": "55671D",
+    "quantidade_tipos_consolidados": "23",
+    "indicador_de_volta": true,
+    "indicador_desmarca_todos_tipos": false,
+    "lista_tipos_inteiros": [
+                             {
+                             "modalidade_pagamento": "tranferencia",
+                             "tipo_pagamento": "9",
+                             "numero_lote": "543"
+                             }
+                             ],
+    "indicador_marcacao_todos_tipos": true,
+    "indicador_desmarca_tipo_inteiro": false
+}

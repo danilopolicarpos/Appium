@@ -1,0 +1,272 @@
+ [
+  {
+  "indicador_email" : false,
+  "canal_origem" : "INTERNET 30HORAS",
+  "valor" : 10,
+  "nome_operacao" : "CONVENIOS - CELULAR PRÉ PAGOS",
+  "data_comprovante" : "2016-08-23",
+  "id_comprovante" : "2016-08-23-07.26.27.629821",
+  "indicador_comprovante" : true,
+  "literal_identificacao_comprovante" : ""
+  },
+  {
+  "indicador_email" : false,
+  "canal_origem" : "INTERNET 30HORAS",
+  "valor" : 50,
+  "nome_operacao" : "CONVENIOS - CELULAR PRÉ PAGOS",
+  "data_comprovante" : "2016-08-03",
+  "id_comprovante" : "2016-08-03-19.06.44.551230",
+  "indicador_comprovante" : true,
+  "literal_identificacao_comprovante" : ""
+  },
+  {
+  "indicador_email" : true,
+  "canal_origem" : "INT",
+  "valor" : 66,
+  "nome_operacao" : "Transferência C\/C-C\/C",
+  "data_comprovante" : "2016-07-27",
+  "id_comprovante" : "405-01-154600358324-20160727-1-X0-BCA",
+  "indicador_comprovante" : true,
+  "literal_identificacao_comprovante" : ""
+  },
+  {
+  "indicador_email" : true,
+  "canal_origem" : "INT",
+  "valor" : 150,
+  "nome_operacao" : "Transferência C\/C-C\/C",
+  "data_comprovante" : "2016-07-25",
+  "id_comprovante" : "405-01-154600358324-20160725-2-X0-BCA",
+  "indicador_comprovante" : true,
+  "literal_identificacao_comprovante" : ""
+  },
+  {
+  "indicador_email" : true,
+  "canal_origem" : "INT",
+  "valor" : 0.01,
+  "nome_operacao" : "Transferência C\/C-C\/C",
+  "data_comprovante" : "2016-07-25",
+  "id_comprovante" : "405-01-154600358324-20160725-3-X0-BCA",
+  "indicador_comprovante" : true,
+  "literal_identificacao_comprovante" : ""
+  },
+  {
+  "indicador_email" : true,
+  "canal_origem" : "INT",
+  "valor" : 50,
+  "nome_operacao" : "Transferência C\/C-C\/C",
+  "data_comprovante" : "2016-07-25",
+  "id_comprovante" : "405-01-154600358324-20160725-1-X0-BCA",
+  "indicador_comprovante" : true,
+  "literal_identificacao_comprovante" : ""
+  },
+  {
+  "indicador_email" : false,
+  "canal_origem" : "INTERNET 30HORAS",
+  "valor" : 20,
+  "nome_operacao" : "CONVENIOS - CELULAR PRÉ PAGOS",
+  "data_comprovante" : "2016-07-23",
+  "id_comprovante" : "2016-07-23-16.35.10.406637",
+  "indicador_comprovante" : true,
+  "literal_identificacao_comprovante" : ""
+  },
+  {
+  "indicador_email" : true,
+  "canal_origem" : "INT",
+  "valor" : 250,
+  "nome_operacao" : "Transferência C\/C-C\/C",
+  "data_comprovante" : "2016-07-21",
+  "id_comprovante" : "405-01-154600358324-20160721-1-X0-BCA",
+  "indicador_comprovante" : true,
+  "literal_identificacao_comprovante" : ""
+  },
+  {
+  "indicador_email" : true,
+  "canal_origem" : "INT",
+  "valor" : 400,
+  "nome_operacao" : "Transferência C\/C-C\/C",
+  "data_comprovante" : "2016-07-20",
+  "id_comprovante" : "405-01-154600358324-20160720-1-X0-BCA",
+  "indicador_comprovante" : true,
+  "literal_identificacao_comprovante" : ""
+  },
+  {
+  "indicador_email" : true,
+  "canal_origem" : "INT",
+  "valor" : 500,
+  "nome_operacao" : "Transferência C\/C-C\/C",
+  "data_comprovante" : "2016-07-20",
+  "id_comprovante" : "405-01-154600358324-20160720-2-X0-BCA",
+  "indicador_comprovante" : true,
+  "literal_identificacao_comprovante" : ""
+  },
+  {
+  "indicador_email" : true,
+  "canal_origem" : "INT",
+  "valor" : 7.9,
+  "nome_operacao" : "Transferência C\/C-C\/C",
+  "data_comprovante" : "2016-07-14",
+  "id_comprovante" : "405-01-154600358324-20160714-1-X0-BCA",
+  "indicador_comprovante" : true,
+  "literal_identificacao_comprovante" : ""
+  },
+  {
+  "indicador_email" : false,
+  "canal_origem" : "INTERNET 30HORAS",
+  "valor" : 10,
+  "nome_operacao" : "CONVENIOS - CELULAR PRÉ PAGOS",
+  "data_comprovante" : "2016-07-13",
+  "id_comprovante" : "2016-07-13-20.04.29.558120",
+  "indicador_comprovante" : true,
+  "literal_identificacao_comprovante" : ""
+  },
+  {
+  "indicador_email" : true,
+  "canal_origem" : "INT",
+  "valor" : 0.01,
+  "nome_operacao" : "Transferência C\/C-C\/C",
+  "data_comprovante" : "2016-07-05",
+  "id_comprovante" : "405-01-154600358324-20160705-1-X0-BCA",
+  "indicador_comprovante" : true,
+  "literal_identificacao_comprovante" : ""
+  },
+  {
+  "indicador_email" : true,
+  "canal_origem" : "INT",
+  "valor" : 80,
+  "nome_operacao" : "Transferência C\/C-C\/C",
+  "data_comprovante" : "2016-06-30",
+  "id_comprovante" : "405-01-154600358324-20160630-1-X0-BCA",
+  "indicador_comprovante" : true,
+  "literal_identificacao_comprovante" : ""
+  },
+  {
+  "indicador_email" : true,
+  "canal_origem" : "INT",
+  "valor" : 1,
+  "nome_operacao" : "Transferência C\/C-C\/C",
+  "data_comprovante" : "2016-06-27",
+  "id_comprovante" : "405-01-154600358324-20160627-2-X0-BCA",
+  "indicador_comprovante" : true,
+  "literal_identificacao_comprovante" : ""
+  },
+  {
+  "indicador_email" : true,
+  "canal_origem" : "INT",
+  "valor" : 250,
+  "nome_operacao" : "Transferência C\/C-C\/C",
+  "data_comprovante" : "2016-06-27",
+  "id_comprovante" : "405-01-154600358324-20160627-1-X0-BCA",
+  "indicador_comprovante" : true,
+  "literal_identificacao_comprovante" : ""
+  },
+  {
+  "indicador_email" : true,
+  "canal_origem" : "INT",
+  "valor" : 250,
+  "nome_operacao" : "Transferência C\/C-C\/C",
+  "data_comprovante" : "2016-06-24",
+  "id_comprovante" : "405-01-154600358324-20160624-1-X0-BCA",
+  "indicador_comprovante" : true,
+  "literal_identificacao_comprovante" : ""
+  },
+  {
+  "indicador_email" : true,
+  "canal_origem" : "INT",
+  "valor" : 150,
+  "nome_operacao" : "Transferência C\/C-C\/C",
+  "data_comprovante" : "2016-06-24",
+  "id_comprovante" : "405-01-154600358324-20160624-2-X0-BCA",
+  "indicador_comprovante" : true,
+  "literal_identificacao_comprovante" : ""
+  },
+  {
+  "indicador_email" : false,
+  "canal_origem" : "INTERNET 30HORAS",
+  "valor" : 10,
+  "nome_operacao" : "CONVENIOS - CELULAR PRÉ PAGOS",
+  "data_comprovante" : "2016-06-10",
+  "id_comprovante" : "2016-06-10-19.16.14.330704",
+  "indicador_comprovante" : true,
+  "literal_identificacao_comprovante" : ""
+  },
+  {
+  "indicador_email" : false,
+  "canal_origem" : "INTERNET 30HORAS",
+  "valor" : 10,
+  "nome_operacao" : "CONVENIOS - CELULAR PRÉ PAGOS",
+  "data_comprovante" : "2016-06-09",
+  "id_comprovante" : "2016-06-09-10.57.30.698169",
+  "indicador_comprovante" : true,
+  "literal_identificacao_comprovante" : ""
+  },
+  {
+  "indicador_email" : false,
+  "canal_origem" : "INTERNET 30HORAS",
+  "valor" : 10,
+  "nome_operacao" : "CONVENIOS - CELULAR PRÉ PAGOS",
+  "data_comprovante" : "2016-06-09",
+  "id_comprovante" : "2016-06-09-11.09.56.014981",
+  "indicador_comprovante" : true,
+  "literal_identificacao_comprovante" : ""
+  },
+  {
+  "indicador_email" : false,
+  "canal_origem" : "INTERNET 30HORAS",
+  "valor" : 10,
+  "nome_operacao" : "CONVENIOS - CELULAR PRÉ PAGOS",
+  "data_comprovante" : "2016-06-09",
+  "id_comprovante" : "2016-06-09-11.04.54.988184",
+  "indicador_comprovante" : true,
+  "literal_identificacao_comprovante" : ""
+  },
+  {
+  "indicador_email" : false,
+  "canal_origem" : "INTERNET 30HORAS",
+  "valor" : 10,
+  "nome_operacao" : "CONVENIOS - CELULAR PRÉ PAGOS",
+  "data_comprovante" : "2016-06-08",
+  "id_comprovante" : "2016-06-08-17.07.16.714058",
+  "indicador_comprovante" : true,
+  "literal_identificacao_comprovante" : ""
+  },
+  {
+  "indicador_email" : true,
+  "canal_origem" : "INT",
+  "valor" : 0.01,
+  "nome_operacao" : "Transferência C\/C-C\/C",
+  "data_comprovante" : "2016-06-08",
+  "id_comprovante" : "405-01-154600358324-20160608-1-X0-BCA",
+  "indicador_comprovante" : true,
+  "literal_identificacao_comprovante" : ""
+  },
+  {
+  "indicador_email" : false,
+  "canal_origem" : "INTERNET 30HORAS",
+  "valor" : 15,
+  "nome_operacao" : "CONVENIOS - CELULAR PRÉ PAGOS",
+  "data_comprovante" : "2016-06-07",
+  "id_comprovante" : "2016-06-07-19.45.17.514260",
+  "indicador_comprovante" : true,
+  "literal_identificacao_comprovante" : ""
+  },
+  {
+  "indicador_email" : false,
+  "canal_origem" : "INTERNET 30HORAS",
+  "valor" : 10,
+  "nome_operacao" : "CONVENIOS - CELULAR PRÉ PAGOS",
+  "data_comprovante" : "2016-06-06",
+  "id_comprovante" : "2016-06-06-18.14.28.786708",
+  "indicador_comprovante" : true,
+  "literal_identificacao_comprovante" : ""
+  },
+  {
+  "indicador_email" : false,
+  "canal_origem" : "INTERNET 30HORAS",
+  "valor" : 10,
+  "nome_operacao" : "CONVENIOS - CELULAR PRÉ PAGOS",
+  "data_comprovante" : "2016-06-06",
+  "id_comprovante" : "2016-06-06-18.15.10.926215",
+  "indicador_comprovante" : true,
+  "literal_identificacao_comprovante" : ""
+  }
+  ]

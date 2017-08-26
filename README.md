@@ -36,3 +36,14 @@ brew install node       # get node.js
 npm install -g appium   # get appium
 npm install wd          # get appium client
 appium                  # start appium to see whether it works
+
+- executa modo console 
+android - arc toml android_appium.txt
+ios - arc toml ios_appium.txt
+
+- rodar as features do appium
+android cucumber -p android "nomedafeature"
+ios cucumber -p ios "nomedafeature"
+
+buildar o ios
+ruby config/ios/build_app.rb policarpo simulator

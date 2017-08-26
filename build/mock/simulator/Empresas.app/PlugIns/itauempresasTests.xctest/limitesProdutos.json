@@ -1,0 +1,22 @@
+{
+    "produtos_rotativos": [
+                           {
+                           "codigo_produto": 1,
+                           "nome_produto": "sucesso1",
+                           "limite_contratado": 10,
+                           "limite_utilizado": 10,
+                           "limite_disponivel": 10,
+                           "limite_pre_aprovado": 10,
+                           "valor_minimo": 1,
+                           "valor_maximo": 10
+                           }
+                           ],
+    "produtos_parcelados": [
+                            {
+                            "codigo_produto": 1,
+                            "nome_produto": "sucesso1",
+                            "valor_disponivel_contratacao": 10,
+                            "mensagem_seguro_protecao": "sucesso"
+                            }
+                            ]
+}

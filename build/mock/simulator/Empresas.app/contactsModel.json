@@ -1,0 +1,99 @@
+[
+ {
+ "nome": "Atendimento Exclusivo Itaú Empresas",
+ "descricao": "Central de relacionamento Itaú Empresas.",
+ "info": "Em dias, úteis das 7hs às 20hs.",
+ "telefones":[
+              {
+              "numero": "0300 100 7575",
+              "info": ""
+              }
+              ]
+ },
+ {
+ "nome": "Itaú no telefone",
+ "descricao": "Para pagamentos, bloqueio e desbloqueio de cartões, saldos, transações, consultas e informações.",
+ "info": "Todos os dias, 24 horas por dia.",
+ "telefones":[
+              {
+              "numero": "4004 4828",
+              "info": "Capitais e regiões metropolitanas"
+              },
+              {
+              "numero": "0800 970 4828",
+              "info": "(Demais localidades)"
+              }
+              ]
+ },
+ {
+ "nome": "Itaucard",
+ "descricao": "Para consultas, informações, ou perda e roubo de seu cartão, no Brasil ou exterior.",
+ "info": "Segunda a sábado (exceto feriados nacionais) - 6hs às 22hs",
+ "telefones":[
+              {
+              "numero": "3003 3030",
+              "info": "Capitais e regiões metropolitanas"
+              },
+              {
+              "numero": "0800 720 3030",
+              "info": "(Demais localidades)"
+              }
+              ]
+ },
+ {
+ "nome": "Investfone",
+ "descricao": "Central exclusiva para atendimento a investidores.",
+ "info": "De segunda a sexta-feira, das 9hs às 20hs exceto feriados.",
+ "telefones":[
+              {
+              "numero": "4004 4828",
+              "info": "Capitais e regiões metropolitanas"
+              },
+              {
+              "numero": "0800 970 4828",
+              "info": "(Demais localidades)"
+              }
+              ]
+ },
+ {
+ "nome": "Itaú Corretora",
+ "descricao": "Dúvidas sobre o funcionamento do home broker.",
+ "info": "Em dias úteis, das 9hs às 18hs.",
+ "telefones":[
+              {
+              "numero": "4004 3131",
+              "info": "Capitais e regiões metropolitanas"
+              },
+              {
+              "numero": "0800 722 3131",
+              "info": "(Demais localidades)"
+              }
+              ]
+ },
+ {
+ "nome": "SAC Itaú",
+ "descricao": "Para reclamações, cancelamentos e informações gerais.",
+ "info": "Todos os dias, 24 horas por dia",
+ "telefones":[
+              {
+              "numero": "0800 728 0728",
+              "info": ""
+              }
+              ]
+ },
+ {
+ "nome": "Ouvidoria Itaú",
+ "descricao": "Se não ficar satisfeito com a soluçãoapresentada, de posse do protocolo, contate a Ouvidoria.",
+ "info": "Em dias úteis, das 9hs às 20hs.",
+ "telefones":[
+              {
+              "numero": "0800 570 0011",
+              "info": ""
+              },
+              {
+              "numero": "0800 722 1722",
+              "info": "(Deficientes auditivos ou de fala.)"
+              }
+              ]
+ }
+ ]

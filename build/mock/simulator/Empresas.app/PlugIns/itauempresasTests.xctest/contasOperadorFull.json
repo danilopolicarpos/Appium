@@ -1,0 +1,10 @@
+ [{"agencia":"1500","conta":"05201","dac":"2","apelido":"CONTA DE TESTE 1","conta_relacionamento":true,"conta_default":true,"indicador_conta_migrada":false},
+  {"agencia":"1500","conta":"05206","dac":"1","apelido":"CONTA DE TESTE 2","conta_relacionamento":false,"conta_default":false,"indicador_conta_migrada":false},
+  {"agencia":"1500","conta":"05205","dac":"3","apelido":"CONTA DE TESTE 2","conta_relacionamento":false,"conta_default":false,"indicador_conta_migrada":false},
+  {"agencia":"1500","conta":"01003","dac":"6","apelido":"TESTANDO O NOME DA CONTA                ","conta_gerenciamento":false,"conta_default":false,"indicador_conta_migrada":true},
+  {"agencia":"1500","conta":"01006","dac":"9","apelido":"ICVM539 - TESTE                         ","conta_gerenciamento":false,"conta_default":false,"indicador_conta_migrada":false},
+  {"agencia":"1500","conta":"05201","dac":"2","apelido":"CONTA DE TESTE 1","conta_relacionamento":true,"conta_default":true,"indicador_conta_migrada":false},
+  {"agencia":"1500","conta":"05206","dac":"1","apelido":"CONTA DE TESTE 2","conta_relacionamento":false,"conta_default":false,"indicador_conta_migrada":false},
+  {"agencia":"1500","conta":"05205","dac":"3","apelido":"CONTA DE TESTE 2","conta_relacionamento":false,"conta_default":false,"indicador_conta_migrada":false},
+  {"agencia":"1500","conta":"01003","dac":"6","apelido":"TESTANDO O NOME DA CONTA                ","conta_gerenciamento":false,"conta_default":false,"indicador_conta_migrada":true},
+  {"agencia":"1500","conta":"01006","dac":"9","apelido":"ICVM539 - TESTE                         ","conta_gerenciamento":false,"conta_default":false,"indicador_conta_migrada":false}]

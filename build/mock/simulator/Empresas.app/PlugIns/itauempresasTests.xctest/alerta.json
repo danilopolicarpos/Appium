@@ -1,0 +1,36 @@
+{
+    "codigo": "0",
+    "mensagem": "sucesso",
+    "alertas": [
+                {
+                "tipo": "INFORMATIVOS",
+                "mensagem": "Teste Alerta Aviso Informativo",
+                "mensagem_resumida": "Teste Alerta PJ",
+                "id_alerta": "c4583c850786b510VgnVCM100000d8193a0a____",
+                "imagem_mobile": "",
+                "titulo_mobile": "Mensagem Teste PJ ",
+                "texto_botao_mobile": "Mensagem Teste PJ",
+                "link_botao_mobile": "extrato"
+                },
+                {
+                "tipo": "AVISOS",
+                "mensagem": "",
+                "mensagem_resumida": "Teste Alerta PJ",
+                "id_alerta": "9d6f5dd0be2fb510VgnVCM100000d8193a0b____",
+                "imagem_mobile": "",
+                "titulo_mobile": "Titulo",
+                "texto_botao_mobile": "Botao",
+                "link_botao_mobile": "pagamento"
+                },
+                {
+                "tipo": "URGENTES",
+                "mensagem": "Teste Alerta Urgente",
+                "mensagem_resumida": "Teste Alerta PJ",
+                "id_alerta": "eb481bd89adfb510VgnVCM100000d8193a0c____",
+                "imagem_mobile": "",
+                "titulo_mobile": "Titulo Modal",
+                "texto_botao_mobile": "Botão",
+                "link_botao_mobile": ""
+                }
+                ]
+}

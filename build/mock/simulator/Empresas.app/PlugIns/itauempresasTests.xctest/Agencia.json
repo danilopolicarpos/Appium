@@ -1,0 +1,32 @@
+{
+    "Id": "11234567890",
+    "Nome": "José Alfredo",
+    "Abertura": "11/11/2011",
+    "Bairro": "Mooca",
+    "Cep": "03183003",
+    "Cidade": "São Paulo",
+    "Endereco": "Rua dolores, 1001",
+    "Fechamento": "12/12/2012",
+    "Imagem": "minhaImagem",
+    "Latitude": -23.601435,
+    "Longitude": -46.694906,
+    "Uf": "SP",
+    "AtendePJ": 1,
+    "CaixaEletronico": {
+        "Abertura": "11/11/2011",
+        "Bairro": "Mooca",
+        "Cep": "03183003",
+        "Cidade": "São Paulo",
+        "Endereco": "Rua Dolores, 1001",
+        "Fechamento": "12/12/2012",
+        "Nome": "José Alfredo",
+        "PossuiDispensador": 1,
+        "Uf": "SP"
+    },
+    "Caixa_exclusivo": "true",
+    "DDD": "11",
+    "Fax": "32145623",
+    "Horario_diferenciado": "true",
+    "Mensagem": "Olá",
+    "Telefone": "921304030"
+}

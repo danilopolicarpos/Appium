@@ -1,0 +1,27 @@
+{
+    "retorno": {
+        "cliente": {
+            "agencia": "3977",
+            "conta": "05201",
+            "digito_verificador_conta": "2",
+            "nome_cliente": "Joao Ferreira"
+        },
+        "recarga": {
+            "nome_operadora": "Vivo",
+            "ddd_telefone": "11",
+            "numero_telefone": "999078909",
+            "moeda_recarga": "BRL  ",
+            "valor_recarga": 12,
+            "data_recarga": "2015-02-04",
+            "codigo_pagamento": "R102015042703518393           ",
+            "identificacao_comprovante":"444555",
+            "nome_regiao": "Sao Paulo"
+        }
+    },
+    "mensagens": [
+                  {
+                  "codigo": "overlimit",
+                  "mensagem": "Nesta operação você ultrapassará  R$ 12,00 do seu saldo disponível em conta-corrente e estará sujeito a cobrança de encargos proporcionais aos dias de uso do limite e tarifas. Caso queira evitar a cobrança sobre essa operação, regularize ainda hoje o seu saldo devedor"
+                  }
+                  ]
+}

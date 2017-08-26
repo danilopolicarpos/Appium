@@ -1,0 +1,39 @@
+{
+  "lastModified": "2016-10-28T16:37:58.291Z",
+  "marketingCloud": {
+    "org": "4435697753736FB20A490D45@AdobeOrg"
+  },
+  "target": {
+    "clientCode": "",
+    "timeout": 5
+  },
+  "audienceManager": {
+    "server": "",
+    "analyticsForwardingEnabled": false,
+    "timeout": 5
+  },
+  "acquisition": {
+    "server": "c00.adobe.com",
+    "appid": "6e1d7356ff67ca69b5adac0f1234869a74108a208d23a43040c5ba080938a7ee"
+  },
+  "analytics": {
+    "rsids": "it-app-pj",
+    "server": "itau.sc.omtrdc.net",
+    "ssl": false,
+    "offlineEnabled": false,
+    "charset": "UTF-8",
+    "lifecycleTimeout": 300,
+    "privacyDefault": "optedin",
+    "batchLimit": 0,
+    "timezone": "BRST",
+    "timezoneOffset": -120,
+    "referrerTimeout": 0,
+    "backdateSessionInfo": false,
+    "poi": []
+  },
+  "messages": [],
+  "remotes": {
+    "analytics.poi": "https://assets.adobedtm.com/b213090c5204bf94318f4ef0539a38b487d10368/scripts/satellite-568e529f64746d2e1200b17e.json",
+    "messages": "https://assets.adobedtm.com/b213090c5204bf94318f4ef0539a38b487d10368/scripts/satellite-568e529e64746d7dbf00a538.json"
+  }
+}

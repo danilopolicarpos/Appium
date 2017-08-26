@@ -1,0 +1,31 @@
+{
+    "nome_empresa": "Claro",
+    "moeda": "BLR",
+    "recargas":
+        [
+            {
+                 "valor_recarga": 13,
+                 "valor_bonus": 0
+            },
+            {
+                 "valor_recarga": 18,
+                 "valor_bonus": 0
+            },
+            {
+                 "valor_recarga": 20,
+                 "valor_bonus": 2
+            },
+            {
+                 "valor_recarga": 30,
+                 "valor_bonus": 4
+            },
+            {
+                 "valor_recarga": 50,
+                 "valor_bonus": 8
+            },
+            {
+                 "valor_recarga": 100,
+                 "valor_bonus": 18
+            }
+        ]
+}

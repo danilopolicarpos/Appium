@@ -1,0 +1,8 @@
+ policarpo:
+  xcworkspace: /Users/Danilo.Policarpo/dev/ios/itauempresas.xcworkspace
+  scheme: itauempresas-cal
+  sdk_simulator: iphonesimulator
+  sdk_device: iphoneos
+  configuration: Calabash
+  export_path: /Users/Danilo.Policarpo/dev/appium/build/mock
+

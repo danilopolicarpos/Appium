@@ -1,0 +1,101 @@
+[
+ {
+ "id_contato": "15000520610011911223344",
+ "ddi": "",
+ "ddd": "11",
+ "telefone": "911223344",
+ "nome_operadora": "Claro",
+ "estado_operadora": "Sao Paulo (DDD11)",
+ "apelido": "Joao"
+ },
+ {
+ "id_contato": "15000520610011955443322",
+ "ddi": "",
+ "ddd": "11",
+ "telefone": "955443322",
+ "nome_operadora": "Vivo",
+ "estado_operadora": "Sao Paulo",
+ "apelido": "Antonio"
+ },
+ {
+ "id_contato": "15000520610011999887766",
+ "ddi": "",
+ "ddd": "11",
+ "telefone": "999887766",
+ "nome_operadora": "Tim",
+ "estado_operadora": "",
+ "apelido": "Jose"
+ },
+ {
+ "id_contato": "15000520610011944444444",
+ "ddi": "",
+ "ddd": "11",
+ "telefone": "944444444",
+ "nome_operadora": "Tim",
+ "estado_operadora": "",
+ "apelido": "Jose"
+ },
+ {
+ "id_contato": "15000520610011933333333",
+ "ddi": "",
+ "ddd": "11",
+ "telefone": "933333333",
+ "nome_operadora": "Vivo",
+ "estado_operadora": "Sao Paulo",
+ "apelido": "Manoel"
+ },
+ {
+ "id_contato": "15000520610011922222222",
+ "ddi": "",
+ "ddd": "11",
+ "telefone": "922222222",
+ "nome_operadora": "Vivo",
+ "estado_operadora": "Sao Paulo",
+ "apelido": "Pai"
+ },
+ {
+ "id_contato": "15000520610011911111111",
+ "ddi": "",
+ "ddd": "11",
+ "telefone": "911111111",
+ "nome_operadora": "Vivo",
+ "estado_operadora": "Sao Paulo",
+ "apelido": "Filho"
+ },
+ {
+ "id_contato": "15000520610011911223355",
+ "ddi": "",
+ "ddd": "11",
+ "telefone": "911223355",
+ "nome_operadora": "Claro",
+ "estado_operadora": "Sao Paulo (DDD11)",
+ "apelido": "Filha"
+ },
+ {
+ "id_contato": "15000520610011911223366",
+ "ddi": "",
+ "ddd": "11",
+ "telefone": "911223366",
+ "nome_operadora": "Tim",
+ "estado_operadora": "",
+ "apelido": "Tia"
+ },
+ {
+ "id_contato": "15000520610011979647230",
+ "ddi": "",
+ "ddd": "11",
+ "telefone": "979647230",
+ "nome_operadora": "Oi",
+ "estado_operadora": "Sao Paulo - SP",
+ "apelido": "Marcos"
+ },
+ {
+ "id_contato": "15000520610011955773311",
+ "ddi": "",
+ "ddd": "11",
+ "telefone": "955773311",
+ "nome_operadora": "Oi",
+ "estado_operadora": "Sao Paulo - SP",
+ "apelido": "Marcos"
+ }
+ ]

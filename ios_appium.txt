@@ -1,0 +1,6 @@
+[caps]
+platformName = "iOS"
+platformVersion = "10.3"
+deviceName = "iPhone 6 Plus"
+app = "/Users/Danilo.Policarpo/dev/appium/build/mock/simulator/Empresas.app"
+

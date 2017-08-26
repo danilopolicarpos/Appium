@@ -1,0 +1,12 @@
+{
+    "status_senha" : "Senha autenticada com sucesso",
+    "quantidade_tentativas_acesso" : "",
+    "indicador_bloqueio_senha" : "",
+    "primeiro_acesso" : true,
+    "aceite_pac_pj" : false,
+    "indicador_bloqueio_plus" : "N",
+    "data_ultimo_acesso" : "2015-10-15",
+    "senha_expirada" : false,
+    "dias_troca_senha" : 58,
+    "hora_ultimo_acesso" : "19:21.31"
+}

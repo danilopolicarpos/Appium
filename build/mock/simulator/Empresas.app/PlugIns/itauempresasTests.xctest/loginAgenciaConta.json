@@ -1,0 +1,23 @@
+[
+     {
+     "flag_documento" : null,
+     "nome_operador" : "Nome do Operador",
+     "status_chave_acesso" : null,
+     "codigo_operador" : "892363568",
+     "tipo_operador" : null
+     },
+     {
+     "flag_documento" : null,
+     "nome_operador" : "Nome do Operador 2",
+     "status_chave_acesso" : null,
+     "codigo_operador" : "892363569",
+     "tipo_operador" : null
+     },
+     {
+     "flag_documento" : null,
+     "nome_operador" : "Nome do Operador 3",
+     "status_chave_acesso" : null,
+     "codigo_operador" : "123456789",
+     "tipo_operador" : null
+     }
+ ]

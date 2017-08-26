@@ -1,0 +1,31 @@
+{
+    "id": "545",
+    "pergunta": "Como atualizo meu e-mail, telefone ou endereÁo de correspondÍncia?",
+    "resposta": "Ainda n„o d· para atualizar seus dados cadastrais pelo app. J· estamos trabalhando para tornar nossos processos mais digitais.\\n\\nEnquanto isso, vocÍ pode usar um dos seguintes canais:",
+    "assunto": "Dados Cadastrais",
+    "produto": "Conta Corrente",
+    "possui_relacionadas": true,
+    "id_relacionadas": "546",
+    "condicao_fale_conosco": "",
+    "links": [],
+    "canais_disponiveis": [
+                           {
+                           "canal": "computador",
+                           "texto_explicativo": "VocÍ acessa a sua conta no Ita˙ na internet pelo computador e digita†'alteraÁ„o cadastral'†no campo de busca.Para alterar outros dados, como nome, RG, CPF, etc., tambÈm pela internet, vocÍ precisa falar com um de nossos especialistas no atendimento online.Nosso sistema n„o permite acesso simult‚neo. Por isso, È preciso que vocÍ saia do app e aguarde 5 minutos para acessar a sua conta pelo computador.",
+                           "url": "http://ww163.itau/V1/atendimento_digital/person/",
+                           "icone": "ic_aplicativos"
+                           },
+                           {
+                           "canal": "telefone",
+                           "texto_explicativo": "VocÍ pode ligar para: 4004-4828",
+                           "url": "http://ww163.itau/V1/atendimento_digital/person/",
+                           "icone": "ic_telefone"
+                           }
+                           ],
+    "mobile_relacionadas": [
+                            {
+                            "id": "546",
+                            "titulo": "Como incluo mais titulares na minha conta-corrente?"
+                            }
+                            ]
+}

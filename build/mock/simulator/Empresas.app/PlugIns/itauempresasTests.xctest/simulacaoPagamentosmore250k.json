@@ -1,0 +1,15 @@
+{
+    "codigo_barra": "23793504049350908040999001025503168210000041769",
+    "tipo_codigo_barra": "2",
+    "banco": "237",
+    "cedente": "qualquer um",
+    "agencia_cedente": "1234",
+    "conta_cedente": "12345678",
+    "cpj_cnpj_cedente": "36001410828",
+    "nome_cliente": "",
+    "data_pagamento": "",
+    "data_vencimento": "",
+    "valor_documento": 4.69,
+    "valor_total": 4.69,
+    "moeda": "BRL"
+}

@@ -1,0 +1,62 @@
+[
+{
+"numero_pagamento": 1234567890,
+"remetente": "SIFOLELI LTDA",
+"cpf_cnpj": "39026157886",
+"data_recebimento": "2015-04-16",
+"valor_pagamento": 100,
+"tipo_pagamento": "doc",
+"banco_origem": 1,
+"codigo_finalidade": 23,
+"finalidade": "Conta corrente",
+"agencia_origem": 933,
+"conta_origem": 5206,
+"digito_verificador_conta_origem": 1,
+"ISPB_banco": 0
+},
+{
+"numero_pagamento": 1234567890,
+"remetente": "SIFOLELI LTDA",
+"cpf_cnpj": "39026157886",
+"data_recebimento": "2015-04-16",
+"valor_pagamento": 100,
+"tipo_pagamento": "doc",
+"banco_origem": 1,
+"codigo_finalidade": 23,
+"finalidade": "Conta corrente",
+"agencia_origem": 933,
+"conta_origem": 5206,
+"digito_verificador_conta_origem": 1,
+"ISPB_banco": 0
+},
+{
+"numero_pagamento": 1234567890,
+"remetente": "SIFOLELI LTDA",
+"cpf_cnpj": "39026157886",
+"data_recebimento": "2015-04-16",
+"valor_pagamento": 100,
+"tipo_pagamento": "doc",
+"banco_origem": 1,
+"codigo_finalidade": 23,
+"finalidade": "Conta corrente",
+"agencia_origem": 933,
+"conta_origem": 5206,
+"digito_verificador_conta_origem": 1,
+"ISPB_banco": 0
+},
+{
+"numero_pagamento": 1234567890,
+"remetente": "SIFOLELI LTDA",
+"cpf_cnpj": "39026157886",
+"data_recebimento": "2015-04-16",
+"valor_pagamento": 100,
+"tipo_pagamento": "doc",
+"banco_origem": 1,
+"codigo_finalidade": 23,
+"finalidade": "Conta corrente",
+"agencia_origem": 933,
+"conta_origem": 5206,
+"digito_verificador_conta_origem": 1,
+"ISPB_banco": 0
+}
+]

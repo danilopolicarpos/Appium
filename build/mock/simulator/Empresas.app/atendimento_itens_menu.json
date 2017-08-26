@@ -1,0 +1,186 @@
+ [
+  {
+  "nome": "conta corrente",
+  "chaveMobile": "extrato",
+  "menu": "extrato"
+  },
+  
+  {
+  "nome": "conta corrente",
+  "chaveMobile": "transferencias_recebidas",
+  "menu": "transferencias recebidas"
+  },
+  
+  
+  
+  {
+  "nome": "",
+  "chaveMobile": "pedagio_autorizar_pagamentos",
+  "menu": "Autorizar"
+  },
+  
+  {
+  "nome": "",
+  "chaveMobile": "com_codigo_barra",
+  "menu": "com codigo de barras"
+  },
+  
+  {
+  "nome": "",
+  "chaveMobile": "sem_codigo_barra",
+  "menu": "sem codigo de barras"
+  },
+  
+  {
+  "nome": "",
+  "chaveMobile": "NET_APP_NET_DDA_PLUS",
+  "menu": "dda"
+  },
+  
+  
+  
+  {
+  "nome": "",
+  "chaveMobile": "pedagio_autorizar_pagamentos",
+  "menu": "autorizar"
+  },
+  
+  {
+  "nome": "",
+  "chaveMobile": "NET_APP_NET_TRANSF_CONTAS",
+  "menu": "para contas itau"
+  },
+  
+  {
+  "nome": "",
+  "chaveMobile": "NET_APP_NET_PEX_DOC",
+  "menu": "para outros bancos DOC"
+  },
+  
+  {
+  "nome": "",
+  "chaveMobile": "NET_APP_NET_PEX_TED",
+  "menu": "para outros bancos TED"
+  },
+  
+  
+  
+  {
+  "nome": "",
+  "chaveMobile": "recarga",
+  "menu": "recarga"
+  },
+  
+  
+  
+  {
+  "nome": "",
+  "chaveMobile": "comprovantes",
+  "menu": "comprovantes"
+  },
+  
+  
+  
+  {
+  "nome": "cobranca",
+  "chaveMobile": "IL25_CONSULTA_COB",
+  "menu": "cobranca"
+  },
+  
+  
+  
+  {
+  "nome": "",
+  "chaveMobile": "NET_ANTECIPA_RECEB",
+  "menu": "antecipacao de recebiveis"
+  },
+  
+  {
+  "nome": "",
+  "chaveMobile": "NET_DESC_DUPL_APP",
+  "menu": "desconto de duplicatas"
+  },
+  
+  {
+  "nome": "talao de cheques",
+  "chaveMobile": "NET_DESC_CHEQ_APP",
+  "menu": "desconto de cheques"
+  },
+  
+  {
+  "nome": "emprestimo",
+  "chaveMobile": "emprestimo_parcelado",
+  "menu": "emprestimo parcelado"
+  },
+  
+  {
+  "nome": "lis",
+  "chaveMobile": "cheque_especial_lis",
+  "menu": "cheque especial(lis)"
+  },
+  
+  
+  
+  {
+  "nome": "",
+  "chaveMobile": "NET_APP_EPLUS_FORMALIZACAOREMOTA",
+  "menu": "formalizacao de contratos"
+  },
+  
+  
+  
+  {
+  "nome": "cartao de credito",
+  "chaveMobile": "NET_CARTAO_CREDITO",
+  "menu": "cartao de credito"
+  },
+  
+  
+  {
+  "nome": "cambio",
+  "chaveMobile": "NET_NEGOCIOS_INTERNACIONAIS",
+  "menu": "Cambio e comercio exterior"
+  },
+  
+  
+  
+  {
+  "nome": "seguranca",
+  "chaveMobile": "troca_de_senha",
+  "menu": "troca de senha"
+  },
+  
+  {
+  "nome": "seguranca",
+  "chaveMobile": "token_app",
+  "menu": "itoken no app"
+  },
+  
+  
+  
+  {
+  "nome": "",
+  "chaveMobile": "fale_sobre_o_app",
+  "menu": "itoken no app"
+  },
+  
+  
+  
+  {
+  "nome": "",
+  "chaveMobile": "ajuda",
+  "menu": "ajuda"
+  },
+  
+  {
+  "nome": "fatura de cartão",
+  "chaveMobile": "PAGTO_CARTAO_NEW",
+  "menu": "pagamentos e transferencias"
+  },
+  
+  {
+  "nome": "pagamento de fatura",
+  "chaveMobile": "PAGTO_CARTAO_NEW",
+  "menu": "cartao de credito"
+  }
+  ]

@@ -1,0 +1,13 @@
+{
+    "agencia": "1500",
+    "conta": "0001024",
+    "digito_conta": "2",
+    "codigo_produto": "L01",
+    "descricao_produto": "Cheque Especial (LIS)",
+    "valor_limite": 72000,
+    "data_vencimento_operacao": "2016-12-10",
+    "data_hora_contratacao": "2016-11-04-17.27.02.111437",
+    "codigo_tipo_comprovante": "SUCQE",
+    "codigo_versao_comprovante": "02",
+    "moeda": "BRL"
+}

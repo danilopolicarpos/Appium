@@ -1,0 +1,39 @@
+ [
+  {
+  "produto": "Pagamentos e Transferências",
+  "assunto": [
+              "Cancelamento",
+              "Limite",
+              "DOC e TED",
+              "DDA"
+              ]
+  },
+  {
+  "produto": "Cartão de Débito",
+  "assunto": [
+              "Contratação"
+              ]
+  },
+  {
+  "produto": "Cartão de Crédito",
+  "assunto": [
+              "Bloqueio e Desbloqueio",
+              "Senha",
+              "Cancelamento",
+              "Limite",
+              "Fatura"
+              ]
+  },
+  {
+  "produto": "Conta Corrente",
+  "assunto": [
+              "Talão de cheque"
+              ]
+  },
+  {
+  "produto": "Empréstimo",
+  "assunto": [
+              "Informações gerais"
+              ]
+  }
+  ]

@@ -1,0 +1,23 @@
+{
+    
+    "data_comprovante": "2017-07-05",
+    
+    "id_comprovante": "2017-07-05-09.42.28.1744453963003",
+    
+    "nome_operacao": "TÍTULO/BOLETO ITAÚ",
+    
+    "canal_origem": "EMPRESA PLUS",
+    
+    "valor": 1000,
+    
+    "literal_identificacao_comprovante": "",
+    
+    "indicador_email": true,
+    
+    "indicador_comprovante": true,
+    
+    "tipo_comprovante": "boletos_itau",
+    
+    "versao": "03"
+    
+}

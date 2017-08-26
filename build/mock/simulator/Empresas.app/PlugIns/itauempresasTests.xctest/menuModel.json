@@ -1,0 +1,491 @@
+{
+    "chaveMobile":"",
+    "filhos":[
+              {
+              "chaveMobile":"perfil",
+              "filhos":[
+                        {
+                        "chaveMobile":"perfil_seguranca",
+                        "filhos":[
+                                  {
+                                  "chaveMobile":"perfil_seguranca_alterar_senha",
+                                  "filhos":[
+                                  
+                                  ],
+                                  "nome":"alterar senha",
+                                  "idUniversal":null,
+                                  "icone":""
+                                  },
+                                  {
+                                  "chaveMobile":"perfil_seguranca_itoken",
+                                  "filhos":[
+                                  
+                                  ],
+                                  "nome":"iToken no aplicativo",
+                                  "idUniversal":null,
+                                  "icone":""
+                                  },
+                                  {
+                                  "chaveMobile":"perfil_seguranca_touchID",
+                                  "filhos":[
+                                  
+                                  ],
+                                  "nome":"touch ID",
+                                  "idUniversal":null,
+                                  "icone":""
+                                  },
+                                  {
+                                  "chaveMobile":"perfil_configuracoes_app_computador",
+                                  "filhos":[
+                                  
+                                  ],
+                                  "nome":"aplicativo no computador",
+                                  "idUniversal":null,
+                                  "icone":""
+                                  }
+                                  ],
+                        "nome":"configurações",
+                        "idUniversal":null,
+                        "icone":""
+                        },
+                        {
+                        "chaveMobile":"perfil_feedback",
+                        "filhos":[
+                        
+                        ],
+                        "nome":"fale sobre o app",
+                        "idUniversal":null,
+                        "icone":""
+                        },
+                        {
+                        "chaveMobile":"perfil_sobre",
+                        "filhos":[
+                        
+                        ],
+                        "nome":"sobre",
+                        "idUniversal":null,
+                        "icone":""
+                        },
+                        {
+                        "chaveMobile":"perfil_sair",
+                        "filhos":[
+                        
+                        ],
+                        "nome":"sair da sessão",
+                        "idUniversal":null,
+                        "icone":""
+                        }
+                        ]
+              },
+              {
+              "chaveMobile":"inicio",
+              "filhos":[
+              
+              ],
+              "nome":"início",
+              "idUniversal":null,
+              "icone":"ic_inicio_menu"
+              },
+              {
+              "chaveMobile":"conta_corrente",
+              "filhos":[
+                        {
+                        "chaveMobile":"extrato",
+                        "filhos":[
+                        
+                        ],
+                        "nome":"extrato",
+                        "idUniversal":null,
+                        "icone":""
+                        },
+                        {
+                        "chaveMobile":"transferencias_recebidas",
+                        "filhos":[
+                        
+                        ],
+                        "nome":"transferências recebidas",
+                        "idUniversal":null,
+                        "icone":""
+                        }
+                        ],
+              "nome":"conta corrente",
+              "idUniversal":null,
+              "icone":"ic_conta_corrente_itau"
+              },
+              {
+              "chaveMobile":"pagamentos",
+              "filhos":[
+                        {
+                        "chaveMobile":"pedagio_autorizar_pagamentos",
+                        "filhos":[
+                        
+                        ],
+                        "nome":"autorizar",
+                        "idUniversal":null,
+                        "icone":""
+                        },
+                        {
+                        "chaveMobile":"com_codigo_barra",
+                        "filhos":[
+                        
+                        ],
+                        "nome":"com código de barras",
+                        "idUniversal":null,
+                        "icone":""
+                        },
+                        {
+                        "chaveMobile":"NET_APP_NET_DDA_PLUS",
+                        "filhos":[
+                        
+                        ],
+                        "nome":"DDA",
+                        "idUniversal":null,
+                        "icone":""
+                        }
+                        ],
+              "nome":"pagamentos",
+              "idUniversal":null,
+              "icone":"ic_pagamentos_itau"
+              },
+              {
+              "chaveMobile":"",
+              "filhos":[
+                        {
+                        "chaveMobile":"pedagio_autorizar_pagamentos",
+                        "filhos":[
+                        
+                        ],
+                        "nome":"autorizar",
+                        "idUniversal":null,
+                        "icone":""
+                        },
+                        {
+                        "chaveMobile":"NET_APP_NET_TRANSF_CONTAS",
+                        "filhos":[
+                        
+                        ],
+                        "nome":"para contas Itaú",
+                        "idUniversal":null,
+                        "icone":""
+                        },
+                        {
+                        "chaveMobile":"NET_APP_NET_PEX_DOC",
+                        "filhos":[
+                        
+                        ],
+                        "nome":"para outros bancos DOC",
+                        "idUniversal":null,
+                        "icone":""
+                        },
+                        {
+                        "chaveMobile":"NET_APP_NET_PEX_TED",
+                        "filhos":[
+                        
+                        ],
+                        "nome":"para outros bancos TED",
+                        "idUniversal":null,
+                        "icone":""
+                        }
+                        ],
+              "nome":"transferências",
+              "idUniversal":null,
+              "icone":"ic_transferencias_itau"
+              },
+              {
+              "chaveMobile":"recarga",
+              "filhos":[
+              
+              ],
+              "nome":"recarga",
+              "idUniversal":null,
+              "icone":"ic_recarga_itau"
+              },
+              {
+              "chaveMobile":"comprovantes",
+              "filhos":[
+              
+              ],
+              "nome":"comprovantes",
+              "idUniversal":null,
+              "icone":"ic_comprovantes_itau"
+              },
+              {
+              "chaveMobile":"IL25_CONSULTA_COB",
+              "filhos":[
+              
+              ],
+              "nome":"cobrança",
+              "idUniversal":null,
+              "icone":"ic_cobrancas_itau"
+              },
+              {
+              "chaveMobile":"NET_EMPRESTIMO",
+              "filhos":[
+                        {
+                        "chaveMobile":"emprestimo_pessoal",
+                        "filhos":[
+                        
+                        ],
+                        "nome":"empréstimos pessoais",
+                        "idUniversal":null,
+                        "icone":""
+                        }
+                        ],
+              "nome":"crédito",
+              "idUniversal":null,
+              "icone":"ic_credito_itau"
+              },
+              {
+              "chaveMobile":"NET_APP_EPLUS_FORMALIZACAOREMOTA",
+              "filhos":[
+              
+              ],
+              "nome":"formalização de contratos",
+              "idUniversal":null,
+              "icone":"ic_formalizacao_de_contratos_itau"
+              },
+              {
+              "chaveMobile":"NET_INVEST_PJ",
+              "filhos":[
+              
+              ],
+              "nome":"investimentos",
+              "idUniversal":null,
+              "icone":"ic_investimentos_itau"
+              },
+              {
+              "chaveMobile":"NET_CARTAO_CREDITO",
+              "filhos":[
+              
+              ],
+              "nome":"cartões",
+              "idUniversal":null,
+              "icone":"ic_cartoes_itau"
+              },
+              {
+              "chaveMobile":"NET_NEGOCIOS_INTERNACIONAIS",
+              "filhos":[
+              
+              ],
+              "nome":"câmbio e comércio exterior",
+              "idUniversal":null,
+              "icone":"ic_negocios_internacionais_itau"
+              },
+              {
+              "chaveMobile":"seguranca",
+              "filhos":[
+                        {
+                        "chaveMobile":"troca_de_senha",
+                        "filhos":[
+                        
+                        ],
+                        "nome":"troca de senha",
+                        "idUniversal":null,
+                        "icone":""
+                        },
+                        {
+                        "chaveMobile":"token_app",
+                        "filhos":[
+                        
+                        ],
+                        "nome":"iToken no app",
+                        "idUniversal":null,
+                        "icone":""
+                        }
+                        ],
+              "nome":"segurança",
+              "idUniversal":null,
+              "icone":"ic_seguranca_itau"
+              },
+              {
+              "chaveMobile":"NET_ATENDIMENTO_PJ",
+              "filhos":[
+              
+              ],
+              "nome":"atendimento",
+              "idUniversal":null,
+              "icone":"ic_atendimento_itau"
+              },
+              {
+              "chaveMobile":"fale_sobre_o_app",
+              "filhos":[
+              
+              ],
+              "nome":"fale sobre o app",
+              "idUniversal":null,
+              "icone":"ic_fale_sobre_o_app_itau"
+              },
+              {
+              "chaveMobile":"itau_empresas_beta",
+              "filhos":[
+              
+              ],
+              "nome":"itaú empresas beta",
+              "idUniversal":null,
+              "icone":"ic_beta_itau"
+              },
+              {
+              "chaveMobile":"ajuda",
+              "filhos":[
+              
+              ],
+              "nome":"ajuda",
+              "idUniversal":null,
+              "icone":"ic_ajuda_itau"
+              },
+              {
+              "chaveMobile":"exibicao",
+              "filhos":[
+                        {
+                        "chaveMobile":"exibicao_recarga_autorizar",
+                        "filhos":[
+                        
+                        ],
+                        "nome":"exibicao_recarga_autorizar",
+                        "idUniversal":null,
+                        "icone":""
+                        },
+                        {
+                        "chaveMobile":"NET_PEX_APP_AUT",
+                        "filhos":[
+                        
+                        ],
+                        "nome":"exibicao_pedagio_autorizar_pex",
+                        "idUniversal":null,
+                        "icone":""
+                        },
+                        {
+                        "chaveMobile":"NET_OLLC_CONTAS_PAGAR",
+                        "filhos":[
+                        
+                        ],
+                        "nome":"exibicao_pedagio_autorizar_sispag",
+                        "idUniversal":null,
+                        "icone":""
+                        },
+                        {
+                        "chaveMobile":"NET_PEX_DOC",
+                        "filhos":[
+                        
+                        ],
+                        "nome":"exibicao_pedagio_transferencia_doc",
+                        "idUniversal":null,
+                        "icone":""
+                        },
+                        {
+                        "chaveMobile":"NET_PEX_TED",
+                        "filhos":[
+                        
+                        ],
+                        "nome":"exibicao_pedagio_transferencia_ted",
+                        "idUniversal":null,
+                        "icone":""
+                        },
+                        {
+                        "chaveMobile":"NET_TRANSF_CONTAS",
+                        "filhos":[
+                        
+                        ],
+                        "nome":"exibicao_pedagio_transferencia_tef",
+                        "idUniversal":null,
+                        "icone":""
+                        },
+                        {
+                        "chaveMobile":"exibicao_widget_saldo",
+                        "filhos":[
+                        
+                        ],
+                        "nome":"exibicao_widget_saldo",
+                        "idUniversal":null,
+                        "icone":""
+                        },
+                        {
+                        "chaveMobile":"exibicao_widget_conta_corrente",
+                        "filhos":[
+                        
+                        ],
+                        "nome":"exibicao_widget_conta_corrente",
+                        "idUniversal":null,
+                        "icone":""
+                        },
+                        {
+                        "chaveMobile":"exibicao_widget_pagamento",
+                        "filhos":[
+                        
+                        ],
+                        "nome":"exibicao_widget_pagamento",
+                        "idUniversal":null,
+                        "icone":""
+                        },
+                        {
+                        "chaveMobile":"true",
+                        "filhos":[
+                        
+                        ],
+                        "nome":"exibicao_banner_giro_extrato",
+                        "idUniversal":null,
+                        "icone":""
+                        },
+                        {
+                        "chaveMobile":"exibicao_widget_leitor_codigo_barras",
+                        "filhos":[
+                        
+                        ],
+                        "nome":"exibicao_widget_leitor_codigo_barras",
+                        "idUniversal":null,
+                        "icone":""
+                        },
+                        {
+                        "chaveMobile":"IL25_CONSULTA_COB",
+                        "filhos":[
+                        
+                        ],
+                        "nome":"exibicao_widget_francesinha",
+                        "idUniversal":null,
+                        "icone":""
+                        },
+                        {
+                        "chaveMobile":"NET_EMPRESTIMO",
+                        "filhos":[
+                        
+                        ],
+                        "nome":"exibicao_banner_extrato",
+                        "idUniversal":null,
+                        "icone":""
+                        },
+                        {
+                        "chaveMobile":"",
+                        "filhos":[
+                                  {
+                                  "chaveMobile":"NET_ANTECIPA_RECEB",
+                                  "filhos":[
+                                  
+                                  ],
+                                  "icone":"",
+                                  "idUniversal":null,
+                                  "nome":"carrinho_antecipacao_recebiveis"
+                                  }
+                                  ],
+                        "icone":"",
+                        "idUniversal":null,
+                        "nome":"exibicao_carrinho"
+                        },
+                        {
+                        "chaveMobile":"exibicao_widget_busca",
+                        "filhos":[
+                        
+                        ],
+                        "nome":"exibicao_widget_busca",
+                        "idUniversal":null,
+                        "icone":""
+                        }
+                        ],
+              "nome":"Exibicao",
+              "idUniversal":null,
+              "icone":""
+              }
+              ],
+    "nome":"RAIZ",
+    "idUniversal":null,
+    "icone":""
+}

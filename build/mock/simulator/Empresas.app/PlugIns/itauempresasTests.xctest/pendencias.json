@@ -1,0 +1,123 @@
+{
+    "empty":0,
+    "total_pendencias":52,
+    "lista":[
+             {
+             "tipo_tarefa":"000001",
+             "descricao_tarefa":"formalização de contratos",
+             "id_tarefa":"000",
+             "quantidade_pendencias":"2",
+             "data_validade_tarefa":"",
+             "canal_para_resolver_pendencia":"app_mobile",
+             "chave_menu_mobile":"chave"
+             },
+             {
+             "tipo_tarefa":"000002",
+             "descricao_tarefa":"envio de documentos",
+             "id_tarefa":"000",
+             "quantidade_pendencias":"40",
+             "data_validade_tarefa":"",
+             "canal_para_resolver_pendencia":"app_mobile",
+             "chave_menu_mobile":"chave"
+             },
+             {
+             "tipo_tarefa":"000003",
+             "descricao_tarefa":"contas a pagar",
+             "id_tarefa":"000",
+             "quantidade_pendencias":"1",
+             "data_validade_tarefa":"",
+             "canal_para_resolver_pendencia":"app_mobile",
+             "chave_menu_mobile":"chave"
+             },
+             {
+             "tipo_tarefa":"000004",
+             "descricao_tarefa":"salários",
+             "id_tarefa":"000",
+             "quantidade_pendencias":"3",
+             "data_validade_tarefa":"",
+             "canal_para_resolver_pendencia":"app_mobile",
+             "chave_menu_mobile":"chave"
+             },
+             {
+             "tipo_tarefa":"000006",
+             "descricao_tarefa":"salários - pendente de alteração/exclusão",
+             "id_tarefa":"000",
+             "quantidade_pendencias":"3",
+             "data_validade_tarefa":"",
+             "canal_para_resolver_pendencia":"app_mobile",
+             "chave_menu_mobile":"chave"
+             },
+             {
+             "tipo_tarefa":"000007",
+             "descricao_tarefa":"contas a pagar - pendente de alteração/exclusão",
+             "id_tarefa":"000",
+             "quantidade_pendencias":"2",
+             "data_validade_tarefa":"",
+             "canal_para_resolver_pendencia":"app_mobile",
+             "chave_menu_mobile":"chave"
+             },
+             {
+             "tipo_tarefa":"000009",
+             "descricao_tarefa":"crédito consignado",
+             "id_tarefa":"000",
+             "quantidade_pendencias":"1",
+             "data_validade_tarefa":"",
+             "canal_para_resolver_pendencia":"app_mobile",
+             "chave_menu_mobile":"chave"
+             },
+             {
+             "tipo_tarefa":"000010",
+             "descricao_tarefa":"crédito consignado",
+             "id_tarefa":"000",
+             "quantidade_pendencias":"1",
+             "data_validade_tarefa":"",
+             "canal_para_resolver_pendencia":"internet",
+             "chave_menu_mobile":"chave"
+             },
+             {
+             "tipo_tarefa":"000011",
+             "descricao_tarefa":"crédito consignado",
+             "id_tarefa":"000",
+             "quantidade_pendencias":"13",
+             "data_validade_tarefa":"",
+             "canal_para_resolver_pendencia":"internet",
+             "chave_menu_mobile":"chave"
+             },
+             {
+             "tipo_tarefa":"000012",
+             "descricao_tarefa":"crédito consignado",
+             "id_tarefa":"000",
+             "quantidade_pendencias":"11",
+             "data_validade_tarefa":"",
+             "canal_para_resolver_pendencia":"internet",
+             "chave_menu_mobile":"chave"
+             },
+             {
+             "tipo_tarefa":"000013",
+             "descricao_tarefa":"crédito consignado",
+             "id_tarefa":"000",
+             "quantidade_pendencias":"5",
+             "data_validade_tarefa":"",
+             "canal_para_resolver_pendencia":"internet",
+             "chave_menu_mobile":"chave"
+             },
+             {
+             "tipo_tarefa":"000014",
+             "descricao_tarefa":"crédito consignado",
+             "id_tarefa":"000",
+             "quantidade_pendencias":"10",
+             "data_validade_tarefa":"",
+             "canal_para_resolver_pendencia":"internet",
+             "chave_menu_mobile":"chave"
+             },
+             {
+             "tipo_tarefa":"000015",
+             "descricao_tarefa":"crédito consignado",
+             "id_tarefa":"000",
+             "quantidade_pendencias":"21",
+             "data_validade_tarefa":"",
+             "canal_para_resolver_pendencia":"internet",
+             "chave_menu_mobile":"chave"
+             }
+             ]
+}

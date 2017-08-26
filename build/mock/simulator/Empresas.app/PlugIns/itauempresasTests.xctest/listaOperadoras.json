@@ -1,0 +1,313 @@
+[
+ {
+ "nome_operadora": "Claro",
+ "lista_regiao": [
+                  {
+                  "regiao": "Bahia"
+                  },
+                  {
+                  "regiao": "Centro Oeste"
+                  },
+                  {
+                  "regiao": "Espirito Santo"
+                  },
+                  {
+                  "regiao": "Minas Gerais"
+                  },
+                  {
+                  "regiao": "Nordeste"
+                  },
+                  {
+                  "regiao": "Norte"
+                  },
+                  {
+                  "regiao": "Parana"
+                  },
+                  {
+                  "regiao": "Rio de Janeiro"
+                  },
+                  {
+                  "regiao": "Rio Grande do Sul"
+                  },
+                  {
+                  "regiao": "Santa Catarina"
+                  },
+                  {
+                  "regiao": "Sao Paulo (DDD11)"
+                  },
+                  {
+                  "regiao": "Sao Paulo (Interior e Litoral)"
+                  },
+                  {
+                  "regiao": "Sergipe"
+                  }
+                  ]
+ },
+ {
+ "nome_operadora": "Livre - Embratel",
+ "lista_regiao": [
+                  {
+                  "regiao": "Demais Estados"
+                  },
+                  {
+                  "regiao": "Sao Paulo"
+                  }
+                  ]
+ },
+ {
+ "nome_operadora": "Nextel",
+ "lista_regiao": [
+                  {
+                  "regiao": "Bahia"
+                  },
+                  {
+                  "regiao": "Belo Horizonte - MG"
+                  },
+                  {
+                  "regiao": "Brasilia - DF"
+                  },
+                  {
+                  "regiao": "Campinas - SP"
+                  },
+                  {
+                  "regiao": "Caxias do Sul - RG"
+                  },
+                  {
+                  "regiao": "Ceara"
+                  },
+                  {
+                  "regiao": "Curitiba - PR"
+                  },
+                  {
+                  "regiao": "Florianopolis - SC"
+                  },
+                  {
+                  "regiao": "Goiania - GO"
+                  },
+                  {
+                  "regiao": "Joinville - SC"
+                  },
+                  {
+                  "regiao": "Litoral SUL - SP"
+                  },
+                  {
+                  "regiao": "Pernambuco"
+                  },
+                  {
+                  "regiao": "Ponta Grossa - PR"
+                  },
+                  {
+                  "regiao": "Porto Alegre - RG"
+                  },
+                  {
+                  "regiao": "Ribeirao Preto - SP"
+                  },
+                  {
+                  "regiao": "Rio de Janeiro - DDD 21"
+                  },
+                  {
+                  "regiao": "Rio de Janeiro - DDD 22"
+                  },
+                  {
+                  "regiao": "Rio de Janeiro - DDD 24"
+                  },
+                  {
+                  "regiao": "Sao Paulo - DDD 11"
+                  },
+                  {
+                  "regiao": "Uberlandia - MG"
+                  }
+                  ]
+ },
+ {
+ "nome_operadora": "Oi",
+ "lista_regiao": [
+                  {
+                  "regiao": "Acre"
+                  },
+                  {
+                  "regiao": "Alagoas"
+                  },
+                  {
+                  "regiao": "Amapa"
+                  },
+                  {
+                  "regiao": "Amazonas"
+                  },
+                  {
+                  "regiao": "Bahia"
+                  },
+                  {
+                  "regiao": "Ceara"
+                  },
+                  {
+                  "regiao": "Distrito Federal"
+                  },
+                  {
+                  "regiao": "Espirito Santo"
+                  },
+                  {
+                  "regiao": "Goias"
+                  },
+                  {
+                  "regiao": "Maranhao"
+                  },
+                  {
+                  "regiao": "Mato Grosso"
+                  },
+                  {
+                  "regiao": "Mato Grosso do Sul"
+                  },
+                  {
+                  "regiao": "Minas Gerais"
+                  },
+                  {
+                  "regiao": "Nordeste"
+                  },
+                  {
+                  "regiao": "Para"
+                  },
+                  {
+                  "regiao": "Paraiba"
+                  },
+                  {
+                  "regiao": "Parana"
+                  },
+                  {
+                  "regiao": "Pernambuco"
+                  },
+                  {
+                  "regiao": "Piaui"
+                  },
+                  {
+                  "regiao": "Rio de Janeiro"
+                  },
+                  {
+                  "regiao": "Rio Grande do Norte"
+                  },
+                  {
+                  "regiao": "Rio Grande do Sul"
+                  },
+                  {
+                  "regiao": "Rondonia"
+                  },
+                  {
+                  "regiao": "Roraima"
+                  },
+                  {
+                  "regiao": "Santa Catarina"
+                  },
+                  {
+                  "regiao": "Sao Paulo - SP"
+                  },
+                  {
+                  "regiao": "Sergipe"
+                  },
+                  {
+                  "regiao": "Tocantins"
+                  }
+                  ]
+ },
+ {
+ "nome_operadora": "Porto Conecta",
+ "lista_regiao": [
+                  {
+                  "regiao": ""
+                  }
+                  ]
+ },
+ {
+ "nome_operadora": "Tim",
+ "lista_regiao": [
+                  {
+                  "regiao": ""
+                  }
+                  ]
+ },
+ {
+ "nome_operadora": "Vivo",
+ "lista_regiao": [
+                  {
+                  "regiao": "Acre"
+                  },
+                  {
+                  "regiao": "Alagoas"
+                  },
+                  {
+                  "regiao": "Amapa"
+                  },
+                  {
+                  "regiao": "Amazonas"
+                  },
+                  {
+                  "regiao": "Bahia"
+                  },
+                  {
+                  "regiao": "Ceara"
+                  },
+                  {
+                  "regiao": "Distrito Federal"
+                  },
+                  {
+                  "regiao": "Espirito Santo"
+                  },
+                  {
+                  "regiao": "Goias"
+                  },
+                  {
+                  "regiao": "Maranhao"
+                  },
+                  {
+                  "regiao": "Mato Grosso"
+                  },
+                  {
+                  "regiao": "Mato Grosso do Sul"
+                  },
+                  {
+                  "regiao": "Minas Gerais"
+                  },
+                  {
+                  "regiao": "Para"
+                  },
+                  {
+                  "regiao": "Paraiba"
+                  },
+                  {
+                  "regiao": "Parana"
+                  },
+                  {
+                  "regiao": "Pernambuco"
+                  },
+                  {
+                  "regiao": "Piaui"
+                  },
+                  {
+                  "regiao": "Rio de Janeiro"
+                  },
+                  {
+                  "regiao": "Rio Grande do Norte"
+                  },
+                  {
+                  "regiao": "Rio Grande do Sul"
+                  },
+                  {
+                  "regiao": "Rondonia"
+                  },
+                  {
+                  "regiao": "Roraima"
+                  },
+                  {
+                  "regiao": "Santa Catarina"
+                  },
+                  {
+                  "regiao": "Sao Paulo"
+                  },
+                  {
+                  "regiao": "Sergipe"
+                  },
+                  {
+                  "regiao": "Tocantins"
+                  }
+                  ]
+ }
+ ]

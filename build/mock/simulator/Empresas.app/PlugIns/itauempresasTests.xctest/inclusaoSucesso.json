@@ -1,0 +1,21 @@
+{
+  "codigo_operador": "892363568",
+  "id_conta": "1500052061",
+  "cnpj_empresa": "00000000000191",
+  "nome_empresa": "ALSI ASSOC LOJ S INTERLAGOS",
+  "duplicidade": false,
+  "nome_contribuinte": "ASSOCIACAO DOS LOJISTA",
+  "cnpj_contribuinte": "00000000000191",
+  "cpf_contribuinte": "",
+  "data_apuracao": "2016­07­31",
+  "codigo_receita": "5952",
+  "numero_referencia": "",
+  "data_vencimento": "2016­08­19",
+  "data_pagamento": "2016­08­19",
+  "valor_principal": 388.85,
+  "valor_multas": 0.00,
+  "valor_juros": 0.00,
+  "valor_total": 388.85,
+  "simples": false,
+  "tipo_usuario": "J"
+}

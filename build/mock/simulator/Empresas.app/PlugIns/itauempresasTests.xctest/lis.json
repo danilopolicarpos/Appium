@@ -1,0 +1,21 @@
+{
+    "limite_total": 23000,
+    "limite_disponivel": 3250,
+    "limite_utilizado": 19750,
+    "limite_lis": 15500,
+    "limite_adicional": 7500,
+    "codigo_literal_limite_adicional": "9",
+    "literal_limite_adicional": "LIM CX RESERVA ",
+    "data_vencimento": "2015-03-27",
+    "utilizacao": {
+        "dias_utilizados": 4,
+        "juros_acumulados": 5,
+        "data_juros_acumulados": "2015-03-17"
+    },
+    "taxas": {
+        "taxa_contrato_mensal": 3.75,
+        "taxa_contrato_anual": 50.7,
+        "taxa_cet_mensal": 4.38,
+        "taxa_cet_anual": 68.7
+    }
+}

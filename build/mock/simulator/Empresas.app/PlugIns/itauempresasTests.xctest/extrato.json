@@ -1,0 +1,919 @@
+{
+    "saldo": {
+        "disponivel_saque": 13063.48,
+        "saldo_disponivel_saque": -6936.52
+    },
+    "liberacao_depositos_cheques": [
+                                    {
+                                    "data_lancamento": "2015-06-10",
+                                    "detalhe_lancamento": "",
+                                    "agencia_lancamento": "1500",
+                                    "agendado": false,
+                                    "categoria_lancamento": "outros",
+                                    "moeda": "BRL",
+                                    "descricao_lancamento": "DEP",
+                                    "saldo_dia": false,
+                                    "legenda": "",
+                                    "indicador_operacao": "C",
+                                    "descricao_detalhada_lancamento": null,
+                                    "valor_lancamento": 300,
+                                    "festejar": false
+                                    }
+                                    ],
+    "debitos_automaticos_nao_efetuados": [
+                                          {
+                                          "data_lancamento": "2015-06-10",
+                                          "detalhe_lancamento": "",
+                                          "agencia_lancamento": "1500",
+                                          "agendado": false,
+                                          "categoria_lancamento": "pagamento",
+                                          "moeda": "BRL",
+                                          "descricao_lancamento": "ELETROPAULO   054474809",
+                                          "saldo_dia": false,
+                                          "legenda": "",
+                                          "indicador_operacao": "C",
+                                          "descricao_detalhada_lancamento": null,
+                                          "valor_lancamento": 300,
+                                          "festejar": false
+                                          }
+                                          ],
+    "movimentacao_fornecedores": [
+                                  {
+                                  "data_lancamento": "2015-06-11",
+                                  "detalhe_lancamento": "",
+                                  "agencia_lancamento": "1500",
+                                  "agendado": false,
+                                  "categoria_lancamento": "outros",
+                                  "moeda": "BRL",
+                                  "descricao_lancamento": "DEP",
+                                  "saldo_dia": false,
+                                  "legenda": "",
+                                  "indicador_operacao": "C",
+                                  "descricao_detalhada_lancamento": null,
+                                  "valor_lancamento": 300,
+                                  "festejar": false
+                                  }
+                                  ],
+    "hora_extrato": "12:07:29",
+    "depositos_feitos_cei_ced_bkl": [
+                                     {
+                                     "data_lancamento": "2017-06-10",
+                                     "detalhe_lancamento": "",
+                                     "agencia_lancamento": "1500",
+                                     "agendado": false,
+                                     "categoria_lancamento": "cheque",
+                                     "moeda": "BRL",
+                                     "descricao_lancamento": "CEI 000121   DEP CHQ",
+                                     "saldo_dia": false,
+                                     "legenda": "P = Poupança Automática",
+                                     "indicador_operacao": "C",
+                                     "descricao_detalhada_lancamento": null,
+                                     "valor_lancamento": 10,
+                                     "festejar": false
+                                     },
+                                     {
+                                     "data_lancamento": "2017-06-10",
+                                     "detalhe_lancamento": "",
+                                     "agencia_lancamento": "1500",
+                                     "agendado": false,
+                                     "categoria_lancamento": "cheque",
+                                     "moeda": "BRL",
+                                     "descricao_lancamento": "CEI 000123   DEP CHQ",
+                                     "saldo_dia": false,
+                                     "legenda": "P = Poupança Automática",
+                                     "indicador_operacao": "C",
+                                     "descricao_detalhada_lancamento": null,
+                                     "valor_lancamento": 30,
+                                     "festejar": false
+                                     },
+                                     {
+                                     "data_lancamento": "2017-06-10",
+                                     "detalhe_lancamento": "",
+                                     "agencia_lancamento": "1500",
+                                     "agendado": false,
+                                     "categoria_lancamento": "outros",
+                                     "moeda": "BRL",
+                                     "descricao_lancamento": "CEI 000124   DINHEIRO",
+                                     "saldo_dia": false,
+                                     "legenda": "P = Poupança Automática",
+                                     "indicador_operacao": "C",
+                                     "descricao_detalhada_lancamento": null,
+                                     "valor_lancamento": 40,
+                                     "festejar": false
+                                     },
+                                     {
+                                     "data_lancamento": "2017-06-10",
+                                     "detalhe_lancamento": "",
+                                     "agencia_lancamento": "1500",
+                                     "agendado": false,
+                                     "categoria_lancamento": "cheque",
+                                     "moeda": "BRL",
+                                     "descricao_lancamento": "CEI 000125   DEP CHQ",
+                                     "saldo_dia": false,
+                                     "legenda": "P = Poupança Automática",
+                                     "indicador_operacao": "C",
+                                     "descricao_detalhada_lancamento": null,
+                                     "valor_lancamento": 50,
+                                     "festejar": false
+                                     },
+                                     {
+                                     "data_lancamento": "2017-06-11",
+                                     "detalhe_lancamento": "",
+                                     "agencia_lancamento": "1500",
+                                     "agendado": false,
+                                     "categoria_lancamento": "outros",
+                                     "moeda": "BRL",
+                                     "descricao_lancamento": "CEI 000126   DINHEIRO",
+                                     "saldo_dia": false,
+                                     "legenda": "P = Poupança Automática",
+                                     "indicador_operacao": "C",
+                                     "descricao_detalhada_lancamento": null,
+                                     "valor_lancamento": 60,
+                                     "festejar": false
+                                     }
+                                     ],
+    "debitos_automaticos_pendentes": [
+                                      {
+                                      "data_lancamento": "2015-06-10",
+                                      "detalhe_lancamento": "",
+                                      "agencia_lancamento": "1500",
+                                      "agendado": false,
+                                      "categoria_lancamento": "outros",
+                                      "moeda": "BRL",
+                                      "descricao_lancamento": "DEP",
+                                      "saldo_dia": false,
+                                      "legenda": "",
+                                      "indicador_operacao": "D",
+                                      "descricao_detalhada_lancamento": null,
+                                      "valor_lancamento": -300,
+                                      "festejar": false
+                                      }
+                                      ],
+    "lancamentos_dia": [
+                        {
+                        "data_lancamento": "2015-06-11",
+                        "detalhe_lancamento": "",
+                        "agencia_lancamento": "1500",
+                        "agendado": false,
+                        "categoria_lancamento": "pagamento",
+                        "moeda": "BRL",
+                        "descricao_lancamento": "PAGTO AUTOBANK    43/48",
+                        "indicador_operacao": "C",
+                        "saldo_dia": false,
+                        "legenda": "",
+                        "descricao_detalhada_lancamento": null,
+                        "valor_lancamento": 11254.09,
+                        "festejar": false
+                        }
+                        ],
+    "avisos": [
+               {
+               "texto_aviso": "AUTOBANK: APROVEITE ESTA FACILIDADE E TROQUE SEU CARRO.APROVAMOS PARA VOCE UM TOTAL DE R$   50.000,00 PARA FINANCIAR SEU CARRO EM ATE  36 MESES ACESSE O ICARROS NO INTERNET 30 HORAS OU FALE COM SEU GERENTE. VALORES VALIDOS PARA HOJE."
+               }
+               ],
+    "data_extrato": "2016-05-05",
+    "lancamentos": [
+                    {
+                    "data_lancamento": "2017-03-14",
+                    "descricao_lancamento": "SALDO ANTERIOR",
+                    "valor_lancamento": 351571.56,
+                    "saldo_dia": false,
+                    "indicador_operacao": null,
+                    "categoria_lancamento": "outras",
+                    "festejar": false
+                    },
+                    {
+                    "data_lancamento": "2017-03-15",
+                    "descricao_lancamento": "SALDO FAC AUTOMATICO",
+                    "valor_lancamento": 235.2,
+                    "saldo_dia": false,
+                    "indicador_operacao": null,
+                    "categoria_lancamento": "outras",
+                    "festejar": false
+                    },
+                    {
+                    "data_lancamento": "2017-03-15",
+                    "descricao_lancamento": "SALDO FAC AUTOMATICO",
+                    "valor_lancamento": 235.2,
+                    "saldo_dia": false,
+                    "indicador_operacao": null,
+                    "categoria_lancamento": "outras",
+                    "festejar": false
+                    },
+                    {
+                    "data_lancamento": "2017-03-15",
+                    "descricao_lancamento": "SDO CTA/APL AUTOMATICAS",
+                    "valor_lancamento": 352512.36,
+                    "saldo_dia": false,
+                    "indicador_operacao": "C",
+                    "categoria_lancamento": "outras",
+                    "festejar": false
+                    },
+                    {
+                    "data_lancamento": "2017-03-16",
+                    "descricao_lancamento": "PAGAMENTO CHEQUE  005225",
+                    "valor_lancamento": -7888,
+                    "saldo_dia": false,
+                    "indicador_operacao": "D",
+                    "categoria_lancamento": "pagamento",
+                    "festejar": false
+                    },
+                    {
+                    "data_lancamento": "2017-03-16",
+                    "descricao_lancamento": "LANCAMENTO DEBITO",
+                    "valor_lancamento": -7922,
+                    "saldo_dia": false,
+                    "indicador_operacao": "D",
+                    "categoria_lancamento": "outras",
+                    "festejar": false
+                    },
+                    {
+                    "data_lancamento": "2017-03-16",
+                    "descricao_lancamento": "OPP ORD PAGTO PERMANENTE",
+                    "valor_lancamento": -7990,
+                    "saldo_dia": false,
+                    "indicador_operacao": "D",
+                    "categoria_lancamento": "outras",
+                    "festejar": false
+                    },
+                    {
+                    "data_lancamento": "2017-03-16",
+                    "descricao_lancamento": "ESTORNO",
+                    "valor_lancamento": -7854,
+                    "saldo_dia": false,
+                    "indicador_operacao": "D",
+                    "categoria_lancamento": "outras",
+                    "festejar": false
+                    },
+                    {
+                    "data_lancamento": "2017-03-16",
+                    "descricao_lancamento": "CEC     003673 SAQUE",
+                    "valor_lancamento": -7956,
+                    "saldo_dia": false,
+                    "indicador_operacao": "D",
+                    "categoria_lancamento": "outras",
+                    "festejar": false
+                    },
+                    {
+                    "data_lancamento": "2017-03-16",
+                    "descricao_lancamento": "CPMF    (*)09/03 - 16/03",
+                    "valor_lancamento": -364.94,
+                    "saldo_dia": false,
+                    "indicador_operacao": "D",
+                    "categoria_lancamento": "outras",
+                    "festejar": false
+                    },
+                    {
+                    "data_lancamento": "2017-03-16",
+                    "descricao_lancamento": "TARIFA",
+                    "valor_lancamento": -7786,
+                    "saldo_dia": false,
+                    "indicador_operacao": "D",
+                    "categoria_lancamento": "outras",
+                    "festejar": false
+                    },
+                    {
+                    "data_lancamento": "2017-03-16",
+                    "descricao_lancamento": "DIFERENCA RAZAO",
+                    "valor_lancamento": -7820,
+                    "saldo_dia": false,
+                    "indicador_operacao": "D",
+                    "categoria_lancamento": "outras",
+                    "festejar": false
+                    },
+                    {
+                    "data_lancamento": "2017-03-16",
+                    "descricao_lancamento": "DEPOSITO DINHEIRO",
+                    "valor_lancamento": 66259.2,
+                    "saldo_dia": false,
+                    "indicador_operacao": "C",
+                    "categoria_lancamento": "depósito",
+                    "festejar": false
+                    },
+                    {
+                    "data_lancamento": "2017-03-16",
+                    "descricao_lancamento": "DEPOSITO CHEQUE",
+                    "valor_lancamento": 4.5,
+                    "saldo_dia": false,
+                    "indicador_operacao": "C",
+                    "categoria_lancamento": "depósito",
+                    "festejar": false
+                    },
+                    {
+                    "data_lancamento": "2017-03-16",
+                    "descricao_lancamento": "OPP ORD PAGTO PERMANENTE",
+                    "valor_lancamento": -7786,
+                    "saldo_dia": false,
+                    "indicador_operacao": "D",
+                    "categoria_lancamento": "outras",
+                    "festejar": false
+                    },
+                    {
+                    "data_lancamento": "2017-03-16",
+                    "descricao_lancamento": "ENCARGOS CONTA CORRENTE",
+                    "valor_lancamento": -7820,
+                    "saldo_dia": false,
+                    "indicador_operacao": "D",
+                    "categoria_lancamento": "outras",
+                    "festejar": false
+                    },
+                    {
+                    "data_lancamento": "2017-03-16",
+                    "descricao_lancamento": "IOF FINANCIAMENTO",
+                    "valor_lancamento": -7854,
+                    "saldo_dia": false,
+                    "indicador_operacao": "D",
+                    "categoria_lancamento": "outras",
+                    "festejar": false
+                    },
+                    {
+                    "data_lancamento": "2017-03-16",
+                    "descricao_lancamento": "CPMF    (*)09/03 - 16/03",
+                    "valor_lancamento": -305.28,
+                    "saldo_dia": false,
+                    "indicador_operacao": "D",
+                    "categoria_lancamento": "outras",
+                    "festejar": false
+                    },
+                    {
+                    "data_lancamento": "2017-03-16",
+                    "descricao_lancamento": "PAI PGTO AUTOMATICO ITAU",
+                    "valor_lancamento": -7888,
+                    "saldo_dia": false,
+                    "indicador_operacao": "D",
+                    "categoria_lancamento": "outras",
+                    "festejar": false
+                    },
+                    {
+                    "data_lancamento": "2017-03-16",
+                    "descricao_lancamento": "RESGATE RDB/CDB",
+                    "valor_lancamento": 37617.6,
+                    "saldo_dia": false,
+                    "indicador_operacao": "C",
+                    "categoria_lancamento": "outras",
+                    "festejar": false
+                    },
+                    {
+                    "data_lancamento": "2017-03-16",
+                    "descricao_lancamento": "DIFERENCA FINANCIAMENTO",
+                    "valor_lancamento": 4.5,
+                    "saldo_dia": false,
+                    "indicador_operacao": "C",
+                    "categoria_lancamento": "outras",
+                    "festejar": false
+                    },
+                    {
+                    "data_lancamento": "2017-03-16",
+                    "descricao_lancamento": "S A L D O",
+                    "valor_lancamento": -368223.14,
+                    "saldo_dia": true,
+                    "indicador_operacao": null,
+                    "categoria_lancamento": "outras",
+                    "festejar": false
+                    },
+                    {
+                    "data_lancamento": "2017-03-16",
+                    "descricao_lancamento": "(-) SALDO A LIBERAR LIBERAR LIBERAR LIBERAR LIBERAR LIBERAR",
+                    "valor_lancamento": 4.5,
+                    "saldo_dia": false,
+                    "indicador_operacao": null,
+                    "categoria_lancamento": "outras",
+                    "festejar": false
+                    },
+                    {
+                    "data_lancamento": "2017-03-16",
+                    "descricao_lancamento": "SALDO FINAL DISPONIVEL",
+                    "valor_lancamento": 368218.64,
+                    "saldo_dia": false,
+                    "indicador_operacao": null,
+                    "categoria_lancamento": "outras",
+                    "festejar": false
+                    },
+                    {
+                    "data_lancamento": "2017-03-18",
+                    "descricao_lancamento": "ENCARGOS CONTA CORRENTE",
+                    "valor_lancamento": -8024,
+                    "saldo_dia": false,
+                    "indicador_operacao": "D",
+                    "categoria_lancamento": "outras",
+                    "festejar": false
+                    },
+                    {
+                    "data_lancamento": "2017-03-18",
+                    "descricao_lancamento": "DEPOSITO DINHEIRO",
+                    "valor_lancamento": 9628.8,
+                    "saldo_dia": false,
+                    "indicador_operacao": "C",
+                    "categoria_lancamento": "depósito",
+                    "festejar": false
+                    },
+                    {
+                    "data_lancamento": "2017-03-18",
+                    "descricao_lancamento": "LANCAMENTO CREDITO",
+                    "valor_lancamento": 4.5,
+                    "saldo_dia": false,
+                    "indicador_operacao": "C",
+                    "categoria_lancamento": "outras",
+                    "festejar": false
+                    },
+                    {
+                    "data_lancamento": "2017-03-18",
+                    "descricao_lancamento": "PAGAMENTO CHEQUE  005225",
+                    "valor_lancamento": -8024,
+                    "saldo_dia": false,
+                    "indicador_operacao": "D",
+                    "categoria_lancamento": "pagamento",
+                    "festejar": false
+                    },
+                    {
+                    "data_lancamento": "2017-03-18",
+                    "descricao_lancamento": "LANCAMENTO DEBITO",
+                    "valor_lancamento": -8058,
+                    "saldo_dia": false,
+                    "indicador_operacao": "D",
+                    "categoria_lancamento": "outras",
+                    "festejar": false
+                    },
+                    {
+                    "data_lancamento": "2017-03-18",
+                    "descricao_lancamento": "OPP ORD PAGTO PERMANENTE",
+                    "valor_lancamento": -8126,
+                    "saldo_dia": false,
+                    "indicador_operacao": "D",
+                    "categoria_lancamento": "outras",
+                    "festejar": false
+                    },
+                    {
+                    "data_lancamento": "2017-03-18",
+                    "descricao_lancamento": "ESTORNO",
+                    "valor_lancamento": -7990,
+                    "saldo_dia": false,
+                    "indicador_operacao": "D",
+                    "categoria_lancamento": "outras",
+                    "festejar": false
+                    },
+                    {
+                    "data_lancamento": "2017-03-18",
+                    "descricao_lancamento": "CEC     003749 SAQUE",
+                    "valor_lancamento": -8092,
+                    "saldo_dia": false,
+                    "indicador_operacao": "D",
+                    "categoria_lancamento": "outras",
+                    "festejar": false
+                    },
+                    {
+                    "data_lancamento": "2017-03-18",
+                    "descricao_lancamento": "TARIFA",
+                    "valor_lancamento": -7922,
+                    "saldo_dia": false,
+                    "indicador_operacao": "D",
+                    "categoria_lancamento": "outras",
+                    "festejar": false
+                    },
+                    {
+                    "data_lancamento": "2017-03-18",
+                    "descricao_lancamento": "DIFERENCA RAZAO",
+                    "valor_lancamento": -7956,
+                    "saldo_dia": false,
+                    "indicador_operacao": "D",
+                    "categoria_lancamento": "outras",
+                    "festejar": false
+                    },
+                    {
+                    "data_lancamento": "2017-03-18",
+                    "descricao_lancamento": "DEPOSITO DINHEIRO",
+                    "valor_lancamento": 67401.6,
+                    "saldo_dia": false,
+                    "indicador_operacao": "C",
+                    "categoria_lancamento": "depósito",
+                    "festejar": false
+                    },
+                    {
+                    "data_lancamento": "2017-03-18",
+                    "descricao_lancamento": "DEPOSITO CHEQUE",
+                    "valor_lancamento": 4.5,
+                    "saldo_dia": false,
+                    "indicador_operacao": "C",
+                    "categoria_lancamento": "depósito",
+                    "festejar": false
+                    },
+                    {
+                    "data_lancamento": "2017-03-18",
+                    "descricao_lancamento": "S A L D O",
+                    "valor_lancamento": 381070.54,
+                    "saldo_dia": true,
+                    "indicador_operacao": null,
+                    "categoria_lancamento": "outras",
+                    "festejar": false
+                    },
+                    {
+                    "data_lancamento": "2017-03-18",
+                    "descricao_lancamento": "(-) SALDO A LIBERAR",
+                    "valor_lancamento": 4.5,
+                    "saldo_dia": false,
+                    "indicador_operacao": null,
+                    "categoria_lancamento": "outras",
+                    "festejar": false
+                    },
+                    {
+                    "data_lancamento": "2017-03-18",
+                    "descricao_lancamento": "SALDO FINAL DISPONIVEL",
+                    "valor_lancamento": 381066.04,
+                    "saldo_dia": false,
+                    "indicador_operacao": null,
+                    "categoria_lancamento": "outras",
+                    "festejar": false
+                    },
+                    {
+                    "data_lancamento": "2017-03-19",
+                    "descricao_lancamento": "SALDO FAC AUTOMATICO",
+                    "valor_lancamento": 329.28,
+                    "saldo_dia": false,
+                    "indicador_operacao": null,
+                    "categoria_lancamento": "outras",
+                    "festejar": false
+                    },
+                    {
+                    "data_lancamento": "2017-03-19",
+                    "descricao_lancamento": "SALDO FAC AUTOMATICO",
+                    "valor_lancamento": 329.28,
+                    "saldo_dia": false,
+                    "indicador_operacao": null,
+                    "categoria_lancamento": "outras",
+                    "festejar": false
+                    },
+                    {
+                    "data_lancamento": "2017-03-19",
+                    "descricao_lancamento": "SDO CTA/APL AUTOMATICAS",
+                    "valor_lancamento": 382387.66,
+                    "saldo_dia": false,
+                    "indicador_operacao": "C",
+                    "categoria_lancamento": "outras",
+                    "festejar": false
+                    },
+                    {
+                    "data_lancamento": "2017-03-20",
+                    "descricao_lancamento": "ESTORNO",
+                    "valor_lancamento": -202835.7,
+                    "saldo_dia": false,
+                    "indicador_operacao": "D",
+                    "categoria_lancamento": "outras",
+                    "festejar": false
+                    },
+                    {
+                    "data_lancamento": "2017-03-20",
+                    "descricao_lancamento": "S A L D O",
+                    "valor_lancamento": 178234.84,
+                    "saldo_dia": true,
+                    "indicador_operacao": null,
+                    "categoria_lancamento": "outras",
+                    "festejar": false
+                    },
+                    {
+                    "data_lancamento": "2017-03-22",
+                    "descricao_lancamento": "SISPAG FORNECEDORES",
+                    "valor_lancamento": -10,
+                    "saldo_dia": false,
+                    "indicador_operacao": "D",
+                    "categoria_lancamento": "outras",
+                    "festejar": false
+                    },
+                    {
+                    "data_lancamento": "2017-03-22",
+                    "descricao_lancamento": "FT  OP-TES",
+                    "valor_lancamento": 1000,
+                    "saldo_dia": false,
+                    "indicador_operacao": "C",
+                    "categoria_lancamento": "outras",
+                    "festejar": false
+                    },
+                    {
+                    "data_lancamento": "2017-03-22",
+                    "descricao_lancamento": "S A L D O",
+                    "valor_lancamento": 179224.84,
+                    "saldo_dia": true,
+                    "indicador_operacao": null,
+                    "categoria_lancamento": "outras",
+                    "festejar": false
+                    }
+                    ],
+    "pagamentos_recebidos_dia": [
+                                 {
+                                 "data_lancamento": "2015-06-11",
+                                 "detalhe_lancamento": "",
+                                 "agencia_lancamento": "1500",
+                                 "agendado": false,
+                                 "categoria_lancamento": "outros",
+                                 "moeda": "BRL",
+                                 "descricao_lancamento": "DEP",
+                                 "saldo_dia": false,
+                                 "legenda": "",
+                                 "indicador_operacao": "C",
+                                 "descricao_detalhada_lancamento": null,
+                                 "valor_lancamento": 300,
+                                 "festejar": false
+                                 }
+                                 ],
+    "lancamentos_futuros": [
+                            {
+                            "data_lancamento": "2017-06-21",
+                            "detalhe_lancamento": "",
+                            "agencia_lancamento": "1400",
+                            "agendado": true,
+                            "categoria_lancamento": "outros",
+                            "moeda": "BRL",
+                            "descricao_lancamento": "BKL AGEND. CODSERV-406",
+                            "saldo_dia": false,
+                            "legenda": "A = Agendamento (sujeito a confirmação de saldo na data prevista)",
+                            "indicador_operacao": "D",
+                            "descricao_detalhada_lancamento": null,
+                            "valor_lancamento": -11310,
+                            "festejar": false
+                            },
+                            {
+                            "data_lancamento": "2017-06-21",
+                            "detalhe_lancamento": "",
+                            "agencia_lancamento": "2700",
+                            "agendado": false,
+                            "categoria_lancamento": "pagamento",
+                            "moeda": "BRL",
+                            "descricao_lancamento": "ELETROPAULO   054474809",
+                            "saldo_dia": false,
+                            "legenda": "P = Poupança Automática",
+                            "indicador_operacao": "D",
+                            "descricao_detalhada_lancamento": null,
+                            "valor_lancamento": -11310,
+                            "festejar": false
+                            },
+                            {
+                            "data_lancamento": "2018-06-26",
+                            "detalhe_lancamento": "",
+                            "agencia_lancamento": "1400",
+                            "agendado": true,
+                            "categoria_lancamento": "outros",
+                            "moeda": "BRL",
+                            "descricao_lancamento": "BKL AGEND. CODSERV-405",
+                            "saldo_dia": false,
+                            "legenda": "A = Agendamento (sujeito a confirmação de saldo na data prevista)",
+                            "indicador_operacao": "D",
+                            "descricao_detalhada_lancamento": null,
+                            "valor_lancamento": -11310,
+                            "festejar": false
+                            },
+                            {
+                            "data_lancamento": "2018-06-26",
+                            "detalhe_lancamento": "",
+                            "agencia_lancamento": "2700",
+                            "agendado": false,
+                            "categoria_lancamento": "cartão",
+                            "moeda": "BRL",
+                            "descricao_lancamento": "REDESHOP A P NOVA",
+                            "saldo_dia": false,
+                            "legenda": "P = Poupança Automática",
+                            "indicador_operacao": "D",
+                            "descricao_detalhada_lancamento": null,
+                            "valor_lancamento": -11310,
+                            "festejar": false
+                            },
+                            {
+                            "data_lancamento": "2018-07-01",
+                            "detalhe_lancamento": "",
+                            "agencia_lancamento": "1400",
+                            "agendado": true,
+                            "categoria_lancamento": "outros",
+                            "moeda": "BRL",
+                            "descricao_lancamento": "BKL AGEND. CODSERV-194",
+                            "saldo_dia": false,
+                            "legenda": "A = Agendamento (sujeito a confirmação de saldo na data prevista)",
+                            "indicador_operacao": "D",
+                            "descricao_detalhada_lancamento": null,
+                            "valor_lancamento": -11310,
+                            "festejar": false
+                            },
+                            {
+                            "data_lancamento": "2018-07-01",
+                            "detalhe_lancamento": "",
+                            "agencia_lancamento": "2700",
+                            "agendado": false,
+                            "categoria_lancamento": "pagamento",
+                            "moeda": "BRL",
+                            "descricao_lancamento": "BCP           200907953",
+                            "saldo_dia": false,
+                            "legenda": "P = Poupança Automática",
+                            "indicador_operacao": "D",
+                            "descricao_detalhada_lancamento": null,
+                            "valor_lancamento": -11310,
+                            "festejar": false
+                            },
+                            {
+                            "data_lancamento": "2018-07-06",
+                            "detalhe_lancamento": "",
+                            "agencia_lancamento": "2600",
+                            "agendado": true,
+                            "categoria_lancamento": "outros",
+                            "moeda": "BRL",
+                            "descricao_lancamento": "CEI AGEND. CODSERV-408",
+                            "saldo_dia": false,
+                            "legenda": "A = Agendamento (sujeito a confirmação de saldo na data prevista)",
+                            "indicador_operacao": "D",
+                            "descricao_detalhada_lancamento": null,
+                            "valor_lancamento": -11310,
+                            "festejar": false
+                            },
+                            {
+                            "data_lancamento": "2019-07-06",
+                            "detalhe_lancamento": "",
+                            "agencia_lancamento": "2700",
+                            "agendado": false,
+                            "categoria_lancamento": "pagamento",
+                            "moeda": "BRL",
+                            "descricao_lancamento": "PORTO SEGURO SEGUROS",
+                            "saldo_dia": false,
+                            "legenda": "P = Poupança Automática",
+                            "indicador_operacao": "D",
+                            "descricao_detalhada_lancamento": null,
+                            "valor_lancamento": -11310,
+                            "festejar": false
+                            },
+                            {
+                            "data_lancamento": "2019-07-11",
+                            "detalhe_lancamento": "",
+                            "agencia_lancamento": "2600",
+                            "agendado": true,
+                            "categoria_lancamento": "outros",
+                            "moeda": "BRL",
+                            "descricao_lancamento": "CEI AGEND. CODSERV-398",
+                            "saldo_dia": false,
+                            "legenda": "A = Agendamento (sujeito a confirmação de saldo na data prevista)",
+                            "indicador_operacao": "D",
+                            "descricao_detalhada_lancamento": null,
+                            "valor_lancamento": -11310,
+                            "festejar": false
+                            },
+                            {
+                            "data_lancamento": "2019-07-11",
+                            "detalhe_lancamento": "",
+                            "agencia_lancamento": "2700",
+                            "agendado": false,
+                            "categoria_lancamento": "outros",
+                            "moeda": "BRL",
+                            "descricao_lancamento": "COMPRA   CARREF. P070600",
+                            "saldo_dia": false,
+                            "legenda": "P = Poupança Automática",
+                            "indicador_operacao": "D",
+                            "descricao_detalhada_lancamento": null,
+                            "valor_lancamento": -11310,
+                            "festejar": false
+                            },
+                            {
+                            "data_lancamento": "2019-07-16",
+                            "detalhe_lancamento": "",
+                            "agencia_lancamento": "1500",
+                            "agendado": true,
+                            "categoria_lancamento": "outros",
+                            "moeda": "BRL",
+                            "descricao_lancamento": "CEI AGEND. CODSERV-396",
+                            "saldo_dia": false,
+                            "legenda": "A = Agendamento (sujeito a confirmação de saldo na data prevista)",
+                            "indicador_operacao": "D",
+                            "descricao_detalhada_lancamento": null,
+                            "valor_lancamento": -11310,
+                            "festejar": false
+                            },
+                            {
+                            "data_lancamento": "2019-07-16",
+                            "detalhe_lancamento": "",
+                            "agencia_lancamento": "2700",
+                            "agendado": false,
+                            "categoria_lancamento": "cartão",
+                            "moeda": "BRL",
+                            "descricao_lancamento": "REDESHOP C&A      070600",
+                            "saldo_dia": false,
+                            "legenda": "P = Poupança Automática",
+                            "indicador_operacao": "D",
+                            "descricao_detalhada_lancamento": null,
+                            "valor_lancamento": -11310,
+                            "festejar": false
+                            },
+                            {
+                            "data_lancamento": "2019-07-21",
+                            "detalhe_lancamento": "",
+                            "agencia_lancamento": "3609",
+                            "agendado": true,
+                            "categoria_lancamento": "outros",
+                            "moeda": "BRL",
+                            "descricao_lancamento": "CEC AGEND. CODSERV-397",
+                            "saldo_dia": false,
+                            "legenda": "A = Agendamento (sujeito a confirmação de saldo na data prevista)",
+                            "indicador_operacao": "D",
+                            "descricao_detalhada_lancamento": null,
+                            "valor_lancamento": -11310,
+                            "festejar": false
+                            },
+                            {
+                            "data_lancamento": "2019-07-21",
+                            "detalhe_lancamento": "",
+                            "agencia_lancamento": "2700",
+                            "agendado": false,
+                            "categoria_lancamento": "pagamento",
+                            "moeda": "BRL",
+                            "descricao_lancamento": "SABESP      0222844515",
+                            "saldo_dia": false,
+                            "legenda": "P = Poupança Automática",
+                            "indicador_operacao": "D",
+                            "descricao_detalhada_lancamento": null,
+                            "valor_lancamento": -11310,
+                            "festejar": false
+                            },
+                            {
+                            "data_lancamento": "2019-07-26",
+                            "detalhe_lancamento": "",
+                            "agencia_lancamento": "2600",
+                            "agendado": true,
+                            "categoria_lancamento": "pagamento",
+                            "moeda": "BRL",
+                            "descricao_lancamento": "CEI IPVA-SP ASP-1234 X/X",
+                            "saldo_dia": false,
+                            "legenda": "A = Agendamento (sujeito a confirmação de saldo na data prevista)",
+                            "indicador_operacao": "D",
+                            "descricao_detalhada_lancamento": null,
+                            "valor_lancamento": -11310,
+                            "festejar": false
+                            },
+                            {
+                            "data_lancamento": "2019-07-26",
+                            "detalhe_lancamento": "",
+                            "agencia_lancamento": "2700",
+                            "agendado": false,
+                            "categoria_lancamento": "cartão",
+                            "moeda": "BRL",
+                            "descricao_lancamento": "TRISHOP   02/02",
+                            "saldo_dia": false,
+                            "legenda": "P = Poupança Automática",
+                            "indicador_operacao": "D",
+                            "descricao_detalhada_lancamento": null,
+                            "valor_lancamento": -11310,
+                            "festejar": false
+                            },
+                            {
+                            "data_lancamento": "2019-07-31",
+                            "detalhe_lancamento": "",
+                            "agencia_lancamento": "1400",
+                            "agendado": true,
+                            "categoria_lancamento": "outros",
+                            "moeda": "BRL",
+                            "descricao_lancamento": "BKL AGEND. CODSERV-193",
+                            "saldo_dia": false,
+                            "legenda": "A = Agendamento (sujeito a confirmação de saldo na data prevista)",
+                            "indicador_operacao": "D",
+                            "descricao_detalhada_lancamento": null,
+                            "valor_lancamento": -11310,
+                            "festejar": false
+                            },
+                            {
+                            "data_lancamento": "2019-07-31",
+                            "detalhe_lancamento": "",
+                            "agencia_lancamento": "2700",
+                            "agendado": false,
+                            "categoria_lancamento": "cartão",
+                            "moeda": "BRL",
+                            "descricao_lancamento": "REDESHOP MADEIRENS070600",
+                            "saldo_dia": false,
+                            "legenda": "P = Poupança Automática",
+                            "indicador_operacao": "D",
+                            "descricao_detalhada_lancamento": null,
+                            "valor_lancamento": -11310,
+                            "festejar": false
+                            },
+                            {
+                            "data_lancamento": "2019-08-05",
+                            "detalhe_lancamento": "",
+                            "agencia_lancamento": "1400",
+                            "agendado": true,
+                            "categoria_lancamento": "outros",
+                            "moeda": "BRL",
+                            "descricao_lancamento": "BKL AGEND. CODSERV-199",
+                            "saldo_dia": false,
+                            "legenda": "A = Agendamento (sujeito a confirmação de saldo na data prevista)",
+                            "indicador_operacao": "D",
+                            "descricao_detalhada_lancamento": null,
+                            "valor_lancamento": -11310,
+                            "festejar": false
+                            },
+                            {
+                            "data_lancamento": "2019-08-05",
+                            "detalhe_lancamento": "",
+                            "agencia_lancamento": "2700",
+                            "agendado": false,
+                            "categoria_lancamento": "cartão",
+                            "moeda": "BRL",
+                            "descricao_lancamento": "REDESHOP LJ AMERIC070600",
+                            "saldo_dia": false,
+                            "legenda": "P = Poupança Automática",
+                            "indicador_operacao": "D",
+                            "descricao_detalhada_lancamento": null,
+                            "valor_lancamento": -11310,
+                            "festejar": false
+                            }
+                            ]
+}

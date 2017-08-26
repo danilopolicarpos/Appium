@@ -1,0 +1,52 @@
+{
+    "ofertas": [
+                {
+                "codigo_produto": "000000006",
+                "nome_produto": "Giro",
+                "codigo_plano": "000044493",
+                "valor_minimo_contratacao": 500,
+                "valor_maximo_contratacao": 150000,
+                "quantidade_maxima_parcelas": 24,
+                "quantidade_minima_parcelas": 6,
+                "quantidade_dias_primeiro_pagamento": 60,
+                "taxa_juros_maxima": 2.19,
+                "taxa_juros_minima": 2.09,
+                "valor_minimo_seguro": 500,
+                "valor_maximo_seguro": 150000,
+                "valor_minimo": 500,
+                "valor_maximo": 150000,
+                "indicador_seguro": true,
+                "indicador_transbordo": false,
+                "tipo_oferta": "giro_devedor_solidario",
+                "descricao_oferta": "Giro               - Sem seguro",
+                "descricao_oferta_seguro": "Giro        Protegido - Com seguro"
+                }
+                ],
+    "oferta_especial": {
+        "indicador_oferta": "04",
+        "valor_oferta": 150000,
+        "quantidade_parcelas": 24,
+        "valor_parcela": 12803.92,
+        "codigo_bandeira_cartao": "04",
+        "descricao_bandeira_cartao": "Devedor Solidário",
+        "taxa_juros": 5.66,
+        "indicador_seguro": true,
+        "quantidade_dias_primeiro_pagamento": 60,
+        "data_contrato": "2016-10-03",
+        "data_primeiro_vencimento": "2016-10-03",
+        "tipo_oferta": "giro_devedor_solidario",
+        "codigo_plano_financiamento": "000044493",
+        "codigo_produto": "000000006",
+        "nome_produto": "Giro"
+    },
+    "agencia": "1500",
+    "conta": "0001090",
+    "digito_conta": "3",
+    "cpf_operador": "25773873850",
+    "indicador_trava_domicilio": true,
+    "valor_total_trava": 30006,
+    "numero_convenio": "00000000755",
+    "versao_convenio": "000001",
+    "solicitacao_trava": "000000000000000",
+    "indicador_transbordo" : false
+}

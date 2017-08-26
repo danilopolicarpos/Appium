@@ -1,0 +1,35 @@
+ [
+  {
+  "assuntositau":[
+                  {
+                  "imagens":[
+                             "img_tutorial_itokenapp_1",
+                             "img_tutorial_itokenapp_2",
+                             "img_tutorial_itokenapp_3"
+                             ],
+                  "respostas":[
+                               "Acesse as configurações no perfil e clique em iToken no Aplicativo.",
+                               "Agora, insira o código recebido por sms.",
+                               "Ao final da validação o iToken já estará disponível para facilitar suas transações no próximo acesso."
+                               ],
+                  "tipo":0,
+                  "tituloAssunto":"Como habilito?",
+                  "acao":"configuracoes",
+                  "tituloacao":"habilite já"
+                  },
+                  {
+                  "respostas":[
+                               "O iToken no aplicativo é uma verificação dupla de segurança, portanto é acionado sem precisar digitar códigos em suas operações dentro do aplicativo.\n\nPara validação em outros canais, você pode localiza-lo na tela de login.\n\nCaso você ainda não tenha habilitado seu iToken, siga o fluxo de instalação."
+                               ],
+                  "tipo":1,
+                  "tituloAssunto":"Como utilizo?",
+                  "acao":"iTokenAppTutorial",
+                  "tituloacao":"Como habilito?"
+                  }
+                  ],
+  "icone":"",
+  "titulo":"iToken no Aplicativo",
+  "descricao":"",
+  "tipo":"app"
+  }
+  ]

@@ -1,0 +1,18 @@
+{
+    "agencia": "7155",
+    "conta": "55555-7",
+    "nome_empresa": "LTDA LTDA",
+    "layout": "s t r l a y o u t",
+    "numero_carrinho": "string",
+    "quantidades_boletos_divergencia": 14,
+    "layout_CK": [
+        {
+            "numero_lote": "x",
+            "valor_pagamento" : 1010
+        },
+        {
+            "numero_lote": "y",
+            "valor_pagamento" : 1200
+        }
+    ]
+}

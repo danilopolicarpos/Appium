@@ -1,0 +1,128 @@
+{
+"dia_pagamento_encargo": "12/12/2012",
+"taxa_juros_ano": 10,
+"taxa_cet_mes": 11,
+"taxa_cet_ano": 111,
+"valor_total_operacao": 3000,
+"percentual_cet_total_operacao": 30,
+"valor_tarifa_contratacao": 1200,
+"percentual_cet_tarifa_contratacao": 10,
+"valor_iof": 120,
+"percentual_cet_iof": 12,
+"periodicidade_capitalizacao": "Mensal",
+"data_vencimento_operacao": "2012-11-12",
+"agencia": "1500",
+"conta": "0001103",
+"digito_conta": "4",
+"valor_novo_limite": 50000,
+"taxa_juros_mes": 12.35,
+"valor_limite_minimo": 5000,
+"dia_pagamaneto_encargo": "10",
+"valor_limite_adicional": 0,
+"indicador_conta_contratual": false,
+"limites_ofertados": [
+{
+"limite_ofertado": 50000
+},
+{
+"limite_ofertado": 45000
+},
+{
+"limite_ofertado": 42500
+}
+],
+"produtos_ofertados": [
+{
+"produto_ofertado": "L01"
+},
+{
+"produto_ofertado": "L03"
+}
+],
+"dias_pagamento": [
+{
+"dia_pagamento": "01"
+},
+{
+"dia_pagamento": "02"
+},
+{
+"dia_pagamento": "03"
+},
+{
+"dia_pagamento": "04"
+},
+{
+"dia_pagamento": "05"
+},
+{
+"dia_pagamento": "06"
+},
+{
+"dia_pagamento": "07"
+},
+{
+"dia_pagamento": "08"
+},
+{
+"dia_pagamento": "09"
+},
+{
+"dia_pagamento": "10"
+},
+{
+"dia_pagamento": "11"
+},
+{
+"dia_pagamento": "12"
+},
+{
+"dia_pagamento": "13"
+},
+{
+"dia_pagamento": "14"
+},
+{
+"dia_pagamento": "15"
+},
+{
+"dia_pagamento": "16"
+},
+{
+"dia_pagamento": "17"
+},
+{
+"dia_pagamento": "18"
+},
+{
+"dia_pagamento": "19"
+},
+{
+"dia_pagamento": "20"
+},
+{
+"dia_pagamento": "21"
+},
+{
+"dia_pagamento": "22"
+},
+{
+"dia_pagamento": "23"
+},
+{
+"dia_pagamento": "24"
+},
+{
+"dia_pagamento": "25"
+},
+{
+"dia_pagamento": "26"
+},
+{
+"dia_pagamento": "27"
+},
+{
+"dia_pagamento": "28"
+}
+]
+}

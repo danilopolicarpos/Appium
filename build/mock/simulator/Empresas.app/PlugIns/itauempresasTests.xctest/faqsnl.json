@@ -1,0 +1,110 @@
+{
+    "faqs": {
+        "itoken": [
+                   {
+                   "pergunta": "O que é iToken no aplicativo?",
+                   "resposta": "É o código de segurança gerado na tela inicial do app, para que você possa validar suas operações e transações em qualquer canal do Itaú, sem a necessidade de conexão com a internet.\nCom o iToken aplicativo, as transações feitas dentro do app são sincronizadas automaticamente, e você não precisa digitar o código para validá-las."
+                   },
+                   {
+                   "pergunta": "Como instalar o iToken no aplicativo?",
+                   "resposta": "Para instalar o iToken no aplicativo, basta acessar o app com número de agência, conta e senha eletrônica, tocar em Dados da conta > Configurações > iToken no aplicativo > Instalar.\nDepois, será necessário habilitar o dispositivo com o iToken SMS."
+                   },
+                   {
+                   "pergunta": "Como gero o iToken pelo aplicativo?",
+                   "resposta": "Selecione o ícone iToken, na tela inicial do app Itaú, para gerar o código de segurança. O código é gerado mesmo sem conexão com a internet. Cada código gerado tem validade temporária e ao expirar, um novo código será gerado automaticamente."
+                   },
+                   {
+                   "pergunta": "Meu celular foi roubado. Como cancelo o iToken no aplicativo?",
+                   "resposta": "Você pode cancelar o seu iToken pela internet, telefone, celular, caixa eletrônico do Itaú ou solicitar ao seu gerente.\n\nPelo app Itaú no computador acesse a rota: Home > Outros serviços > Segurança > iToken no aplicativo > Cancelar\n\nPelo app Itaú no celular acesse a rota: Dados da conta > Configurações > iToken no aplicativo > Desinstalar.\nApós o cancelamento você pode cadastrar novamente o iToken com um novo número de série."
+                   },
+                   {
+                   "pergunta": "Como libero/ habilito o iToken no aplicativo?",
+                   "resposta": "Primeiro é necessário instalar o iToken aplicativo no seu celular. E em seguida habilitar o dispositivo com o código que será encaminhado para o seu iToken SMS. "
+                   },
+                   {
+                   "pergunta": "Bloqueei meu iToken. Como faço para desbloquear?",
+                   "resposta": "Você pode realizar o desbloqueio pelo app Itaú no computador. Basta acessar a sua conta empresa, selecionar uma transação e digitar o código do iToken corretamente. O código será solicitado por 2 vezes para desbloqueio e, em sequência, você poderá finalizar a transação. "
+                   },
+                   {
+                   "pergunta": "Como associo meu iToken à mais de uma conta?",
+                   "resposta": "Para fazer a associação é preciso ter o iToken aplicativo já habilitado em outra contra Pessoa Jurídica. O procedimento é feito pela Internet, basta acessar a conta com os dados de agência conta e senha eletrônica, e digitar “associação de iToken ao operador” no campo de busca."
+                   },
+                   {
+                   "pergunta": "Posso ter mais de um iToken aplicativo Itaú Empresas, para o mesmo CPF?",
+                   "resposta": "Não! O iToken é vinculado ao CPF. Ao tentar cadastrar mais de um iToken no mesmo aparelho e ao mesmo CPF, o sistema apresentará a opção de associar o seu iToken, e impossibilitar."
+                   },
+                   {
+                   "pergunta": "Se eu não tiver internet, posso usar o iToken no app?",
+                   "resposta": "Sim! O código de segurança é gerado mesmo sem conexão com a internet. Para consultar basta tocar em iToken na tela principal do app Itaú Empresas."
+                   },
+                   {
+                   "pergunta": "Como usar meu iToken no exterior?",
+                   "resposta": "Você pode utilizar o seu iToken normalmente, desde que ele já esteja cadastrado e habilitado."
+                   },
+                   {
+                   "pergunta": "O que devo fazer quando não puder mais usar o iToken no chaveiro?",
+                   "resposta": "Você pode instalar o iToken aplicativo no seu celular e utilizar da mesma forma que o chaveiro, mesmo quando não estiver conectado à internet. "
+                   },
+                   {
+                   "pergunta": "Troquei o número do meu celular. Como faço para alterar o iToken por SMS?",
+                   "resposta": "Para alterar o número de celular cadastrado no iToken SMS você deve cancelar o cadastro no app Itaú pelo computador. Basta acessar a conta com os dados de agência, conta e senha eletrônica e digitar “iToken SMS” no campo de busca, e depois selecionar cancelar.\nApós o cancelamento você deve cadastrar o novo iToken o número de telefone atualizado."
+                   }
+                   ],
+        "seguranca": [
+                      {
+                      "pergunta": "Por que não consigo acessar o aplicativo?",
+                      "resposta": "Se você é cliente:\n\nApós a instalação do App Itaú Empresas no celular, para acessar a conta você deverá digitar o código de operador ou agência e conta e senha eletrônica ou biometria, e assim será direcionado a home logada do App. Com sua empresa conectada, você acompanha a conta-corrente da sua empresa de onde estiver, através do App Itaú Empresas no celular disponível gratuitamente na sua loja de aplicativos.\n\nSe você ainda não é cliente:\n\nAbra sua conta no Itaú para poder usar nosso App Itaú Empresas no celular."
+                      }
+                      ],
+        "senha": [
+                  {
+                  "pergunta": "Como altero a senha eletrônica?",
+                  "resposta": "Se você lembra da senha, pode alterar de duas formas:\n1 - Itaú na internet: basta acessar a sua conta com números de agência, conta e a senha eletrônica. Depois, digite 'alterar senha eletrônica' no campo de busca.\n2 - Caixa eletrônico Itaú: você precisa selecionar as opções: Segurança > Senha eletrônica.\nSe você não lembra da senha, pode cadastrar uma nova no guichê do caixa de qualquer agência Itaú. É só levar o seu cartão de débito ou múltiplo (débito e crédito) e documento de identificação com foto. "
+                  },
+                  {
+                  "pergunta": "Qual a diferença entre a senha eletrônica e a senha do cartão de débito/múltiplo?",
+                  "resposta": "Senha eletrônica: é usada para acessar os canais eletrônicos do Itaú (Itaú na internet, Itaú no celular, Itaú no telefone, entre outros).\n\nSenha do cartão de débito/múltiplo: é necessária para fazer compras com o cartão, usando os quatro primeiros dígitos da senha. E também deve ser usada para realizar transações nos canais eletrônicos, com digitação da senha completa (seis dígitos).\n\nPara a sua segurança, essas senhas precisam ser diferentes. "
+                  },
+                  {
+                  "pergunta": "Qual senha devo usar para fazer compras com o cartão de débito/múltiplo?",
+                  "resposta": "Você deve usar os quatro primeiros dígitos da senha que você utiliza para fazer transações nos canais Itaú (saque no caixa eletrônico, transferência no Itaú na internet, entre outros)."
+                  },
+                  {
+                  "pergunta": "Como peço uma nova senha para o meu cartão de crédito?",
+                  "resposta": "Você pode solicitar uma nova senha aqui pelo app do Itaú. Basta acessar a sua conta e tocar em Serviços > cartões > troca de senha e fazer a alteração.\n\nEssa senha é provisória. Por isso, após o cadastro, você precisa validá-la em qualquer caixa eletrônico Itaú."
+                  },
+                  {
+                  "pergunta": "Qual é o prazo para entrega do meu cartão de débito/múltiplo?",
+                  "resposta": "O prazo de entrega é de até 10 dias corridos nas capitais e regiões metropolitanas e até 15 dias corridos nas demais regiões.\n\nApós esse prazo, caso não receba o cartão, basta ligar para o Itaú no telefone e pedir um novo cartão.\n\nSe a entrega do cartão de débito Itaú for na agência, você pode ligar para o Itaú no telefone e confirmar se ele já está disponível para retirada."
+                  }
+                  ],
+        "rede": [
+                 {
+                 "pergunta": "Posso ter uma maquininha da Rede sendo pessoa física?",
+                 "resposta": "Sim. Para ter uma maquininha, você precisa ser titular de uma conta-corrente no banco de sua preferência. Nessa conta, você recebe as suas vendas.\n\nPara pedir agora, acesse nosso site e consulte a maquininha indicada para o seu estabelecimento, a taxa de adesão e o aluguel mensal. Depois, basta aguardar a análise da Rede para efetivação do seu credenciamento."
+                 },
+                 {
+                 "pergunta": "O que preciso para ter uma maquininha da Rede?",
+                 "resposta": "Para ter uma maquininha, você precisa ser titular de uma conta-corrente no banco de sua preferência. Nessa conta, você recebe as suas vendas."
+                 },
+                 {
+                 "pergunta": "Pago alguma taxa para ter uma maquininha da Rede?",
+                 "resposta": "Ao pedir a sua maquininha, você paga a taxa de adesão.\n\nDepois, você paga o aluguel mensal da maquininha, taxas de desconto relativas às transações efetuadas e eventuais tarifas previstas no seu contrato de credenciamento. Acesse o nosso site e consulte a maquininha mais indicada para o seu estabelecimento."
+                 }
+                 ],
+        "biometria": [
+                      {
+                      "pergunta": "O que é o fingerprint/touch id?",
+                      "resposta": "É uma funcionalidade que permite o acesso rápido ao App Itaú Empresas apenas com o código do operador ou agência/ conta e sua digital.\nA funcionalidade de leitura biométrica está disponível em alguns dispositivos com fingerprint (para sistema operacional Android) e Touch ID (para sistema operacional iOS). Caso o seu celular tenha o sistema de leitor biométrico, você poderá usar a funcionalidade no App Empresas Itaú Empresas.\nCada usuário pode cadastrar a sua digital, mas não é possível ter a mesma digital em aparelhos diferentes."
+                      },
+                      {
+                      "pergunta": "Se eu tiver o fingerprint/touch id, posso acessar o app com a senha?",
+                      "resposta": "Sim! Mesmo com a função habilitada você pode acessar a conta com a senha, é só escolher a opção na tela de entrada. "
+                      },
+                      {
+                      "pergunta": "Como faço para acessar o app com a digital?",
+                      "resposta": "Para acessar o app Itaú Empresas com a digital, você precisa habilitar a função fingerprint/touch id!\n\nVocê precisa ter a digital cadastrada no celular e validar a habilitação com a senha eletrônica.\n\nAcesse o app com o código do operador e a senha e selecione:\n\n- Android: Segurança > Fingerprint > Habilitar função > Digitar senha eletrônica > Confirmação.\n\n- IOS: Segurança > Touch ID > Habilitar função > Digitar senha eletrônica > Confirmação."
+                      }
+                      ]
+    }
+}
