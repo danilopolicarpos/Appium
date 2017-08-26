@@ -7,9 +7,9 @@ class AppiumWorld
 end
 
 if ENV['PLATFORM'] == 'ios'
-  caps = Appium.load_appium_txt file: File.expand_path('./../../../ios_appium.txt', __FILE__), verbose: true
+  caps = Appium.load_appium_txt file: File.expand_path('/Users/Danilo.Policarpo/dev/appium/ios_appium.txt', __FILE__), verbose: true
 elsif ENV['PLATFORM'] == 'android'
-  caps = Appium.load_appium_txt file: File.expand_path('/Users/Danilo.Policarpo/dev/appium/features/support/android_appium.txt', __FILE__), verbose: true
+  caps = Appium.load_appium_txt file: File.expand_path('/Users/Danilo.Policarpo/dev/appium/android_appium.txt', __FILE__), verbose: true
 end
 
 Appium::Driver.new(caps)
