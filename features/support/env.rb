@@ -3,9 +3,16 @@ require 'appium_lib'
 require 'cucumber/ast'
 require 'spec_helper'
 require 'rspec'
+require 'rails_helper'
+
 
 # Create a custom World class so we don’t pollute `Object` with Appium methods
 include RSpec::Matchers
+RSpec.configure do |config|
+  config.expect_with :rspec do |c|
+    c.syntax = :expect
+  end
+end
 
 class AppiumWorld
 end
