@@ -1,8 +1,12 @@
 require 'rspec/expectations'
 require 'appium_lib'
 require 'cucumber/ast'
+require 'spec_helper'
+require 'rspec'
 
 # Create a custom World class so we don’t pollute `Object` with Appium methods
+include RSpec::Matchers
+
 class AppiumWorld
 end
 
@@ -18,6 +22,8 @@ Appium.promote_appium_methods AppiumWorld
 World do
   AppiumWorld.new
 end
+
+
 
 Before { $driver.start_driver }
 After { $driver.driver_quit }
