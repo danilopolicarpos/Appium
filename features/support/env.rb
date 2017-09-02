@@ -1,19 +1,11 @@
 require 'rspec/expectations'
 require 'appium_lib'
-require 'cucumber/ast'
-require 'spec_helper'
+require 'rubygems'
 require 'rspec'
-require 'rails_helper'
+
 
 
 # Create a custom World class so we don’t pollute `Object` with Appium methods
-include RSpec::Matchers
-RSpec.configure do |config|
-  config.expect_with :rspec do |c|
-    c.syntax = :expect
-  end
-end
-
 class AppiumWorld
 end
 
@@ -25,6 +17,7 @@ end
 
 Appium::Driver.new(caps)
 Appium.promote_appium_methods AppiumWorld
+
 
 World do
   AppiumWorld.new

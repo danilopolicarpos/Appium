@@ -42,8 +42,8 @@ android - arc toml android_appium.txt
 ios - arc toml ios_appium.txt
 
 - rodar as features do appium
-android cucumber -p android "nomedafeature"
-ios cucumber -p ios "nomedafeature"
+android = cucumber -p android "nomedafeature"
+ios = cucumber -p ios "nomedafeature"
 
 buildar o ios
 ruby config/ios/build_app.rb policarpo simulator

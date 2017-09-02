@@ -1,6 +1,0 @@
-require 'appium_lib'
-require 'pry'
-require 'rspec/expectations'
-require 'cucumber/ast'
-require 'spec_helper'
-require 'rspec'
