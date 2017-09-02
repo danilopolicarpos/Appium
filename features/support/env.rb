@@ -2,6 +2,7 @@ require 'rspec/expectations'
 require 'appium_lib'
 require 'rubygems'
 require 'rspec'
+require 'pry'
 
 
 

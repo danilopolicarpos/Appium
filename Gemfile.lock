@@ -63,6 +63,7 @@ PLATFORMS
 DEPENDENCIES
   appium_console
   appium_lib
+  pry
   rspec
 
 BUNDLED WITH
