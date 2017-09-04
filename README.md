@@ -25,10 +25,49 @@ Verificar se todas as dependências do Appium são atendidas e se todas as depen
 corretamente.
 Para instalar o appium-doctor basta colar no seu terminal:
 npm install -g appium-doctor  # instalar o appium-doctor
-Uma vez que o node.js e npm e o appium-doctor estão instalados, você pode usar o comando abaixo para verificar se todas as dependências do appium são atendidas, execute o comando abaixo:
+Uma vez que o node.js e npm e o appium-doctor estão instalados, você pode usar o comando abaixo para verificar se todas as dependências do appium são atendidas,execute o comando abaixo:
 appium-doctor             # verificar todas as dependencia necessarias
 appium-doctor --android   # verificar as dependencias somente para android
 appium-doctor --ios       # verificar as dependencias somente para ios
+
+Instalar o appium
+Execute o comando abaixo para instalar o appium:
+npm install -g appium
+Quando isso for feito, inicie o servidor do Appium pelo seguinte comando:
+appium    # inicia o servidor do appium
+
+Appium Client
+São as linguagens de programação suportadas pelo Appium. 
+Ruby                    	https://github.com/appium/ruby_lib
+Python                  	https://github.com/appium/python-client
+Java                    	https://github.com/appium/java-client
+JavaScript (Node.js)    	https://github.com/admc/wd
+Objective C	              https://github.com/appium/selenium-objective-c
+PHP                     	https://github.com/appium/php-client
+C# (.NET)               	https://github.com/appium/appium-dotnet-driver
+RobotFramework          	https://github.com/jollychang/robotframework-appiumlibrary
+
+Capacidades (Desired Capabilities)
+São um conjunto de chave/valor que são enviados ao Appium Server para informar qual tipo de sessão desejamos iniciar. 
+É através do Desired Capabilities que informamos em qual dispositivo queremos executar, e quais as configurações iniciais.
+Exemplos:
+
+Capacidades para Android
+[caps]
+platformName = "Android"
+deviceName = 'Nexus_5_API_23_mars'
+app = '/Users/Danilo.Policarpo/dev/android/app/build/outputs/apk/app-mobileEmpresas-debug.apk'
+
+Capacidades para iOS
+platformName = "iOS"
+platformVersion = "10.3"
+deviceName = "iPhone 6 Plus"
+app = "/Users/Danilo.Policarpo/dev/appium/build/mock/simulator/Empresas.app"
+
+Sessão
+Como o Appium é um servidor toda a comunicação com o dispositivo é realizada através de uma sessão. O cliente inicializa uma sessão com o servidor via POST / session com um objeto JSON chamado Desired Capabilities. Quando a sessão é criada um ID é atribuido a ela para realizar o envio dos comandos para o dispositivo apropriado.
+
+
 
 
 
@@ -57,10 +96,6 @@ export PATH=$PATH:$JAVA_HOME/bin
 http://hy1984427.github.io/appium/environment_setup/use_appium-doctor_to_verify_settings.html
 
 
-
-npm install -g appium   # get appium
-npm install wd          # get appium client
-appium                  # start appium to see whether it works
 
 - executa modo console 
 android - arc toml android_appium.txt
