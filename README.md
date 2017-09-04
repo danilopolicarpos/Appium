@@ -12,7 +12,7 @@ Para instalar o homebrew cole no seu terminal:
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 Node JS
-O Appium é um servidor HTTP escrito no node.js que cria e manipula várias sessões do WebDriver para diferentes plataformas, como iOS e Android
+O Appium é um servidor HTTP escrito em node.js que cria e manipula várias sessões do WebDriver para diferentes plataformas, como iOS e Android
 A automação de aplicativos móveis híbridos e nativos para Android e iOS é uma função chave administrada pelo Appium, um servidor node.js.  A interação entre o servidor node.js e as bibliotecas de client do Selenium é o que, em última análise, funciona em conjunto com a aplicação móvel.
 Para instalar basta colar no terminal:
 brew install npm    #instalar o appium via (source) npn ((Node JS Package Manager).)
@@ -26,7 +26,7 @@ corretamente.
 Para instalar o appium-doctor basta colar no seu terminal:
 npm install -g appium-doctor  # instalar o appium-doctor
 Uma vez que o node.js e npm e o appium-doctor estão instalados, você pode usar o comando abaixo para verificar se todas as dependências do appium são atendidas,execute o comando abaixo:
-appium-doctor             # verificar todas as dependencia necessarias
+appium-doctor             # verificar todas as dependencia necessarias para usar o appium
 appium-doctor --android   # verificar as dependencias somente para android
 appium-doctor --ios       # verificar as dependencias somente para ios
 
@@ -34,7 +34,7 @@ Instalar o appium
 Execute o comando abaixo para instalar o appium:
 npm install -g appium
 Quando isso for feito, inicie o servidor do Appium pelo seguinte comando:
-appium    # inicia o servidor do appium
+appium                    # inicia o servidor do appium
 
 Appium Client
 São as linguagens de programação suportadas pelo Appium. 
@@ -46,6 +46,8 @@ Objective C	              https://github.com/appium/selenium-objective-c
 PHP                     	https://github.com/appium/php-client
 C# (.NET)               	https://github.com/appium/appium-dotnet-driver
 RobotFramework          	https://github.com/jollychang/robotframework-appiumlibrary
+Execute o comando abaixo para instalar o appium:
+npm install wd            # cliente do appium
 
 Capacidades (Desired Capabilities)
 São um conjunto de chave/valor que são enviados ao Appium Server para informar qual tipo de sessão desejamos iniciar. 
