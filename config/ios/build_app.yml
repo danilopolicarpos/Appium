@@ -1,6 +1,6 @@
  policarpo:
-  xcworkspace: /Users/Danilo.Policarpo/dev/ios/itauempresas.xcworkspace
-  scheme: itauempresas-cal
+  xcworkspace: /Users/Danilo.Policarpo/dev/ios/projeto.xcworkspace
+  scheme: projeto-cal
   sdk_simulator: iphonesimulator
   sdk_device: iphoneos
   configuration: Calabash

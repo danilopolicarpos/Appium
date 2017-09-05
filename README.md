@@ -35,6 +35,7 @@ Execute o comando abaixo para instalar o appium:
 npm install -g appium
 Quando isso for feito, inicie o servidor do Appium pelo seguinte comando:
 appium                    # inicia o servidor do appium
+Para atualizar o appium, você precisa executar npm install -g appium novamente.
 
 Appium Client
 São as linguagens de programação suportadas pelo Appium. 
@@ -68,6 +69,7 @@ app = "/Users/Danilo.Policarpo/dev/appium/build/mock/simulator/Empresas.app"
 
 Sessão
 Como o Appium é um servidor toda a comunicação com o dispositivo é realizada através de uma sessão. O cliente inicializa uma sessão com o servidor via POST / session com um objeto JSON chamado Desired Capabilities. Quando a sessão é criada um ID é atribuido a ela para realizar o envio dos comandos para o dispositivo apropriado.
+
 
 
 
