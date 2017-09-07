@@ -1,5 +1,0 @@
-language: ruby
-rbenv:
- - 2.3.1
- - jruby
- - rbx-2
