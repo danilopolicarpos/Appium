@@ -1,9 +1,0 @@
-[{
-      "codigo_operador" : "892363568",
-      "flag_documento" : "<null>",
-      "nome_operador" : "Nome do Operador",
-      "status_chave_acesso" : {
-        "892363568" : "DESABILITADO"
-      },
-      "tipo_operador" : "<null>"
-}]
