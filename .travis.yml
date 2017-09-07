@@ -1,5 +1,5 @@
 language: ruby
-rvm:
+rbenv:
   - 2.2
   - jruby
   - 2.3.1p112
