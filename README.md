@@ -6,6 +6,28 @@ Appium é uma ferramenta Open Souce e multi-plataforma para automação de aplic
 É melhor instalar o Appium através da linha de comando, em vez de baixar o appium, uma vez que o aplicativo GUI do Appium é mais frágil.
 Atenção "Verifique se você não instalou Node ou Appium com sudo, caso contrário, você terá problemas"
 
+Pré-requisitos
+ Xcode
+É um ambiente de desenvolvimento integrado e software livre da Apple Inc. 
+Também precisamos autorizar o uso do iOS Simulator:
+sudo authorize_ios
+
+ Android studio 
+É a IDE oficial para criação de aplicativos em todos os tipos de dispositivos android
+Para baixar o android segue o link https://developer.android.com/studio/index.html?hl=pt-br
+
+Java
+Para baixar segue o link http://www.oracle.com/technetwork/pt/java/javase/downloads/jdk8-downloads-2133151.html
+Após ter instalado é necessário setar as variáveis de ambiente JAVA_HOME e ANDROID_HOME no seu arquivo bash_profile.
+Ex: Abra o terminal e digite:
+open ~/.bash_profile   # abre o arquivo bash_profile e cole os arquivos
+export ANDROID_HOME=/Users/Danilo.Policarpo/Library/Android/sdk 
+export PATH=$PATH:$ANDROID_HOME/bin:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$ANDROID_HOME/lib:$ANDROID_HOME/tools/lib:$ANDROID_HOME/bin
+
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home 
+export PATH=$PATH:$JAVA_HOME
+export PATH=$PATH:$JAVA_HOME/bin
+
 Homebrew
 O Homebrew instala as coisas que você precisa que a Apple não forneceu para você.
 Para instalar o homebrew cole no seu terminal:
@@ -46,7 +68,7 @@ Objective C	              https://github.com/appium/selenium-objective-c
 PHP                     	https://github.com/appium/php-client
 C# (.NET)               	https://github.com/appium/appium-dotnet-driver
 RobotFramework          	https://github.com/jollychang/robotframework-appiumlibrary
-Execute o comando abaixo para instalar o appium:
+Execute o comando abaixo para instalar o appium client:
 npm install wd            # cliente do appium
 
 Capacidades (Desired Capabilities)
@@ -75,18 +97,8 @@ Como o Appium é um servidor toda a comunicação com o dispositivo é realizada
 
 
 
- 
+ # PARTE 2
 
-- open ~/.bash_profile
-### Appium ####
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home 
-export PATH=$PATH:$JAVA_HOME
-export PATH=$PATH:$JAVA_HOME/bin 
-
-- Abra uma nova janela no terminal digite
-  appium - start o server
-
-- abra o emulador
 
 - Na pasta do projeto digite 
   Arc help - listar os comandos
