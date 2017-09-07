@@ -6,6 +6,8 @@ Appium é uma ferramenta Open Souce e multi-plataforma para automação de aplic
 É melhor instalar o Appium através da linha de comando, em vez de baixar o appium, uma vez que o aplicativo GUI do Appium é mais frágil.
 Atenção "Verifique se você não instalou Node ou Appium com sudo, caso contrário, você terá problemas"
 
+
+
 Homebrew
 O Homebrew instala as coisas que você precisa que a Apple não forneceu para você.
 Para instalar o homebrew cole no seu terminal:
