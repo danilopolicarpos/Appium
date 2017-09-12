@@ -21,7 +21,7 @@ Para baixar segue o link http://www.oracle.com/technetwork/pt/java/javase/downlo
 Após ter instalado é necessário setar as variáveis de ambiente JAVA_HOME e ANDROID_HOME no seu arquivo bash_profile.
 Ex: Abra o terminal e digite:
 open ~/.bash_profile   # abre o arquivo bash_profile e cole os arquivos
-export ANDROID_HOME=/Users/Danilo.Policarpo/Library/Android/sdk 
+export ANDROID_HOME=/Users/[SEU USUARIO]/Library/Android/sdk 
 export PATH=$PATH:$ANDROID_HOME/bin:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$ANDROID_HOME/lib:$ANDROID_HOME/tools/lib:$ANDROID_HOME/bin
 
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home 
@@ -72,22 +72,22 @@ RobotFramework          	https://github.com/jollychang/robotframework-appiumlibr
 Execute o comando abaixo para instalar o appium client:
 npm install wd            # cliente do appium
 
-  Capacidades (Desired Capabilities)
+  Desired Capabilities
 São um conjunto de chave/valor que são enviados ao Appium Server para informar qual tipo de sessão desejamos iniciar. 
 É através do Desired Capabilities que informamos em qual dispositivo queremos executar, e quais as configurações iniciais.
 Exemplos:
 
-Capacidades para Android
+Capabilities para Android
 [caps]
 platformName = "Android"
 deviceName = 'Nexus_5_API_23_mars'
-app = '/Users/Danilo.Policarpo/dev/android/app/build/outputs/apk/app-mobileEmpresas-debug.apk'
+app = '/Users/[SEU USUARIO]/dev/android/app/build/outputs/apk/app-mobileEmpresas-debug.apk'
 
-Capacidades para iOS
+Capabilities para iOS
 platformName = "iOS"
 platformVersion = "10.3"
 deviceName = "iPhone 6 Plus"
-app = "/Users/Danilo.Policarpo/dev/appium/build/mock/simulator/Empresas.app"
+app = "/Users/[SEU USUARIO]/dev/appium/build/mock/simulator/Empresas.app"
 
   Sessão
 Como o Appium é um servidor toda a comunicação com o dispositivo é realizada através de uma sessão. O cliente inicializa uma sessão com o servidor via POST / session com um objeto JSON chamado Desired Capabilities. Quando a sessão é criada um ID é atribuido a ela para realizar o envio dos comandos para o dispositivo apropriado.
@@ -118,3 +118,6 @@ ios = cucumber -p ios "nomedafeature"
 
 buildar o ios
 ruby config/ios/build_app.rb policarpo simulator
+
+
+Open server appium in backgrou
