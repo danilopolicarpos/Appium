@@ -1,0 +1,5 @@
+[caps]
+ platformName = "ios"
+ platformVersion = "10.3"
+ deviceName = "iPhone 5"
+ app = "~/Documents/appium_oficial/Appium/build/WebViewApp.app"
