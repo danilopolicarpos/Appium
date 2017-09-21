@@ -1,5 +1,5 @@
 # language: pt
-Funcionalidade: AcessarSite (Somente iOS)
+Funcionalidade: Acessar o Site Globo.com
   Eu como usuário desejo acessar a tela de login 
     
   Cenário: Acessar a tela de login 
