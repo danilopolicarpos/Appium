@@ -95,34 +95,39 @@ Como o Appium é um servidor toda a comunicação com o dispositivo é realizada
 
 # PARTE 2
 
-- Criando um projeto para Android
-  Escolher uma pasta onde deseja que a estrutura do seu projeto seja criada e no terminal execute o comando abaixo, que a estrutura será criada:
-  - - cucumber --init
+- Criando um projeto para Appium em Ruby
+ Abra o terminal e execute os comandos abaixo :
+cucumber --init    # criando estrutura do projeto
+Arc setup android  # cria um txt. para android (Capabilities para Android)
 
-
-- criando o arquivo appium.txt, para executar o console
-  - - Arc setup android - cria um txt. para android
+ Abra o Capabilities para Android e preencha o arquivo conforme exemplo:
+ [caps]
+platformName = "Android"                        # Plataforma
+deviceName = 'Nexus_5_API_23_mars'              # nome do dispositivo 
+app = '/Users/estudo_appium.apk'                # caminho do apk
 
 - Inspecionando elemento
-  Para inspecionar elemento na plataforma androide temos duas maneiras de fazer, uma pelo proprio terminal abrindo o console do appium ou pela ferramenta do proprio android studio que o automatorviewer, abaixo vou exemplificar como ultilizar essas duas formas:
+  Para inspecionar os elementos na plataforma android podemos usar essas opções:
+  - Console (Arc)
+      Inicie o servidor do Appium pelo seguinte comando:
+      appium        # inicia o servidor do appium
+      Abre uma nova aba e digite o comando
+      Arc           # inicia o modo console
+      page          # inspeciona os elementos da tela
+      source        # inspeciona os elementos da tela em HTML
+      exit          # sair do console
+     
 
-  - - Console
-      Em uma aba aparte do terminal execute <appium> para start do servidor do appium;
-      para abrir o console, execute arc toml <appium.txt> no terminal;
-      para inspecionar os elementos da tela, execute <page> após isso todas as propriedades dos elementos serão exibidos;
-      para sair do console execute <exit>.
-
-  - - automatorviewer
-      Para abrir o automatorviewer, execute
-      </Users/[SEU USUARIO]/Library/Android/sdk/tools/bin/uiautomatorviewer*> no terminal;
-      para inspecionar os elementos, abra o app que deseja capiturar as propriedades dos elementos, execute o comando acima, que o automatorviewer,irá abrir com as propriedades da tela desejada. Para visualizar as propriedade vá tocando em cada objeto da tela aberta pelo automatorviewer;
-      Para sair do console execute <exit>.
-
-- Executando o sript
-  para executar os cenários, basta ir até a basta do projeto e executar os comandos no terminal:
-  - - Em uma aba aparte do terminal execute <appium> para start do servidor do appium;
-  - - cucumcer - irá executar todos os steps;
-  - - cucumber feature/<nomefeature> - executa todos os cenários de uma feature especifica.
+  -  Automatorviewer
+      Para inspecionar os elemento na tela usando o automatorviewer acesse o link https://nishantverma.gitbooks.io/appium-for-android/exploring_uiautomatorviewer/
+     
+    
+- Executando seus testes
+  Para rodar os testes execute os comandos no terminal:
+  cucumber                          # rodar todos seus testes 
+  cucumber feature/<nomefeature>    # executa todos os cenários de uma feature especifica.
+  
+  Atenção "Antes de rodar seus testes inicia o servidor do appium "
 
 - Gerando relatório de teste
   Para gerar o relatório no final dos teste, basta colocar o comando:
@@ -146,12 +151,6 @@ Como o Appium é um servidor toda a comunicação com o dispositivo é realizada
 
 
 
-Arc
-Inspecionando elemento
-- console
-- automatorviewer
-Rodando os testes
-Relatorio de testes
 
 
 
@@ -176,4 +175,3 @@ buildar o ios
 ruby config/ios/build_app.rb policarpo simulator
 
 
-Open server appium in backgrou
