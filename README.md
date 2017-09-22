@@ -93,22 +93,78 @@ app = "/Users/[SEU USUARIO]/dev/appium/build/mock/simulator/Empresas.app"
 Como o Appium é um servidor toda a comunicação com o dispositivo é realizada através de uma sessão. O cliente inicializa uma sessão com o servidor via POST / session com um objeto JSON chamado Desired Capabilities. Quando a sessão é criada um ID é atribuido a ela para realizar o envio dos comandos para o dispositivo apropriado.
 
 
- 
+# PARTE 2
+
+- Criando um projeto para Android
+  Escolher uma pasta onde deseja que a estrutura do seu projeto seja criada e no terminal execute o comando abaixo, que a estrutura será criada:
+  - - cucumber --init
 
 
- # PARTE 2
+- criando o arquivo appium.txt, para executar o console
+  - - Arc setup android - cria um txt. para android
+
+- Inspecionando elemento
+  Para inspecionar elemento na plataforma androide temos duas maneiras de fazer, uma pelo proprio terminal abrindo o console do appium ou pela ferramenta do proprio android studio que o automatorviewer, abaixo vou exemplificar como ultilizar essas duas formas:
+
+  - - Console
+      Em uma aba aparte do terminal execute <appium> para start do servidor do appium;
+      para abrir o console, execute arc toml <appium.txt> no terminal;
+      para inspecionar os elementos da tela, execute <page> após isso todas as propriedades dos elementos serão exibidos;
+      para sair do console execute <exit>.
+
+  - - automatorviewer
+      Para abrir o automatorviewer, execute
+      </Users/[SEU USUARIO]/Library/Android/sdk/tools/bin/uiautomatorviewer*> no terminal;
+      para inspecionar os elementos, abra o app que deseja capiturar as propriedades dos elementos, execute o comando acima, que o automatorviewer,irá abrir com as propriedades da tela desejada. Para visualizar as propriedade vá tocando em cada objeto da tela aberta pelo automatorviewer;
+      Para sair do console execute <exit>.
+
+- Executando o sript
+  para executar os cenários, basta ir até a basta do projeto e executar os comandos no terminal:
+  - - Em uma aba aparte do terminal execute <appium> para start do servidor do appium;
+  - - cucumcer - irá executar todos os steps;
+  - - cucumber feature/<nomefeature> - executa todos os cenários de uma feature especifica.
+
+- Gerando relatório de teste
+  Para gerar o relatório no final dos teste, basta colocar o comando:
+  <--format html --out reports.html>
+  exemplo: cucumber feature/<nomefeature> --format html --out reports.html
 
 
 
-- Na pasta do projeto digite 
-  Arc help - listar os comandos
-  Arc setup android - cria um txt. para android
-  Arc setup ios - cria um txt. para ios	
-  Arc - start console
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Arc
+Inspecionando elemento
+- console
+- automatorviewer
+Rodando os testes
+Relatorio de testes
+
+
+
+
+- Na pasta do projeto digite
+Arc help - listar os comandos
+Arc setup android - cria um txt. para android
+Arc setup ios - cria um txt. para ios 
+Arc - start console
 
 2 opcão de instalação
 http://hy1984427.github.io/appium/environment_setup/use_appium-doctor_to_verify_settings.html
-- executa modo console 
+- executa modo console
 android - arc toml android_appium.txt
 ios - arc toml ios_appium.txt
 
