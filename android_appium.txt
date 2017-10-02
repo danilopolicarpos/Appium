@@ -1,4 +1,4 @@
 [caps]
 platformName = "Android"
 deviceName = 'Nexus_5_API_23_mars'
-app = '/Users/Danilo.Policarpo/dev/android/app/build/outputs/apk/app-mobileEmpresas-debug.apk'
+app = '/Users/Danilo.Policarpo/dev/appium/build/apk/ContactManager.apk'
