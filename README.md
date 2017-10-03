@@ -194,19 +194,19 @@ app = '/Users/estudo_appium.apk'                # caminho do apk
 
 ## Dúvidas
 
-- Documentação do Appium 
-acesse o link http://appium.io/slate/en/master/?ruby#
+### > Documentação do Appium 
+      acesse o link http://appium.io/slate/en/master/?ruby#
 
-- Github do Appium
-acesse o link https://github.com/appium/appium
+### >  Github do Appium
+      acesse o link https://github.com/appium/appium
 
-- Configuração do JAVA_HOME 
-acesse o link https://www.mkyong.com/java/how-to-set-java_home-environment-variable-on-mac-os-x/
+### > Configuração do JAVA_HOME 
+      acesse o link https://www.mkyong.com/java/how-to-set-java_home-environment-variable-on-mac-os-x/
 
-- Opções de instalação
-acesse o link http://hy1984427.github.io/appium/environment_setup/use_appium-doctor_to_verify_settings.html
+### >  Opções de instalação
+      acesse o link http://hy1984427.github.io/appium/environment_setup/use_appium-doctor_to_verify_settings.html
 
-- Verificar o qual deviceName instalado na máquina
+### >  Verificar o qual deviceName instalado na máquina
 
 Abra o terminal e execute os comandos abaixo :
 ```
