@@ -97,6 +97,7 @@ São as linguagens de programação suportadas pelo Appium.
 - C# (.NET)               	https://github.com/appium/appium-dotnet-driver
 - RobotFramework          	https://github.com/jollychang/robotframework-appiumlibrary
 
+
 Execute o comando abaixo para instalar o appium client:
 ```
 npm install wd            # cliente do appium
@@ -114,6 +115,7 @@ Capabilities para Android
 platformName = "Android"
 deviceName = 'Nexus_5_API_23_mars'
 app = '/Users/[SEU USUARIO]/dev/android/app/build/outputs/apk/nome.apk'
+
 ```
 
 Capabilities para iOS
@@ -122,7 +124,9 @@ Capabilities para iOS
 platformName = "iOS"
 platformVersion = "10.3"
 deviceName = "iPhone 6 Plus"
+
 app = "/Users/[SEU USUARIO]/dev/appium/build/mock/simulator/nome.app"
+
 ```
 
 ## Sessão
@@ -132,27 +136,37 @@ Como o Appium é um servidor toda a comunicação com o dispositivo é realizada
 
 # Criando um projeto Appium_Android 
 
-- Criando um projeto para Appium em Ruby
  Abra o terminal e execute os comandos abaixo :
+```
 cucumber --init    # criando estrutura do projeto
 Arc setup android  # cria um txt. para android (Capabilities para Android)
 
+```
  Abra o Capabilities para Android e preencha o arquivo conforme exemplo:
+ ```
  [caps]
 platformName = "Android"                        # Plataforma
 deviceName = 'Nexus_5_API_23_mars'              # nome do dispositivo
 app = '/Users/estudo_appium.apk'                # caminho do apk
 
+```
+
 - Inspecionando elemento
   Para inspecionar os elementos na plataforma android podemos usar essas opções:
   - Console (Arc)
       Inicie o servidor do Appium pelo seguinte comando:
+      ```
       appium        # inicia o servidor do appium
+
+      ```
       Abre uma nova aba e digite o comando
+      ```
       Arc           # inicia o modo console
       page          # inspeciona os elementos da tela
       source        # inspeciona os elementos da tela em HTML
       exit          # sair do console
+
+      ```
 
 
   -  Automatorviewer
@@ -161,14 +175,19 @@ app = '/Users/estudo_appium.apk'                # caminho do apk
 
 - Executando seus testes
   Para rodar os testes execute os comandos no terminal:
+  ```
   cucumber                          # rodar todos seus testes
   cucumber feature/<nomefeature>    # executa todos os cenários de uma feature especifica.
 
+  ```
   Atenção "Antes de rodar seus testes inicia o servidor do appium "
 
 - Gerando relatório de teste
   Para gerar o relatório no final dos teste, basta colocar o comando:
+  ```
   <--format html --out reports.html>
+  
+  ```
   exemplo: cucumber feature/<nomefeature> --format html --out reports.html
 
 
