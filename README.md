@@ -113,7 +113,7 @@ Capabilities para Android
 [caps]
 platformName = "Android"
 deviceName = 'Nexus_5_API_23_mars'
-app = '/Users/[SEU USUARIO]/dev/android/app/build/outputs/apk/app-mobileEmpresas-debug.apk'
+app = '/Users/[SEU USUARIO]/dev/android/app/build/outputs/apk/nome.apk'
 ```
 
 Capabilities para iOS
@@ -122,7 +122,7 @@ Capabilities para iOS
 platformName = "iOS"
 platformVersion = "10.3"
 deviceName = "iPhone 6 Plus"
-app = "/Users/[SEU USUARIO]/dev/appium/build/mock/simulator/Empresas.app"
+app = "/Users/[SEU USUARIO]/dev/appium/build/mock/simulator/nome.app"
 ```
 
 ## Sessão
