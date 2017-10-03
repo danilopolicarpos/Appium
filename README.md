@@ -5,6 +5,7 @@
 Appium é uma ferramenta Open Souce e multi-plataforma para automação de aplicações nativas, híbridas e sites mobile para os principais sistemas operacionais do mercado: Android, iOS (e agora para FirefoxOS).
 
 É melhor instalar o Appium através da linha de comando, em vez de baixar o appium, uma vez que o aplicativo GUI do Appium é mais frágil.
+
 Atenção "Verifique se você não instalou Node ou Appium com sudo, caso contrário, você terá problemas"
 
 ## Pré-requisitos
@@ -48,7 +49,7 @@ Para instalar o homebrew cole no seu terminal:
 
 ### > Node JS
 
-O Appium é um servidor HTTP escrito em node.js que cria e manipula várias sessões do WebDriver para diferentes plataformas, como iOS e Android
+O Appium é um servidor HTTP escrito em node.js que cria e manipula várias sessões do WebDriver para diferentes plataformas, como iOS e Android.
 A automação de aplicativos móveis híbridos e nativos para Android e iOS é uma função chave administrada pelo Appium, um servidor node.js.  A interação entre o servidor node.js e as bibliotecas de client do Selenium é o que, em última análise, funciona em conjunto com a aplicação móvel.
 Para instalar basta colar no terminal:
 ```
@@ -172,6 +173,7 @@ app = '/Users/estudo_appium.apk'                # caminho do apk
 
 
 - Executando seus testes
+
   Para rodar os testes execute os comandos no terminal:
   ```
   cucumber                          # rodar todos seus testes
@@ -180,6 +182,7 @@ app = '/Users/estudo_appium.apk'                # caminho do apk
   Atenção "Antes de rodar seus testes inicia o servidor do appium "
 
 - Gerando relatório de teste
+
   Para gerar o relatório no final dos teste, basta colocar o comando:
   ```
   <--format html --out reports.html>
@@ -189,8 +192,14 @@ app = '/Users/estudo_appium.apk'                # caminho do apk
 
 ## Dúvidas
 
+- Documentação do Appium 
+acesse o link http://appium.io/slate/en/master/?ruby#
+
+- Github do Appium
+acesse o link https://github.com/appium/appium
+
 - Configuração do JAVA_HOME 
 acesse o link https://www.mkyong.com/java/how-to-set-java_home-environment-variable-on-mac-os-x/
 
-- Opção de instalação
+- Opções de instalação
 acesse o link http://hy1984427.github.io/appium/environment_setup/use_appium-doctor_to_verify_settings.html
