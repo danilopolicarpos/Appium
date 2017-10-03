@@ -87,6 +87,7 @@ Para atualizar o appium, você precisa executar npm install -g appium novamente.
 ## Appium Client
 
 São as linguagens de programação suportadas pelo Appium.
+
 Ruby                    	https://github.com/appium/ruby_lib
 Python                  	https://github.com/appium/python-client
 Java                    	https://github.com/appium/java-client
