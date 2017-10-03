@@ -28,7 +28,9 @@ http://www.oracle.com/technetwork/pt/java/javase/downloads/jdk8-downloads-213315
 Após ter instalado é necessário setar as variáveis de ambiente JAVA_HOME e ANDROID_HOME no seu arquivo bash_profile.
 
 Ex: Abra o terminal e digite:
+```
 open ~/.bash_profile   # abre o arquivo bash_profile e cole os arquivos
+```
 export ANDROID_HOME=/Users/[SEU USUARIO]/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/bin:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$ANDROID_HOME/lib:$ANDROID_HOME/tools/lib:$ANDROID_HOME/bin
 
