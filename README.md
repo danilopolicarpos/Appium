@@ -88,14 +88,14 @@ Para atualizar o appium, você precisa executar npm install -g appium novamente.
 
 São as linguagens de programação suportadas pelo Appium.
 
-Ruby                    	https://github.com/appium/ruby_lib
-Python                  	https://github.com/appium/python-client
-Java                    	https://github.com/appium/java-client
-JavaScript (Node.js)    	https://github.com/admc/wd
-Objective C	              https://github.com/appium/selenium-objective-c
-PHP                     	https://github.com/appium/php-client
-C# (.NET)               	https://github.com/appium/appium-dotnet-driver
-RobotFramework          	https://github.com/jollychang/robotframework-appiumlibrary
+- Ruby                    	https://github.com/appium/ruby_lib
+- Python                  	https://github.com/appium/python-client
+- Java                    	https://github.com/appium/java-client
+- JavaScript (Node.js)    	https://github.com/admc/wd
+- Objective C	              https://github.com/appium/selenium-objective-c
+- PHP                     	https://github.com/appium/php-client
+- C# (.NET)               	https://github.com/appium/appium-dotnet-driver
+- RobotFramework          	https://github.com/jollychang/robotframework-appiumlibrary
 
 Execute o comando abaixo para instalar o appium client:
 ```
