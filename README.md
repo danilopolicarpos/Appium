@@ -187,41 +187,10 @@ app = '/Users/estudo_appium.apk'                # caminho do apk
   exemplo: cucumber feature/<nomefeature> --format html --out reports.html
 
 
+## Dúvidas
 
+- Configuração do JAVA_HOME 
+acesse o link https://www.mkyong.com/java/how-to-set-java_home-environment-variable-on-mac-os-x/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-- Na pasta do projeto digite
-Arc help - listar os comandos
-Arc setup android - cria um txt. para android
-Arc setup ios - cria um txt. para ios
-Arc - start console
-
-2 opcão de instalação
-http://hy1984427.github.io/appium/environment_setup/use_appium-doctor_to_verify_settings.html
-- executa modo console
-android - arc toml android_appium.txt
-ios - arc toml ios_appium.txt
-
-- rodar as features do appium
-android = cucumber -p android "nomedafeature"
-ios = cucumber -p ios "nomedafeature"
-
-buildar o ios
-ruby config/ios/build_app.rb policarpo simulator
+- Opção de instalação
+acesse o link http://hy1984427.github.io/appium/environment_setup/use_appium-doctor_to_verify_settings.html
