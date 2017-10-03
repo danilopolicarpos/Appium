@@ -142,7 +142,6 @@ Como o Appium é um servidor toda a comunicação com o dispositivo é realizada
 ```
 cucumber --init    # criando estrutura do projeto
 Arc setup android  # cria um txt. para android (Capabilities para Android)
-
 ```
  Abra o Capabilities para Android e preencha o arquivo conforme exemplo:
  ```
@@ -150,7 +149,6 @@ Arc setup android  # cria um txt. para android (Capabilities para Android)
 platformName = "Android"                        # Plataforma
 deviceName = 'Nexus_5_API_23_mars'              # nome do dispositivo
 app = '/Users/estudo_appium.apk'                # caminho do apk
-
 ```
 
 - Inspecionando elemento
@@ -159,7 +157,6 @@ app = '/Users/estudo_appium.apk'                # caminho do apk
       Inicie o servidor do Appium pelo seguinte comando:
       ```
       appium        # inicia o servidor do appium
-
       ```
       Abre uma nova aba e digite o comando
       ```
@@ -167,7 +164,6 @@ app = '/Users/estudo_appium.apk'                # caminho do apk
       page          # inspeciona os elementos da tela
       source        # inspeciona os elementos da tela em HTML
       exit          # sair do console
-
       ```
 
 
@@ -180,7 +176,6 @@ app = '/Users/estudo_appium.apk'                # caminho do apk
   ```
   cucumber                          # rodar todos seus testes
   cucumber feature/<nomefeature>    # executa todos os cenários de uma feature especifica.
-
   ```
   Atenção "Antes de rodar seus testes inicia o servidor do appium "
 
@@ -188,7 +183,6 @@ app = '/Users/estudo_appium.apk'                # caminho do apk
   Para gerar o relatório no final dos teste, basta colocar o comando:
   ```
   <--format html --out reports.html>
-  
   ```
   exemplo: cucumber feature/<nomefeature> --format html --out reports.html
 
