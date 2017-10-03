@@ -206,7 +206,7 @@ app = '/Users/estudo_appium.apk'                # caminho do apk
 ### >  Opções de instalação
       acesse o link http://hy1984427.github.io/appium/environment_setup/use_appium-doctor_to_verify_settings.html
 
-### >  Verificar o qual deviceName instalado na máquina
+### >  Verificar o deviceName instalado na máquina 
 
 Abra o terminal e execute os comandos abaixo :
 ```
