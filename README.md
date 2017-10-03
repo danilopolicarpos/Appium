@@ -153,7 +153,9 @@ app = '/Users/estudo_appium.apk'                # caminho do apk
 ```
 
 - Inspecionando elemento
+
   Para inspecionar os elementos na plataforma android podemos usar essas opções:
+  
   - Console (Arc)
       Inicie o servidor do Appium pelo seguinte comando:
       ```
