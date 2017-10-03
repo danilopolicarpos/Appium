@@ -130,7 +130,7 @@ app = "/Users/[SEU USUARIO]/dev/appium/build/mock/simulator/Empresas.app"
 Como o Appium é um servidor toda a comunicação com o dispositivo é realizada através de uma sessão. O cliente inicializa uma sessão com o servidor via POST / session com um objeto JSON chamado Desired Capabilities. Quando a sessão é criada um ID é atribuido a ela para realizar o envio dos comandos para o dispositivo apropriado.
 
 
-# Criando um protejto
+# Criando um projeto Appium_Android 
 
 - Criando um projeto para Appium em Ruby
  Abra o terminal e execute os comandos abaixo :
