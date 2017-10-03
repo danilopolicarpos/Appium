@@ -18,7 +18,8 @@ sudo authorize_ios
 ### > Android studio
 
 É a IDE oficial para criação de aplicativos em todos os tipos de dispositivos android
-Para baixar o android segue o link: https://developer.android.com/studio/index.html?hl=pt-br
+Para baixar o android segue o link: 
+https://developer.android.com/studio/index.html?hl=pt-br
 
 ### > Java
 
@@ -57,6 +58,7 @@ node --version      #versão atual do node
 ```
 
 ### > Appium-doctor
+
 Verificar se todas as dependências do Appium são atendidas e se todas as dependências estão configuradas corretamente.
 Para instalar o appium-doctor basta colar no seu terminal:
 ```
@@ -132,44 +134,53 @@ Como o Appium é um servidor toda a comunicação com o dispositivo é realizada
 
 # Criando um projeto Appium_Android 
 
-- Criando um projeto para Appium em Ruby
- Abra o terminal e execute os comandos abaixo :
+Criando um projeto para Appium usando Ruby, abra o terminal e execute os comandos abaixo:
+```
 cucumber --init    # criando estrutura do projeto
 Arc setup android  # cria um txt. para android (Capabilities para Android)
+```
 
- Abra o Capabilities para Android e preencha o arquivo conforme exemplo:
- [caps]
+Abra o Capabilities para Android e preencha o arquivo conforme exemplo:
+```
+[caps]
 platformName = "Android"                        # Plataforma
 deviceName = 'Nexus_5_API_23_mars'              # nome do dispositivo
 app = '/Users/estudo_appium.apk'                # caminho do apk
+```
 
-- Inspecionando elemento
-  Para inspecionar os elementos na plataforma android podemos usar essas opções:
-  - Console (Arc)
-      Inicie o servidor do Appium pelo seguinte comando:
-      appium        # inicia o servidor do appium
-      Abre uma nova aba e digite o comando
-      Arc           # inicia o modo console
-      page          # inspeciona os elementos da tela
-      source        # inspeciona os elementos da tela em HTML
-      exit          # sair do console
+## Inspecionando elemento
+
+Para inspecionar os elementos na plataforma android podemos usar essas opções:
+
+### > Console (Arc)
+Inicie o servidor do Appium pelo seguinte comando:
+```
+appium        # inicia o servidor do appium
+Abre uma nova aba e digite o comando
+Arc           # inicia o modo console
+page          # inspeciona os elementos da tela
+source        # inspeciona os elementos da tela em HTML
+exit          # sair do console
+```
+
+### > Automatorviewer
+Para inspecionar os elemento na tela usando o automatorviewer acesse o link https://nishantverma.gitbooks.io/appium-for-android/exploring_uiautomatorviewer/
 
 
-  -  Automatorviewer
-      Para inspecionar os elemento na tela usando o automatorviewer acesse o link https://nishantverma.gitbooks.io/appium-for-android/exploring_uiautomatorviewer/
+## Executando seus testes
+Para rodar os testes execute os comandos no terminal:
+```
+cucumber                          # rodar todos seus testes
+cucumber feature/<nomefeature>    # executa todos os cenários de uma feature especifica.
+```
+Atenção: Antes de rodar seus testes inicia o servidor do appium.
 
-
-- Executando seus testes
-  Para rodar os testes execute os comandos no terminal:
-  cucumber                          # rodar todos seus testes
-  cucumber feature/<nomefeature>    # executa todos os cenários de uma feature especifica.
-
-  Atenção "Antes de rodar seus testes inicia o servidor do appium "
-
-- Gerando relatório de teste
-  Para gerar o relatório no final dos teste, basta colocar o comando:
-  <--format html --out reports.html>
-  exemplo: cucumber feature/<nomefeature> --format html --out reports.html
+## Gerando relatório de teste
+Para gerar o relatório no final dos teste, basta passar o parametro:
+<--format html --out reports.html> 
+```
+exemplo: cucumber feature/<nomefeature> --format html --out reports.html
+```
 
 
 
