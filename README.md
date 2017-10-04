@@ -213,11 +213,11 @@ app = '/Users/estudo_appium.apk'                # caminho do apk
 
       Abra o terminal e execute os comandos abaixo :
 
-      ```emulator -list-avds       # verifica os emuladores existentes
-      ```
+      emulator -list-avds       # verifica os emuladores existentes
+
 ### > Xcode Command Line Tools are NOT installed!
 
       Abra o terminal e execute os comandos abaixo :
 
-      ```xcode-select --install    # instala Xcode Command Line Tools
-      ```
+      xcode-select --install    # instala Xcode Command Line Tools
+      
