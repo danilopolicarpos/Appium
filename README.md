@@ -14,8 +14,9 @@ Atenção "Verifique se você não instalou Node ou Appium com sudo, caso contr�
 
 É um ambiente de desenvolvimento integrado e software livre da Apple Inc.
 Também precisamos autorizar o uso do iOS Simulator:
+```
 sudo authorize_ios
-
+```
 ### > Android studio
 
 É a IDE oficial para criação de aplicativos em todos os tipos de dispositivos android
@@ -157,6 +158,7 @@ app = '/Users/estudo_appium.apk'                # caminho do apk
   Para inspecionar os elementos na plataforma android podemos usar essas opções:
   
   - Console (Arc)
+
       Inicie o servidor do Appium pelo seguinte comando:
       ```
       appium        # inicia o servidor do appium
@@ -171,6 +173,7 @@ app = '/Users/estudo_appium.apk'                # caminho do apk
 
 
   -  Automatorviewer
+
       Para inspecionar os elemento na tela usando o automatorviewer acesse o link https://nishantverma.gitbooks.io/appium-for-android/exploring_uiautomatorviewer/
 
 
@@ -208,7 +211,13 @@ app = '/Users/estudo_appium.apk'                # caminho do apk
 
 ### >  Verificar o deviceName instalado na máquina 
 
-Abra o terminal e execute os comandos abaixo :
-```
-emulator -list-avds
-```
+      Abra o terminal e execute os comandos abaixo :
+      ```
+      emulator -list-avds       # verifica os emuladores existentes
+      ```
+### > Xcode Command Line Tools are NOT installed!
+
+      Abra o terminal e execute os comandos abaixo :
+      ```
+      xcode-select --install    # instala Xcode Command Line Tools
+      ```
