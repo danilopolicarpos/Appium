@@ -2,6 +2,6 @@
 platformName = "iOS"
 platformVersion = "10.3"
 deviceName = "iPhone 5"
-app = "~/Documents/Example_appium/build/WebViewApp.app"
+app = "/Users/Danilo.Policarpo/dev/appium/build/ipa/WebViewApp.app"
 
 
