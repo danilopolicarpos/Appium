@@ -1,9 +1,9 @@
 Dado(/^que acesso agenda telefonica$/) do
-  @agenda = OcultarContatosAgendaScreen.new(driver)
+  @agenda = OcultarContatosAgendaScreen.new
   @agenda.acessar_agenda
 end
 
-Quando(/^toco em "([^"]*)"$/) do |_arg1|
+Quando(/^toco em "([^"]*)"$/) do |btn_ocutar|
   @agenda.marcar_opcao_ocultar
 end
 

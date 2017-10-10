@@ -1,5 +1,5 @@
 Dado(/^que estou na webview$/) do
-  @site = AcessarSiteScreen.new(driver)
+  @site = AcessarSiteScreen.new
   @site.acessar_homePage
 end
 
