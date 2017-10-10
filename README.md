@@ -2,7 +2,7 @@
 
 ## O que é o APPIUM ?
 
-Appium é uma ferramenta Open Souce e multi-plataforma para automação de aplicações nativas, híbridas e sites mobile para os principais sistemas operacionais do mercado: Android, iOS (e agora para FirefoxOS).
+Appium é uma ferramenta Open Source e multi-plataforma para automação de aplicações nativas, híbridas e sites mobile para os principais sistemas operacionais do mercado: Android, iOS (e agora para FirefoxOS).
 
 É melhor instalar o Appium através da linha de comando, em vez de baixar o appium, uma vez que o aplicativo GUI do Appium é mais frágil.
 
@@ -220,4 +220,10 @@ app = '/Users/estudo_appium.apk'                # caminho do apk
       Abra o terminal e execute os comandos abaixo :
 
       xcode-select --install    # instala Xcode Command Line Tools
-      
+
+### > Could not get Xcode version. /Library/Developer/Info.plist
+
+      Abra o terminal e execute os comandos abaixo :
+
+      sudo xcode-select --reset
+      sudo xcode-select --switch /Applications/Xcode.app
