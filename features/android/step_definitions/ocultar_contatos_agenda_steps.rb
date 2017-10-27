@@ -3,6 +3,10 @@ Dado(/^que acesso agenda telefonica$/) do
   @agenda.acessar_agenda
 end
 
+Dado(/^vejo os contatos da agenda$/) do
+  @agenda.visualiza_contato
+end
+
 Quando(/^toco em "([^"]*)"$/) do |btn_ocutar|
   @agenda.marcar_opcao_ocultar
 end

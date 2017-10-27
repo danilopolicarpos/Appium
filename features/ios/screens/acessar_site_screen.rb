@@ -17,10 +17,6 @@ class AcessarSiteScreen
   end
 
   def visualizar_home_site
-    sleep(2)
-    # wait = Selenium::WebDriver::Wait.new(:timeout => 20)
-    # fail "Site não aberto" if wait.until{ @driver.find_element(class: "#{@home_site}").displayed? != true}
-
-    raise 'Site não aberto' if find_element(class: @home_site.to_s).displayed? != true
+    wait_for_element(class: @home_site)
   end
 end
