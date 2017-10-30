@@ -24,9 +24,6 @@ task :ios do
   sh "cucumber -p ios"
 end
 
-task :run_features, [:feature, :scenario] do |_task, args|
-  puts  "Running #{args[:feature]} feature with #{args[:scenario]} scenarios "
-  sh "cucumber -t @#{args[:feature]} -t @#{args[:scenario]}"
-end
+
 
 
