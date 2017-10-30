@@ -8,11 +8,11 @@ class OcultarContatosAgendaScreen
   end
 
   def acessar_agenda
-    find_element(id: @layout_name.to_s)
+    find_element(id: @layout_name)
   end
 
   def marcar_opcao_ocultar
-    find_element(id: @check_ocultar_teclado.to_s).click
+    find_element(id: @check_ocultar_teclado).click
   end
 
   def contatos_agenda_oculto?

@@ -7,13 +7,13 @@ class AcessarSiteScreen
   end
 
   def acessar_homePage
-    find_element(class: @layout_name.to_s).text
+    find_element(class: @layout_name).text
   end
 
   def acessar_site(site)
     @site = CREDENTIALS[site.tr(' ', '_').to_sym][:url]
-    find_element(class: @url.to_s).send_keys @site
-    find_element(class: @enter.to_s).click
+    find_element(class: @url.send_keys @site
+    find_element(class: @enter).click
   end
 
   def visualizar_home_site
