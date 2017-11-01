@@ -293,15 +293,15 @@ app = '/Users/estudo_appium.apk'                # caminho do apk
       
       Abra o terminal e execute os comandos abaixo :
       
-      gem list appium_console             #verifica as versões instaladas
-      gem list appium_lib 
+      gem list appium_console              #verifica as versões instaladas
+      gem list appium_lib                
 
       Excluir todas as versões:
       gem uninstall appium_console          #Remove versão instalada
       gem uninstall appium_lib
        
       Updade na versão:
-      gem update appium_console             #Remove versão instalada
+      gem update appium_console             #Atualiza a versão instalada
       gem update appium_lib
       
       #Atenção: Devo somente ter uma versão da gem instalada, sendo a mais recente 
@@ -315,7 +315,6 @@ app = '/Users/estudo_appium.apk'                # caminho do apk
       json (>= 1.8)
       nokogiri (>= 1.6.6, ~> 1.6)
 
-
       Abra o terminal e execute os comandos abaixo :
       
       Visualiza versão gem:
@@ -325,8 +324,10 @@ app = '/Users/estudo_appium.apk'                # caminho do apk
       gem uninstall [NomeGem]                  #Remove versão instalada
        
       Updade na versão:
-      gem update [NomeGem]                     #Remove versão instalada
+      gem update [NomeGem]                     #Atualiza a versão instalada
       
       
-      #Atenção: Devo somente ter uma versão da gem instalada, sendo a mais recente.                   para as gem nokogiri deixar instalada a versão maior, exemplo: "nokogiri (1.6.8.1)".
-                Para a versão json  deixar instalada a versão default, exemplo: "json (default: 1.8.3)".
+      #Atenção: Devo somente ter uma versão da gem instalada, sendo a mais recente.              
+      Para as gem nokogiri deixar instalada a versão maior, exemplo:                   "nokogiri (1.6.8.1)".
+                
+      Para a versão json  deixar instalada a versão default, exemplo: "json (default: 1.8.3)".
