@@ -285,3 +285,48 @@ app = '/Users/estudo_appium.apk'                # caminho do apk
 
       sudo xcode-select --reset
       sudo xcode-select --switch /Applications/Xcode.app
+
+
+### > Removendo DEPRECATION
+
+      [DEPRECATION] Appium::Driver.new(opts) will not generate global driver by default.If you would like to generate the global driver dy default, please initialise driver with Appium::Driver.new(opts, true)
+      
+      Abra o terminal e execute os comandos abaixo :
+      
+      gem list appium_console             #verifica as versões instaladas
+      gem list appium_lib 
+
+      Excluir todas as versões:
+      gem uninstall appium_console          #Remove versão instalada
+      gem uninstall appium_lib
+       
+      Updade na versão:
+      gem update appium_console             #Remove versão instalada
+      gem update appium_lib
+      
+      #Atenção: Devo somente ter uma versão da gem instalada, sendo a mais recente 
+
+
+## > Deixando a execução do script limpa no terminal
+     
+      WARN: Unresolved specs during Gem::Specification.reset:
+      childprocess (~> 0.5)
+      awesome_print (~> 1.7)
+      json (>= 1.8)
+      nokogiri (>= 1.6.6, ~> 1.6)
+
+
+      Abra o terminal e execute os comandos abaixo :
+      
+      Visualiza versão gem:
+      gem list [NomeGem]                       #verifica as versões instaladas
+     
+      Excluir todas as versões:
+      gem uninstall [NomeGem]                  #Remove versão instalada
+       
+      Updade na versão:
+      gem update [NomeGem]                     #Remove versão instalada
+      
+      
+      #Atenção: Devo somente ter uma versão da gem instalada, sendo a mais recente.                   para as gem nokogiri deixar instalada a versão maior, exemplo: "nokogiri (1.6.8.1)".
+                Para a versão json  deixar instalada a versão default, exemplo: "json (default: 1.8.3)".
