@@ -142,11 +142,18 @@ Como o Appium é um servidor toda a comunicação com o dispositivo é realizada
 
 Abra o terminal e execute os comandos abaixo :
 ```
-cucumber --init    # criando estrutura do projeto
+cucumber --init      # criando estrutura do projeto
+
+create   features
+create   features/step_definitions
+create   features/support
+create   features/support/env.rb
+```
+```
 Arc setup android  # cria um txt. para android (Capabilities para Android)
 ```
 Abra o Capabilities para Android e preencha o arquivo conforme exemplo:
- ```
+```
  [caps]
 platformName = "Android"                        # Plataforma
 deviceName = 'Nexus_5_API_23_mars'              # nome do dispositivo
@@ -200,7 +207,14 @@ app = '/Users/estudo_appium.apk'                # caminho do apk
 Abra o terminal e execute os comandos abaixo :
 ```
 cucumber --init    # criando estrutura do projeto
-Arc setup ios  # cria um txt. para ios (Capabilities para iOS)
+
+create   features
+create   features/step_definitions
+create   features/support
+create   features/support/env.rb
+```
+```
+Arc setup ios    # cria um txt. para ios (Capabilities para iOS)
 ```
 Abra o Capabilities para iOS e preencha o arquivo conforme exemplo:
  ```
