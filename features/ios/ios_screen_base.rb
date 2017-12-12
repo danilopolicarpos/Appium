@@ -2,8 +2,8 @@ def wait_for_element(atributos)
     begin
         wait = Selenium::WebDriver::Wait.new :timeout => 5
         wait.until { find_element(atributos).displayed? }
-    rescue
-      raise 'Não encontrou resultado da busca'
+    rescue Selenium::WebDriver::Error::TimeOutError => e
+      raise "Não encontrou resultado da busca \n #{e.messsage}"
     end
 end
 
@@ -12,7 +12,7 @@ def wait_for_click(atributos)
     begin
         wait = Selenium::WebDriver::Wait.new :timeout => 5
         wait { find_element(atributos).click }
-    rescue
-        raise 'Não consegui efetuar a ação'
-    end 
+    rescue Selenium::WebDriver::Error::TimeOutError => e
+        raise "Não consegui efetuar a ação \n #{e.message}"
+    end
 end
