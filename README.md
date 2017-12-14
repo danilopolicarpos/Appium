@@ -247,7 +247,7 @@ app = '/Users/estudo_appium.apk'                # caminho do apk
   -  Macaca Js
 
       Para inspecionar os elemento na tela usando Macaca acesse o link 
-      https://macacajs.github.io/
+      https://macacajs.github.io/ ou https://medium.com/@deyvirsonmendona/inspecionando-elementos-no-app-ios-com-macacajs-cad962719ce2
 
 
 - Executando seus testes
