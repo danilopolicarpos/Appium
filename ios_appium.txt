@@ -1,7 +1,6 @@
 [caps]
 platformName = "iOS"
-platformVersion = "10.3"
-deviceName = "iPhone 5"
-app = "/Users/Danilo.Policarpo/dev/appium/build/ipa/WebViewApp.app"
-
-
+platformVersion = "11.2"
+deviceName = "iPhone 7"
+app = "/Users/Danilo.Policarpo/dev/calabash-ios/build/simulator/HellowXcode-cal.app"
+deviceName = "iPhone 8"
