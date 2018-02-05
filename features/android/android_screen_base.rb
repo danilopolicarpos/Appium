@@ -1,7 +1,6 @@
 # wait_for_element(id: @contato,:timeout => 5)
 def wait_for_element(atributos)
     begin
-        binding.pry
         wait = Selenium::WebDriver::Wait.new 
         wait.until { find_element(atributos).displayed? }
     rescue Selenium::WebDriver::Error::TimeOutError => e
