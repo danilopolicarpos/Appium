@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'rubygems'
 require 'cucumber'
 require 'cucumber/rake/task'
@@ -16,14 +18,15 @@ end
 
 desc 'Run test in Android'
 task :android do
-  sh "cucumber -p android"
+  sh 'bundle exec cucumber -p android'
 end
 
 desc 'Run test in iOS'
 task :ios do
-  sh "cucumber -p ios"
+  sh 'bundle exec cucumber -p ios'
 end
 
-
-
-
+desc 'Run both Android e iOS'
+task :android_ios do
+  sh 'bundle exec cucumber -p ios & bundle exec cucumber -p android'
+end
