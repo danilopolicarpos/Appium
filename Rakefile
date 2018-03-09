@@ -30,3 +30,15 @@ desc 'Run both Android e iOS'
 task :android_ios do
   sh 'bundle exec cucumber -p ios & bundle exec cucumber -p android'
 end
+
+desc 'Open mode android console'
+task :android_console do
+  puts 'Iniciando modo console no android'
+  sh 'bundle exec arc toml android_appium.txt'
+end
+
+desc 'Open mode ios console'
+task :ios_console do
+  puts 'Iniciando modo console no ios'
+  sh 'bundle exec arc toml ios_appium.txt'
+end
