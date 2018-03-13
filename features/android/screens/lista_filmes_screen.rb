@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class Lista_filme_Screen do
+class Lista_filme_Screen
   def initialize
     @layout_name = 'home_omdb'
     @buscar_filme = 'search_title'
@@ -14,7 +14,7 @@ class Lista_filme_Screen do
   end
 
   def buscar_filmes
-    @filmes = "batman forever"
+    @filmes = 'batman forever'
     find_element(id: @buscar_filme).send_keys(@filmes)
     find_element(id: @btn_buscar).click
   end
@@ -25,11 +25,10 @@ class Lista_filme_Screen do
 
   def tocar_favoritos
     find_element(id: @btn_favoritos).click
-    find_elements(class:'android.widget.TextView').text("Favoritos").click
+    find_elements(class: 'android.widget.TextView').text('Favoritos').click
   end
 
   def vejo_favorito
     wait_for_element(id: @title, timeout: 5)
   end
-
 end
