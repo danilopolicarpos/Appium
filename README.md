@@ -1,5 +1,7 @@
 #  Estudo do appium_ruby
 
+[![Code Climate](https://codeclimate.com/github/codeclimate/codeclimate/badges/gpa.svg)](https://codeclimate.com/github/danilopolicarpos/Appium/)
+
 ## O que é o APPIUM ?
 
 Appium é uma ferramenta Open Source e multi-plataforma para automação de aplicações nativas, híbridas e sites mobile para os principais sistemas operacionais do mercado: Android, iOS (e agora para FirefoxOS).
