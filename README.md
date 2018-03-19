@@ -2,7 +2,7 @@
 
 [![Code Climate](https://codeclimate.com/github/codeclimate/codeclimate/badges/gpa.svg)](https://codeclimate.com/github/danilopolicarpos/Appium/)
 
-[! [Coverage Status] (https://codeclimate.com/github/codeclimate/codeclimate/badges/gpa.svg)](https://codeclimate.com/github/danilopolicarpos/Appium/)
+[! [Coverage Status](https://codeclimate.com/github/danilopolicarpos/Appium/progress/maintainability)](https://codeclimate.com/github/danilopolicarpos/Appium/)
 
 ## O que é o APPIUM ?
 
