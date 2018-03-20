@@ -1,7 +1,6 @@
 #  Estudo do appium_ruby
 
-[![Code Climate](https://codeclimate.com/github/codeclimate/codeclimate/badges/gpa.svg)](https://codeclimate.com/github/danilopolicarpos/Appium/)
-
+[![Code Climate](https://codeclimate.com/github/codeclimate/codeclimate/badges/gpa.svg)](https://codeclimate.com/github/danilopolicarpos/Appium/) [![Dependency Status](https://beta.gemnasium.com/badges/github.com/danilopolicarpos/Appium.svg)](https://beta.gemnasium.com/projects/github.com/danilopolicarpos/Appium)
 
 ## O que é o APPIUM ?
 
