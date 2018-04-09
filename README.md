@@ -140,15 +140,17 @@ app = "/Users/[SEU USUARIO]/dev/appium/build/mock/simulator/nome.app"
 Como o Appium é um servidor toda a comunicação com o dispositivo é realizada através de uma sessão. O cliente inicializa uma sessão com o servidor via POST / session com um objeto JSON chamado Desired Capabilities. Quando a sessão é criada um ID é atribuido a ela para realizar o envio dos comandos para o dispositivo apropriado.
 
 
-# Criando um projeto Appium_Android 
+## Criando um projeto Appium_Android 
 
-Para criar um projeto Appium Android <a href="https://github.com/danilopolicarpos/Appium-android">Clique aqui</a>
+Para criar um projeto Appium Android <a href="https://github.com/danilopolicarpos/Appium-android">clique aqui</a>
 
-# Criando um projeto Appium_iOS
+## Criando um projeto Appium_iOS
+
+Para criar um projeto Appium iOS 
 
 ## Dúvidas
 
-### >Erro: EACCES: permissão negada, mkdir '/usr/local/lib/node_modules/appium/node_modules/appium-chromedriver
+### > Erro: EACCES: permissão negada, mkdir '/usr/local/lib/node_modules/appium/node_modules/appium-chromedriver
       acesse o link https://github.com/appium/appium/issues/10020
 
                               ou 
