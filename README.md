@@ -142,67 +142,7 @@ Como o Appium é um servidor toda a comunicação com o dispositivo é realizada
 
 # Criando um projeto Appium_Android 
 
-Abra o terminal e execute os comandos abaixo :
-```
-cucumber --init      # criando estrutura do projeto
-
-create   features
-create   features/step_definitions
-create   features/support
-create   features/support/env.rb
-```
-```
-Arc setup android  # cria um txt. para android (Capabilities para Android)
-```
-Abra o Capabilities para Android e preencha o arquivo conforme exemplo:
-```
- [caps]
-platformName = "Android"                        # Plataforma
-deviceName = 'Nexus_5_API_23_mars'              # nome do dispositivo
-app = '/Users/estudo_appium.apk'                # caminho do apk
-```
-
-- Inspecionando elemento
-
-  Para inspecionar os elementos na plataforma android podemos usar essas opções:
-  
-  - Console (Arc)
-
-      Inicie o servidor do Appium pelo seguinte comando:
-      ```
-      appium        # inicia o servidor do appium
-      ```
-      Abre uma nova aba e digite o comando
-      ```
-      Arc           # inicia o modo console
-      page          # inspeciona os elementos da tela
-      source        # inspeciona os elementos da tela em HTML
-      exit          # sair do console
-      ```
-
-
-  -  Automatorviewer
-
-      Para inspecionar os elemento na tela usando o automatorviewer acesse o link https://nishantverma.gitbooks.io/appium-for-android/exploring_uiautomatorviewer/
-
-
-- Executando seus testes
-
-  Para rodar os testes execute os comandos no terminal:
-  ```
-  cucumber                          # rodar todos seus testes
-  cucumber feature/<nomefeature>    # executa todos os cenários de uma feature especifica.
-  ```
-  Atenção "Antes de rodar seus testes inicia o servidor do appium "
-
-- Gerando relatório de teste
-
-  Para gerar o relatório no final dos teste, basta colocar o comando:
-  ```
-  <--format html --out reports.html>
-  ```
-  exemplo: cucumber feature/<nomefeature> --format html --out reports.html
-
+Para criar um projeto Appium Android <a href="https://github.com/danilopolicarpos/calabash-android">Clique aqui</a>
 
 # Criando um projeto Appium_iOS
 
