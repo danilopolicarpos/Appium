@@ -214,8 +214,10 @@ app = '/Users/estudo_appium.apk'                # caminho do apk
 ## Dúvidas
 
 ### > Problema na instalação do Appium 
+
 Erro: EACCES: permissão negada, mkdir '/usr/local/lib/node_modules/appium/node_modules/appium-chromedriver
-      acesse o link https://github.com/appium/appium/issues/10020
+
+acesse o link https://github.com/appium/appium/issues/10020
 
                               ou 
 
