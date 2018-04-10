@@ -147,10 +147,74 @@ Para criar um projeto Appium Android <a href="https://github.com/danilopolicarpo
 ## Criando um projeto Appium_iOS
 
 Para criar um projeto Appium iOS 
+Abra o terminal e execute os comandos abaixo :
+```
+cucumber --init    # criando estrutura do projeto
+
+create   features
+create   features/step_definitions
+create   features/support
+create   features/support/env.rb
+```
+```
+Arc setup ios    # cria um txt. para ios (Capabilities para iOS)
+```
+Abra o Capabilities para iOS e preencha o arquivo conforme exemplo:
+ ```
+ [caps]
+platformName = "ios"                            # Plataforma
+platformVersion = "10.3"                        # OS
+deviceName = "iPhone 5"                         # nome do dispositivo
+app = '/Users/estudo_appium.apk'                # caminho do apk
+
+```
+- Inspecionando elemento
+
+  Para inspecionar os elementos na plataforma android podemos usar essas opções:
+  
+  - Console (Arc)
+
+      Inicie o servidor do Appium pelo seguinte comando:
+      ```
+      appium        # inicia o servidor do appium
+      ```
+      Abre uma nova aba e digite o comando
+      ```
+      Arc           # inicia o modo console
+      page          # inspeciona os elementos da tela
+      source        # inspeciona os elementos da tela em HTML
+      exit          # sair do console
+      ```
+
+
+  -  Macaca Js
+
+      Para inspecionar os elemento na tela usando Macaca acesse o link 
+      https://macacajs.github.io/ ou https://medium.com/@deyvirsonmendona/inspecionando-elementos-no-app-ios-com-macacajs-cad962719ce2
+
+
+- Executando seus testes
+
+  Para rodar os testes execute os comandos no terminal:
+  ```
+  cucumber                          # rodar todos seus testes
+  cucumber feature/<nomefeature>    # executa todos os cenários de uma feature especifica.
+  ```
+  Atenção "Antes de rodar seus testes inicia o servidor do appium "
+
+- Gerando relatório de teste
+
+  Para gerar o relatório no final dos teste, basta colocar o comando:
+  ```
+  <--format html --out reports.html>
+  ```
+  exemplo: cucumber feature/<nomefeature> --format html --out reports.html
+
 
 ## Dúvidas
 
-### > Erro: EACCES: permissão negada, mkdir '/usr/local/lib/node_modules/appium/node_modules/appium-chromedriver
+### > Problema na instalação do Appium 
+Erro: EACCES: permissão negada, mkdir '/usr/local/lib/node_modules/appium/node_modules/appium-chromedriver
       acesse o link https://github.com/appium/appium/issues/10020
 
                               ou 
