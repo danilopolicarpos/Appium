@@ -1,6 +1,5 @@
 [caps]
 platformName = "iOS"
-platformVersion = "11.2"
-deviceName = "iPhone 7"
-app = "/Users/Danilo.Policarpo/dev/calabash-ios/build/simulator/HellowXcode-cal.app"
+platformVersion = "11.3"
 deviceName = "iPhone 8"
+app = "/Users/Danilo.Policarpo/dev/calabash-ios/build/simulator/HellowXcode-cal.app"

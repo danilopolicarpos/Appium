@@ -71,4 +71,4 @@ wait{find_element(id: "showInvisible").send_keys(value)}
 find_element(id: "showInvisible").click
 = Método para a criação de emails aleatórios
 
-http://www.seleniumhq.org/docs/03_webdriver.jsp
+driver.execute_script 'mobile: scroll', :direction => "down"
