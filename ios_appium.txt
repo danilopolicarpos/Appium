@@ -2,4 +2,6 @@
 platformName = "iOS"
 platformVersion = "11.3"
 deviceName = "iPhone 8"
-app = "/Users/Danilo.Policarpo/dev/calabash-ios/build/simulator/HellowXcode-cal.app"
+noReset= "false"
+fullReset= "false"
+app = "/Users/Danilo.Policarpo/dev/appium/build/ipa/WebViewApp.app"

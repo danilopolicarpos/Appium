@@ -17,3 +17,7 @@ def wait_for_click(atributos)
         raise "Não consegui efetuar a ação \n #{e.message}"
     end
 end
+
+def reinstall_apps
+@driver.reset
+end
