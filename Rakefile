@@ -43,3 +43,9 @@ task :ios_console do
   puts 'Iniciando modo console no ios'
   sh 'bundle exec arc toml ios_appium.txt'
 end
+
+desc 'start wiremock server'
+task :wiremock do
+  puts 'Iniciando o wiremock'
+  system 'nohup ./wiremock proxy playback &'
+end
