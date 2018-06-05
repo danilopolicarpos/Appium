@@ -21,3 +21,13 @@ end
 def reinstall_apps
 @driver.reset
 end
+
+# element_exist(id: @contato,:timeout => 5)
+def element_exist(attribute)
+    begin
+        wait = Selenium::WebDriver::Wait.new :timeout => 5
+        wait.until { find_element(attribute).displayed? }
+    rescue 
+      return false
+    end
+end
