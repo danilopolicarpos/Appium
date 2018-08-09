@@ -1,0 +1,9 @@
+[caps]
+platformName = "Android"
+automationName = "UiAutomator2"
+deviceName = 'orio_27'
+app = "/Users/Danilo.Policarpo/dev/appium/build/apk/app-debug.apk"
+udid = "emulator-5554"
+
+[appium_lib]
+port = "4527"
