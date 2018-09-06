@@ -10,7 +10,7 @@ Quando('realizar uma busca por titulo') do
 end
 
 Então('vejo o resultado da busca') do
-  @lista.titulo_filme
+  #@lista.titulo_filme
 end
 
 Quando('favoritar o filme desejado') do

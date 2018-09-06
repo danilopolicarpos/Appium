@@ -3,6 +3,7 @@
 require 'rubygems'
 require 'cucumber'
 require 'cucumber/rake/task'
+require 'appium_lib'
 
 desc 'Start server Appium'
 task :appium_server do
@@ -48,4 +49,17 @@ desc 'start wiremock server'
 task :wiremock do
   puts 'Iniciando o wiremock'
   system 'nohup ./wiremock proxy playback &'
+end
+
+
+
+
+desc 'Run test in parallell'
+ task :paralelo do  
+ sh 'cucumber -p nougat & cucumber -p oreo'
+end
+
+desc 'start server in parallell'
+task :server do
+  system 'nohup appium -p 4530 & nohup appium -p 4527'
 end
