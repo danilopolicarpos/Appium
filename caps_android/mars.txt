@@ -3,7 +3,7 @@ platformName = "Android"
 deviceName = 'mars'
 app = "/Users/Danilo.Policarpo/dev/appium/build/apk/app-debug.apk"
 platformVersion= "6.0"
-systemPort = "8203"
+systemPort = 8203
 
 
 [appium_lib]

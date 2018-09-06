@@ -4,8 +4,8 @@ automationName = "UiAutomator2"
 deviceName = 'nougat_25'
 app = "/Users/Danilo.Policarpo/dev/appium/build/apk/app-debug.apk"
 platformVersion= "7.1"
-systemPort = "8201"
-udid = "emulator-5554"
+systemPort = 8201
+
 
 [appium_lib]
 port = "4527"

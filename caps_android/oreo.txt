@@ -4,7 +4,6 @@ automationName = "UiAutomator2"
 deviceName = 'orio_27'
 app = "/Users/Danilo.Policarpo/dev/appium/build/apk/app-debug.apk"
 platformVersion = "8.1"
-udid = "emulator-5556"
-systemPort = "8202"
+systemPort = 8202
 [appium_lib]
 port = "4530"
