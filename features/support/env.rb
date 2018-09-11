@@ -1,11 +1,13 @@
+# frozen_string_literal: true
+
 require 'rspec/expectations'
 require 'appium_lib'
 require 'pry'
 
 if ENV['PLATFORM'] == 'ios'
-  caps = Appium.load_appium_txt file: File.expand_path('./../../../ios_appium.txt', __FILE__), verbose: true
+  caps = Appium.load_appium_txt file: File.join('./../../../ios_appium.txt')
 elsif ENV['PLATFORM'] == 'android'
-  caps = Appium.load_appium_txt file: File.expand_path('./../../../android_appium.txt', __FILE__), verbose: true
+  caps = Appium.load_appium_txt file: File.join('./../../../android_appium.txt')
 end
 
 Appium::Driver.new(caps, true)
