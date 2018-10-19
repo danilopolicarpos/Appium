@@ -302,9 +302,14 @@ acesse o link https://github.com/appium/appium/issues/10020 ou
       Para a versão json  deixar instalada a versão default, exemplo: "json (default: 1.8.3)".
 
 
-
-
-<script src="https://unpkg.com/blip-chat-widget" type="text/javascript">
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Título da página</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <script src="https://unpkg.com/blip-chat-widget" type="text/javascript">
 </script>
 <script>
     (function () {
@@ -316,3 +321,6 @@ acesse o link https://github.com/appium/appium/issues/10020 ou
         }
     })();
 </script>
+  </body>
+</html>
+
