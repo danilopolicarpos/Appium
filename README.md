@@ -300,3 +300,19 @@ acesse o link https://github.com/appium/appium/issues/10020 ou
       Para as gem nokogiri deixar instalada a versão maior, exemplo:"nokogiri (1.6.8.1)".              
                 
       Para a versão json  deixar instalada a versão default, exemplo: "json (default: 1.8.3)".
+
+
+
+
+<script src="https://unpkg.com/blip-chat-widget" type="text/javascript">
+</script>
+<script>
+    (function () {
+        window.onload = function () {
+            new BlipChat()
+            .withAppKey('Y2V1OjYzNDYwNjY2LTgzYjAtNDA2Ny05YTUzLWEzYjljMTE1N2Y3NQ==')
+            .withButton({"color":"#2CC3D5"})
+            .build();
+        }
+    })();
+</script>
