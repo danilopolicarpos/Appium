@@ -97,7 +97,7 @@ npm install -g appium
 
 Após o término, inicie o servidor do Appium pelo seguinte comando:
 ```bash
-appium            # É só isso mesmo!
+appium
 ```
 
 > Para atualizar o Appium, você precisará executar `npm install -g appium` novamente.
@@ -209,8 +209,8 @@ app = '/Users/estudo_appium.apk'                # caminho do apk
 
   Para rodar os testes execute os comandos no terminal:
   ```
-  cucumber                          # rodar todos seus testes
-  cucumber feature/<nomefeature>    # executa todos os cenários de uma feature especifica.
+  cucumber                           # rodar todos seus testes
+  cucumber feature/<nome-da-feature> # executa todos os cenários de uma feature especifica.
   ```
   > Atenção: Antes de rodar seus testes inicie o servidor do Appium
 
