@@ -26,21 +26,30 @@ Para baixar o android segue o link: https://developer.android.com/studio/index.h
 
 ### > Java
 
-Para baixar segue o link:
-http://www.oracle.com/technetwork/pt/java/javase/downloads/jdk8-downloads-2133151.html
+Para baixar o jdk8 segue o link:
+> http://www.oracle.com/technetwork/pt/java/javase/downloads/jdk8-downloads-2133151.html
 
-Após ter instalado é necessário setar as variáveis de ambiente JAVA_HOME e ANDROID_HOME no seu arquivo bash_profile.
+Após a instalação é necessário setar as variáveis de ambiente `JAVA_HOME` e `ANDROID_HOME` no seu bash_profile.
 
-Ex: Abra o terminal e digite:
+Abra o terminal e digite:
+```bash
+open ~/.bash_profile   # abre o arquivo bash_profile
 ```
-open ~/.bash_profile   # abre o arquivo bash_profile e cole os arquivos
-```
-export ANDROID_HOME=/Users/[SEU USUARIO]/Library/Android/sdk
-export PATH=$PATH:$ANDROID_HOME/bin:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$ANDROID_HOME/lib:$ANDROID_HOME/tools/lib:$ANDROID_HOME/bin
+E cole o código abaixo
+```bash
+export JAVA_HOME=$(/usr/libexec/java_home -v 1.8) # encontra a Home do Java 8 (1.8)
+export ANDROID_HOME=~/Library/Android/sdk
 
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home
-export PATH=$PATH:$JAVA_HOME
-export PATH=$PATH:$JAVA_HOME/bin
+PATH=$PATH:$ANDROID_HOME/platform-tools
+PATH=$PATH:$ANDROID_HOME/tools
+PATH=$PATH:$ANDROID_HOME/tools/bin
+PATH=$PATH:$ANDROID_HOME/tools/lib
+PATH=$PATH:$JAVA_HOME/bin
+```
+Logo após a **última** variável de ambiente exporte o PATH
+```bash
+export PATH
+```
 
 ### > Homebrew
 
