@@ -66,10 +66,10 @@ O Appium é um servidor HTTP escrito em node.js que cria e manipula várias sess
 A automação de aplicativos móveis híbridos e nativos para Android e iOS é uma função chave administrada pelo Appium, um servidor node.js. A interação entre o servidor node.js e as bibliotecas de client do Selenium é o que, em última análise, funciona em conjunto com a aplicação móvel.  
 Para instalar, basta colar no terminal:
 ```
-brew install npm    #instalar o appium via(source) npn(Node JS Package Manager)
-npm --version       #versão atual do npm
-brew install node   #instalar o node
-node --version      #versão atual do node
+brew install npm    # instalar o appium via (source) npm (Node JS Package Manager)
+npm --version       # versão atual do npm
+brew install node   # instalar o node
+node --version      # versão atual do node
 ```
 
 ### > Appium-doctor
