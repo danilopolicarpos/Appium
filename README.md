@@ -19,6 +19,17 @@ Também precisamos autorizar o uso do iOS Simulator:
 ```
 sudo authorize_ios
 ```
+
+Rodar o sudo authorize_ios somente é necessario para automação baseada em instrumentos, isso significa que parou de ser necessario apartir do Xcode 7.3, quando Instruments foi removido. Se você esta testando usando o XCUITest, não rode isso.
+
+A partir da versão do Appium 1.6 XCUITest driver está disponivel.
+A biblioteca XCUITest da Apple está disponivel apenas nos simuladores iOS e aparelhos a partir do iOS >= 9.3
+O Mac tem que ter o macOS 10.11 or 10.12 
+Xcode >= 7 é necessário
+Para correto funcionamento do driver, bibliotecas adicionais são necessarias 
+Necessario adicionar ao capabilities:
+ automationName: "XCUITest",
+  
 ### > Android studio
 
 É a IDE oficial para criação de aplicativos em todos os tipos de dispositivos android
