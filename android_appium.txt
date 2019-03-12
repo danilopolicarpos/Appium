@@ -1,4 +1,5 @@
 [caps]
 platformName = "Android"
 deviceName = 'Nexus_5_API_24'
-app = "/Users/Danilo.Policarpo/dev/appium/build/apk/app-debug.apk"
+app = "/Users/Danilo.Policarpo/dev/appium/build/apk/VodQA.apk"
+isHeadless = "true"
