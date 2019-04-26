@@ -19,12 +19,6 @@ def wait_for_click(atributos)
     end
 end
 
-# def scroll(direction:, element: nil)
-#   binding.pry
-#     return 'Set "up", "down", "left" or "right" for :direction' unless %w(up down left right).include?(direction)
-#     args =  { :direction => direction }
-#     @driver.execute_script 'mobile: scroll', args
-# end
 
 def reinstall_apps
     @caps = Appium.load_appium_txt file: File.join(Dir.pwd, 'ios_appium.txt')
