@@ -1,6 +1,6 @@
 [caps]
 platformName = "iOS"
-platformVersion = "11.4"
+platformVersion = "12.2"
 deviceName = "iPhone 8"
 noReset= "false"
 fullReset= "false"
