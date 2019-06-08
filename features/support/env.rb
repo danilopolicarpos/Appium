@@ -4,11 +4,13 @@ require 'rspec/expectations'
 require 'appium_lib'
 require 'pry'
 
-if ENV['PLATFORM'] == 'ios'
+case ENV['PLATFORM'] 
+ when 'ios'
   caps = Appium.load_appium_txt file: File.join('./ios_appium.txt')
-elsif ENV['PLATFORM'] == 'android'
+ when 'android'
   caps = Appium.load_appium_txt file: File.join('./android_appium.txt')
 end
+
 
 Appium::Driver.new(caps, true)
 Appium.promote_appium_methods Object
