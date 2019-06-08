@@ -4,7 +4,7 @@ Before do
   driver.start_driver
 end
 
-After do
+After do 
   driver.driver_quit
 end
 
@@ -25,5 +25,5 @@ After do |scenario|
 	name = scenario.name.gsub(' ', '_').downcase
 
 	screenshot("reports/#{evidencia}-#{name}.png")
-  embed("#{sufix}-#{name}.png", "image/png", "SCREENSHOT")
+  embed("#{evidencia}-#{name}.png", "image/png", "SCREENSHOT")
 end
