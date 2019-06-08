@@ -106,6 +106,10 @@ Execute o comando abaixo para instalar o Appium:
 npm install -g appium
 ```
 
+Para instalar uma versão específica do Appium:
+```bash
+npm install -g appium@versão
+```
 Após o término, inicie o servidor do Appium pelo seguinte comando:
 ```bash
 appium
