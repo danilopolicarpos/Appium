@@ -73,3 +73,15 @@ def esvaziar_pasta(caminho_pasta)
     end
   end
 end
+
+def scroll(direction:, name: nil, element: nil, to_visible: nil, predicate_string: nil)
+  return 'Set "up", "down", "left" or "right" for :direction' unless %w(up down left right).include?(direction)
+
+  args =  { direction: direction }
+  args[:element] = element.ref if element
+  args[:name] = name if name
+  args[:toVisible] = to_visible if to_visible
+  args[:predicateString] = predicate_string if predicate_string
+  binding.pry
+  @driver.execute_script 'mobile: scroll', args
+end
