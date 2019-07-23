@@ -48,6 +48,10 @@
 
  - find_element(:accessibility_id, "SomeAccessibilityID").selected?
 
+ - --format html --out reports.html = gerar reports dos testes em html
+
+ - --format JSON --out = gera reports dos testes em json
+
  - find_element(:accessibility_id, "SomeAccessibilityID").send_keys("Hello World!")
 
  - Appium::TouchAction.new.tap( x: 539, y:1700, count: 1).release.perform = tocar no elemento por posição com duração default 1000
@@ -72,3 +76,5 @@ find_element(id: "showInvisible").click
 = Método para a criação de emails aleatórios
 
 driver.execute_script 'mobile: scroll', :direction => "down"
+
+- cucumber -p android --format json --out cucumber_json

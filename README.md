@@ -39,7 +39,8 @@ Para baixar o android segue o link:
 ### > Java
 
 Para baixar o jdk8 segue o link:
-> http://www.oracle.com/technetwork/pt/java/javase/downloads/jdk8-downloads-2133151.html
+> https://www.java.com/pt_BR/download/faq/java_mac.xml
+> https://www.oracle.com/technetwork/java/javase/downloads/jdk12-downloads-5295953.html
 
 Após a instalação é necessário setar as variáveis de ambiente `JAVA_HOME` e `ANDROID_HOME` no seu bash_profile.
 

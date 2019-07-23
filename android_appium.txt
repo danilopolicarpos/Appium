@@ -1,7 +1,6 @@
 [caps]
 platformName = "Android"
-deviceName = 'Nexus_5_API_24'
-app = "/Users/Danilo.Policarpo/dev/appium/build/apk/VodQA.apk"
-isHeadless = "true"
-avd = "oreo"
+deviceName = 'oreo'
+app = "/Users/danilopolicarpo/dev/Appium/build/apk/app-debug.apk"
+avd = 'oreo'
 
