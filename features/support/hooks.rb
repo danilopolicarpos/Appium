@@ -32,8 +32,10 @@ end
 After do |scenario|
 	Dir.mkdir('reports') unless Dir.exist?('reports')
 
-	evidencia = ("error" if scenario.failed?)
+  evidencia = 
+  if scenario.failed? 
 	name = scenario.name.gsub(' ', '_').downcase
+  end
 
 	screenshot("reports/#{evidencia}-#{name}.png")
   embed("#{evidencia}-#{name}.png", "image/png")
