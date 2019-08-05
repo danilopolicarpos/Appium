@@ -85,3 +85,14 @@ def scroll(direction:, name: nil, element: nil, to_visible: nil, predicate_strin
   binding.pry
   @driver.execute_script 'mobile: scroll', args
 end
+
+def click_for_position
+  name = "fifa"
+  r = find_elements(id: "com.whatsapp:id/conversations_row_contact_name")
+ i = 0
+ while i < r.length do 
+  t = r[i].text
+  i += 1
+  end
+  r.text(name).click
+end
