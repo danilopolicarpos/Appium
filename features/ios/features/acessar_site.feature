@@ -5,5 +5,5 @@ Funcionalidade: Acessar o Site Globo.com
   Cenário: Acessar a tela de login 
     Dado que estou na webview
     Quando acesso o "site"
-    Entao vejo a tela de login 
+    Então vejo a tela de login 
 
